@@ -1,0 +1,10 @@
+@use "@/styles/helpers" as *;
+
+.products {
+  color: var(--color-light-brown);
+
+  &__title {
+    text-align: center;
+    margin-bottom: rem(10);
+  }
+}

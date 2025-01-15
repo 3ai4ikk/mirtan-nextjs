@@ -1,0 +1,136 @@
+@use "@/styles/helpers" as *;
+
+.footer {
+  background-color: var(--color-light-brown);
+
+  color: var(--color-light);
+
+  @include fluid-text(16, 14);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    row-gap: rem(20);
+
+    @include tablet {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &__logo {
+    padding-right: rem(40);
+
+    @include tablet {
+      padding-right: 0;
+    }
+
+    &-link {
+      display: inline-flex;
+      width: fluid(200, 120);
+      height: rem(60);
+      background: url("/logo/logo-light.png") center/contain no-repeat;
+
+      @include hover {
+        background-image: url("/logo/logo-light-hover.png");
+      }
+    }
+
+    &-img {
+      fill: var(--color-light);
+
+      @include hover {
+        fill: rgba(255, 255, 255, 0.6);
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: rem(20);
+  }
+
+  &__products {
+    &-body {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      column-gap: rem(5);
+
+      transition-duration: var(--transition-duration);
+
+      &::before {
+        @include square(rem(8));
+        content: "";
+        border-radius: 50%;
+        background-color: var(--color-light);
+      }
+
+      @include hover {
+        translate: rem(5);
+      }
+    }
+  }
+
+  &__contacts {
+    &-body {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(10);
+      font-weight: 700;
+    }
+
+    &-address,
+    &-tel,
+    &-email {
+      display: flex;
+      align-items: center;
+      column-gap: rem(5);
+      text-align: left;
+
+      &::before {
+        @include square(rem(32));
+        content: "";
+        display: block;
+      }
+
+      @include hover {
+        &::before {
+          transition: var(--transition-duration);
+          animation: hover 0.6s ease;
+        }
+
+        @keyframes hover {
+          0% {
+            translate: 0 rem(-10);
+          }
+          100% {
+            translate: 0;
+          }
+        }
+      }
+    }
+
+    &-address::before {
+      background: url("/icons/footer/1.svg") center/cover no-repeat;
+    }
+
+    &-tel {
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &::before {
+        background: url("/icons/footer/2.svg") center/cover no-repeat;
+      }
+    }
+
+    &-email::before {
+      background: url("/icons/footer/3.svg") center/cover no-repeat;
+    }
+  }
+}

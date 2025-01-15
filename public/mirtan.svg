@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2628" height="671" viewBox="0 0 2628 671">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 200px;
+        font-family: "Minion Variable Concept";
+        font-weight: 700;
+        fill=currentColor
+      }
+
+      .cls-2 {
+        fill: #e40036;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="mırtan" class="cls-1" transform="translate(5.275 616.276) scale(4.423)">mırtan</text>
+  <path id="Фигура_1" data-name="Фигура 1" class="cls-2" d="M854,27c-22.022,1.55-41.266,9.569-55,23-8.83,8.636-18.072,22.047-23,44-5.065,22.562-2.3,41.333,4,56,8.5,19.79,24.016,34.411,41,43a90.181,90.181,0,0,0,79,1,82.258,82.258,0,0,0,33-28c6.207-9.258,14.353-30.158,13-58-1.126-23.169-9.042-42.1-14-49C909.478,27.639,870.534,25.837,854,27Z"/>
+</svg>

@@ -1,0 +1,16 @@
+@use "./helpers" as *;
+
+:root {
+  --container-width: #{rem(1280)};
+  --container-padding-x: #{rem(15)};
+  --section-padding-y: #{rem(60)};
+
+  --header-height: #{rem(80)};
+
+  --transition-duration: 0.2s;
+
+  --color-light: #fff;
+  --color-dark: #000;
+  --color-red: #f80012;
+  --color-light-brown: #453e39;
+}

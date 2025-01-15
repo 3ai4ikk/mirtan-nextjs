@@ -1,0 +1,13 @@
+@use "@/styles/helpers" as *;
+
+.about {
+  color: var(--color-light-brown);
+
+  &__title {
+    text-align: center;
+  }
+
+  &__info {
+    text-align: justify;
+  }
+}

@@ -1,0 +1,213 @@
+@use "@/styles/helpers" as *;
+
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+
+  color: var(--color-light);
+
+  height: var(--header-height);
+
+  background-color: transparent;
+
+  transition: background-color 0.6s, box-shadow 0.6s;
+
+  &__logo {
+    &-link {
+      width: fluid(200, 120);
+      height: rem(60);
+      background: url("/logo/logo-light.png") center/contain no-repeat;
+
+      @include hover {
+        background-image: url("/logo/logo-light-hover.png");
+      }
+    }
+  }
+
+  &:not(.scroll) {
+    .header__overlay-close-button {
+      span,
+      span::after,
+      span::before {
+        background-color: var(--color-light);
+      }
+
+      transition-duration: var(--transition-duration);
+    }
+
+    .header__overlay-close-button.is-active {
+      span,
+      span::after,
+      span::before {
+        background-color: var(--color-dark);
+      }
+
+      transition-duration: var(--transition-duration);
+    }
+  }
+
+  &.scroll:not(&--bg-light-brown) {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    box-shadow: 0px 4px 12px 0px rgba(66, 68, 90, 0.5);
+
+    transition-duration: var(--transition-duration);
+
+    .header__logo-link {
+      transition-duration: var(--transition-duration);
+      background-image: url("/logo/logo-dark.png");
+      @include hover {
+        background-image: url("/logo/logo-dark-hover.png");
+      }
+    }
+  }
+
+  &--bg-light-brown {
+    background-color: var(--color-light-brown) !important;
+    color: var(--color-light) !important;
+
+    .header__overlay-close-button:not(.is-active) {
+      span,
+      span::after,
+      span::before {
+        background-color: var(--color-light) !important;
+      }
+    }
+  }
+
+  &__inner {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    column-gap: rem(10);
+  }
+
+  &__link,
+  &__navigation-link {
+    display: inline-flex;
+    height: rem(48);
+    padding-inline: rem(20);
+    align-items: center;
+
+    position: relative;
+
+    &::after {
+      @include abs-x;
+      content: "";
+      width: 0%;
+      height: 100%;
+      background-color: var(--color-red);
+      z-index: -1;
+      transition-duration: var(--transition-duration);
+    }
+
+    &.is-active::after {
+      left: 0;
+      translate: 0;
+      width: 35%;
+      height: 65%;
+    }
+
+    @include hover {
+      &::after {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  &__overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 200vw;
+    z-index: 100;
+    top: 0;
+    padding: rem(20);
+
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: var(--color-light);
+
+    color: var(--color-dark);
+
+    transition-duration: 0.3s;
+
+    &.is-active {
+      left: 0;
+    }
+
+    &-close-button {
+      position: relative;
+      @include square(rem(48));
+
+      cursor: pointer;
+
+      z-index: 500;
+
+      span {
+        @include abs-center;
+        width: rem(24);
+        height: rem(2);
+        background-color: var(--color-dark);
+
+        &::before,
+        &::after {
+          position: absolute;
+          content: "";
+          width: rem(24);
+          height: rem(2);
+          background-color: var(--color-dark);
+        }
+
+        &::before {
+          top: rem(-6);
+        }
+
+        &::after {
+          bottom: rem(-6);
+        }
+      }
+
+      &.is-active {
+        span {
+          rotate: 45deg;
+
+          &::before {
+            @include abs-center;
+            rotate: 270deg;
+          }
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(5);
+    }
+
+    &-nav {
+      margin-block: auto;
+    }
+
+    &-logo {
+      margin-top: rem(10);
+    }
+  }
+}

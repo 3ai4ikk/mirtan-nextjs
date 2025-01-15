@@ -1,0 +1,104 @@
+@use "@/styles/helpers" as *;
+
+.products {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: rem(20);
+
+    @include mobile-s {
+      flex-direction: column;
+      row-gap: rem(10);
+    }
+  }
+
+  &__button {
+    @include mobile-s {
+      width: 50%;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(20);
+
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    position: relative;
+    color: var(--color-light);
+
+    box-shadow: 3px 3px 12px 0px rgb(66, 68, 90);
+    border-radius: rem(10);
+
+    overflow: hidden;
+
+    @include tablet {
+      color: var(--color-dark);
+      display: flex;
+      justify-content: space-around;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+      @include tablet {
+        max-width: rem(400);
+      }
+    }
+
+    &-link {
+      @include tablet {
+        pointer-events: none;
+        cursor: default;
+      }
+    }
+
+    &-button {
+      pointer-events: fill;
+    }
+
+    &-body {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-block: rem(20);
+      text-align: center;
+
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      row-gap: rem(10);
+
+      transition-duration: var(--transtion-duration);
+
+      @include tablet {
+        position: static;
+        opacity: 1;
+        background-color: var(--color-light);
+        width: 100%;
+        max-width: rem(300);
+        justify-content: center;
+      }
+
+      @include hover {
+        opacity: 1;
+      }
+    }
+  }
+}

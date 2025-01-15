@@ -1,0 +1,98 @@
+@use "@/styles/helpers" as *;
+
+.contacts {
+  &__inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: rem(40);
+
+    @include tablet {
+      row-gap: rem(20);
+    }
+
+    iframe {
+      max-width: rem(600);
+      height: auto;
+      aspect-ratio: 1;
+      box-shadow: 20px 20px 0px 0px #d6d3d3;
+      border-radius: rem(20);
+
+      @include mobile {
+        border-radius: 0;
+        box-shadow: 4px 4px 12px 0px #42445a;
+      }
+    }
+  }
+
+  &__body {
+    align-self: start;
+    padding: rem(20);
+    @include mobile {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    margin-bottom: rem(10);
+    text-align: center;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(10);
+    align-items: flex-start;
+
+    &-address,
+    &-telephone,
+    &-email {
+      display: flex;
+      align-items: center;
+      column-gap: rem(5);
+
+      &::before {
+        @include square(rem(32));
+        display: block;
+        content: "";
+      }
+
+      @include hover {
+        &::before {
+          transition: var(--transition-duration);
+          animation: hover 0.6s ease;
+        }
+
+        @keyframes hover {
+          0% {
+            translate: 0 rem(-10);
+          }
+          100% {
+            translate: 0;
+          }
+        }
+      }
+    }
+
+    &-address {
+      text-align: left;
+    }
+
+    &-telephone {
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &-address::before {
+      background: url(/icons/location/1.svg) center/cover no-repeat;
+    }
+    &-telephone::before {
+      background: url(/icons/location/2.svg) center/cover no-repeat;
+    }
+    &-email::before {
+      background: url(/icons/location/3.svg) center/cover no-repeat;
+    }
+  }
+}

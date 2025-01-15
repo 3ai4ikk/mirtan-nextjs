@@ -1,0 +1,35 @@
+@use "../helpers" as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(16);
+
+  &__input,
+  &__text-area {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-light);
+    border-bottom: rem(1) solid var(--color-light);
+    padding-left: rem(10);
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  &__text-area {
+    resize: none;
+    width: rem(300);
+    height: rem(100);
+  }
+
+  &__button {
+    color: var(--color-dark);
+
+    @include hover {
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}

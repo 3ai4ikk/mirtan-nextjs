@@ -1,0 +1,30 @@
+@use "../helpers" as *;
+
+.button {
+  color: var(--color-light);
+  height: rem(50);
+  padding-inline: rem(20);
+  border-radius: rem(5);
+
+  text-wrap: nowrap;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  transition-duration: var(--transition-duration);
+
+  &--animation {
+    &-up {
+      @include hover {
+        transform: translateY(rem(-5));
+      }
+    }
+  }
+
+  &--bg {
+    &-red {
+      background-color: var(--color-red);
+    }
+  }
+}

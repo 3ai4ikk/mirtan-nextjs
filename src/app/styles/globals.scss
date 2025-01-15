@@ -1,0 +1,88 @@
+@use "./helpers" as *;
+
+html {
+  scroll-behavior: smooth;
+
+  &.is-active {
+    overflow: hidden;
+  }
+}
+
+body {
+  @include fluid-text(18, 14);
+  font-family: var(--font-family-base);
+  color: var(--color-dark);
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+
+  &:not(:has(.hero)) {
+    margin-top: var(--header-height);
+  }
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
+}
+
+h1,
+.h1 {
+  @include fluid-text(58, 36);
+}
+
+h2,
+.h2 {
+  @include fluid-text(52, 30);
+}
+
+h3,
+.h3 {
+  @include fluid-text(30, 18);
+}
+
+h4,
+.h4 {
+  @include fluid-text(24, 16);
+}
+
+address {
+  font-style: normal;
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg {
+  transition-duration: var(--transition-duration);
+}
+
+button {
+  border: none;
+}
+
+a {
+  color: inherit;
+
+  &[class] {
+    text-decoration: none;
+  }
+}

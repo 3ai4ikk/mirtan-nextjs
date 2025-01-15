@@ -1,5 +1,5 @@
 import React from "react";
-import ContactsComponent from "../../components/Contacts/Contacts";
+import ContactsComponent from "../components/Contacts/Contacts";
 
 import "./contacs.scss";
 

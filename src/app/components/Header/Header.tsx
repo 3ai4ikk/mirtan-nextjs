@@ -51,7 +51,7 @@ const Header = () => {
                 <li key={index} className="header__item">
                   <Link
                     className={`header__link ${
-                      link === path ? "is-active" : ""
+                      link === "/" + path.split("/")[1] ? "is-active" : ""
                     }`}
                     href={link}
                   >

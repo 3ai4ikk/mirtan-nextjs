@@ -1,0 +1,37 @@
+@use "@/styles/helpers" as *;
+
+.table {
+  text-align: left;
+
+  border-collapse: collapse;
+
+  justify-self: center;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid var(--color-light-brown);
+  }
+
+  th {
+    // padding-inline: rem(20);
+    font-weight: 400;
+  }
+
+  td {
+    text-align: center;
+    font-weight: 700;
+
+    text-wrap: nowrap;
+  }
+
+  thead {
+    th {
+      font-weight: 700;
+
+      &:not(:first-child) {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@use "@/styles/helpers" as *;
+
+.pneumatic-separator {
+  &__title {
+    @include fluid-text(48, 24);
+    text-wrap: nowrap;
+  }
+}

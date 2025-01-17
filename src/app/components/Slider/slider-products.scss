@@ -1,0 +1,37 @@
+@use "@/styles/helpers" as *;
+
+.slider-products {
+  width: 100%;
+  height: auto;
+  padding-block: rem(80);
+
+  user-select: none;
+
+  transition-duration: var(--transition-duration);
+
+  @include tablet {
+    padding-block: rem(40);
+  }
+
+  &__wrapper {
+    transition-duration: var(--transition-duration);
+  }
+
+  &__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      transition-duration: var(--transition-duration);
+      display: block;
+      width: rem(600);
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-red);
+}

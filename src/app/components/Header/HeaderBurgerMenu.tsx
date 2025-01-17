@@ -35,7 +35,7 @@ const HeaderBurgerMenu = () => {
                 <Link
                   href={link}
                   className={`header__navigation-link ${
-                    path === link ? "is-active" : ""
+                    link === "/" + path.split("/")[1] ? "is-active" : ""
                   }`}
                   onClick={buttonClick}
                 >

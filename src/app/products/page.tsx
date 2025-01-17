@@ -3,7 +3,7 @@ import Product from "../components/Products/Product";
 
 import { products } from "../components/products";
 
-import "../components/Products/products.scss";
+import "@/components/Products/products.scss";
 import "./products.scss";
 
 const Products = () => {

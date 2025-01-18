@@ -13,6 +13,10 @@
     border: 1px solid var(--color-light-brown);
   }
 
+  tr:nth-child(odd) {
+    background-color: #dfdfdf;
+  }
+
   th {
     // padding-inline: rem(20);
     font-weight: 400;

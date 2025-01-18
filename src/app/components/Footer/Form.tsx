@@ -23,13 +23,14 @@ const FormComponent = ({
 
   const onSubmit = async (formData: FormData) => {
     sendMail(formData);
+    console.log(formData);
   };
 
   return (
     <Form
       onSubmit={handleSubmit(onSubmit)}
       className="footer__form-body form"
-      action="/submit"
+      action={""}
     >
       <input
         type="text"

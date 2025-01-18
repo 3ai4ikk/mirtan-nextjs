@@ -17,6 +17,12 @@
     &::placeholder {
       color: rgba(255, 255, 255, 0.8);
     }
+
+    &:-webkit-autofill {
+      background-color: none !important;
+      border: none;
+      outline: none;
+    }
   }
 
   &__text-area {
@@ -28,8 +34,10 @@
   &__button {
     color: var(--color-dark);
 
-    @include hover {
-      background-color: rgba(255, 255, 255, 0.7);
+    &:not(:disabled) {
+      @include hover {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
     }
   }
 }

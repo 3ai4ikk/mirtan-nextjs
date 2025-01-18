@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Form from "next/form";
+import FormComponent from "./FormComponent";
 
 import "./footer.scss";
 import "@/styles/components/button.scss";
@@ -66,28 +66,7 @@ const Footer = () => {
         </div>
         <div className="footer__form">
           <h4 className="footer__title">Напишите нам</h4>
-          <Form className="footer__form-body form" action="/submit">
-            <input
-              type="text"
-              className="form__input"
-              placeholder="Имя"
-              required
-            />
-            <input
-              type="email"
-              className="form__input"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              className="form__text-area"
-              placeholder="Тело письма"
-              required
-            ></textarea>
-            <button className="form__button button button--animation">
-              Отправить
-            </button>
-          </Form>
+          <FormComponent />
         </div>
       </div>
     </footer>

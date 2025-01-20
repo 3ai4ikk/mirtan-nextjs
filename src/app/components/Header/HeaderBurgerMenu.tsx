@@ -1,14 +1,17 @@
 "use client";
 
 import React, { useState } from "react";
-import { menuItems } from "./items";
+import { getMenuItems } from "./items";
 import Link from "next/link";
 
 import "./header.scss";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 const HeaderBurgerMenu = () => {
   const path = usePathname();
+
+  const t = useTranslations("Header");
 
   const [isActive, setIsActive] = useState(false);
 
@@ -30,7 +33,7 @@ const HeaderBurgerMenu = () => {
       <div className={`header__overlay ${isActive ? "is-active" : ""}`}>
         <nav className="header__overlay-nav">
           <ul className="header__overlay-list">
-            {menuItems.map(({ title, link }, index) => (
+            {getMenuItems(t).map(({ title, link }, index) => (
               <li key={index} className="header__navigation-item">
                 <Link
                   href={link}

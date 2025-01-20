@@ -1,0 +1,934 @@
+{
+  "Header": {
+    "main": "Home",
+    "products": "Products",
+    "about": "About us",
+    "contacts": "Contacts"
+  },
+  "Hero": {
+    "title": "OUR MISSION",
+    "title2": "Everything that can be automated should be automated!",
+    "subtitle": "Technology opens up new possibilities! Our company manufactures complete roller mills and equipment for processing cereals, wheat and pea groats, oat and corn groats and cereal flakes, equipment for the production of rice flour and chickpea flour. Individually for the customer we will develop and implement new technologies, complete with modern equipment modernize modern enterprises for processing of grain crops and mixed fodder."
+  },
+  "AboutPage": {
+    "title": "About us",
+    "subtitle": [
+      "Our company produces complete roller and roller-mill mills designed for grinding wheat grains of basic conditions to produce baking flour. Mills and equipment for processing buckwheat and millet groats, production of barley, wheat and pea groats, oatmeal, corn groats and cereal flakes. As well as the production of rice flour and chickpea flour. We will develop and implement new technologies individually for the customer, equip and modernize grain processing plants with modern equipment. The company provides a full range of services in the field of organization of production of cereals, flour, flakes and compound feeds on a turnkey basis - from conducting an inspection of the construction site or production areas to putting the finished plant into operation.",
+      "Our company produces complete roller and roller-mill mills designed for grinding wheat grains of basic conditions to produce baking flour. Mills and equipment for processing buckwheat and millet groats, production of barley, wheat and pea groats, oatmeal, corn groats and cereal flakes. As well as the production of rice flour and chickpea flour. We will develop and implement new technologies individually for the customer, equip and modernize grain processing plants with modern equipment. The company provides a full range of services in the field of organization of production of cereals, flour, flakes and compound feeds on a turnkey basis - from conducting an inspection of the construction site or production areas to putting the finished plant into operation."
+    ]
+  },
+  "ProductsMain": {
+    "title": "Our products",
+    "list": "Full list"
+  },
+  "Products": {
+    "title": ["Our products", "Complete mills", "Industrial automation"],
+    "info": "Additional information",
+    "product": [
+      {
+        "title": "Weigh Feeder",
+        "description": "The weigh feeder is designed for bagging products with a bulk density of 0.3–0.75 t/m³ and a moisture content of no more than 15%",
+        "info": [
+          "The weigh feeder is designed for bagging products with a bulk weight of 0.3-0.75 t/m3 and a humidity of no more than 15%.",
+          "The structure includes: a storage hopper of 0.25 m3, a metering auger, a programmable controller, strain gauges, and a pneumatic bag clamping system."
+        ]
+      },
+      {
+        "title": "Scouring machine",
+        "description": "The scouring machine is designed to separate the kernel particles from the shells during flour production",
+        "info": [
+          "The scouring machine is designed to separate the kernel particles from the shells during flour production."
+        ],
+        "text": [
+          "The machine consists of the following main components: a housing, an outlet housing, a beater rotor, a perforated semicylinder, a hopper, a V-belt drive, a motor drive, and protective covers. The housing, made of sheet metal, serves as the base for attaching all components of the scouring machine. ",
+          "The beater rotor consists of a shaft with beaters mounted on it. The shaft is supported by self-aligning bearings. A drive pulley is installed on the cantilevered part of the shaft.",
+          "The perforated semicylinder is made of a wooden frame with a mesh attached to it. The rotor is driven by an electric motor through a V-belt drive. ",
+          "The technological process in the machine operates as follows: The product enters the working zone through the inlet pipe, located between the rotor and the perforated semicylinder. It is then advanced axially by the beaters, undergoing repeated impacts and friction. During this process, endosperm particles are separated from the bran, pass through the holes in the mesh, and exit through the discharge cone. Larger bran particles are discharged through the outlet of the perforated semicylinder. "
+        ],
+        "table": [
+          {
+            "th": "Productivity, tons/hour, not less than",
+            "td": "0,3-0,55"
+          },
+          {
+            "th": "The gap between the rotor and the screen surface, mm",
+            "td": "10"
+          },
+          {
+            "th": "The area of sieves, m²",
+            "td": "0,36"
+          },
+          {
+            "th": "The frequency of rotation of the beater rotor, rpm",
+            "td": "620"
+          },
+          {
+            "th": "Electric motor power, kW",
+            "td": "1,1"
+          },
+          {
+            "th": "Electric motor rotation speed, rpm",
+            "td": "940"
+          },
+          {
+            "th": "Service life, years",
+            "td": "13"
+          },
+          {
+            "th": "Overall dimensions, mm, max:"
+          },
+          {
+            "th": "Length",
+            "td": "1110"
+          },
+          {
+            "th": "Width ",
+            "td": "475"
+          },
+          {
+            "th": "Height",
+            "td": "1030"
+          },
+          {
+            "th": "Weight, kg, not more than",
+            "td": "110"
+          }
+        ]
+      },
+      {
+        "title": "Millstone Grinder",
+        "description": "MIR Aggregate Mills are universal modular installations designed for the production of flour, including traditional wheat flour, whole grain flour, gluten-free flour, and more. These mills can process raw materials with a fat content of up to 7% and moisture content of up to 18%. The capacity of the mills is 15, 20, and 25 tons per day",
+        "info": [
+          "MIR aggregate mills are universal modular plants for the production of flour - classic wheat, whole grain, gluten-free, etc., from cereals and leguminous crops such as wheat, rye, corn, millet, buckwheat, rice, spelt, dried peas, lentils, etc",
+          "A unique feature of MIR mills is the combination of roller and millstone groups with the separation of grinding products in a sieve, the flour produced has the advantages of both types of grinding - high baking qualities inherent in millstone flour and the size and presentation characteristic of flour produced in a roller mill. The mills use batch sieving in which sets of sieves are installed to produce flour of different fractions at the request of the Customer. The millstones have the structure and shape of notches that make it possible to obtain very fine flour. The mills allow processing of raw materials with a fat content of up to 7% and a humidity content of up to 18%. "
+        ],
+        "text": [
+          "The capacity of the mills is 15, 20, and 25 tons per day.",
+          "The basic version of the mill produces wheat flour of three grades: premium, first and second. Grain is ground in six roller machines with a roller length of 250, 320 or 400 mm and a diameter of 250 mm. The total yield of wheat flour in the basic version is 75%. Flour of the highest grade - 50-55%, 1st grade - 20-25% and 2nd grade - 5% (depending on the raw material). The milling department is equipped with a batch sifter with a process flow chart for the grinding grade ordered by the Customer. It is also possible to change the percentage of output for each grade at the Customer's request and according to the quality conditions of the original grain.",
+          "For stone flour production, the mills combine roller mills and stone mills. Roller mills are used in the break systems, while stone mills are installed in the reduction systems. A bypass system allows quick switching between traditional bakery flour milling and whole grain (or gluten-free) milling.",
+          "Grain is received at the mill in the receiving bin, from where it is fed by a bucket elevator to the grain cleaner (the receiving section and bucket elevator are not provided in the basic version). The finished grinding mixture is fed to the receiving bin. At the request of the customer, for an additional fee, it is possible to equip the mill with a receiving section with the ability to form grinding mixtures. The capacity of the silos of such a section can vary from 25 to 120 tons.",
+          "The cleaned grain is transferred to the humidification section, where it is moistened and sent to the bins for the first tempering. The section is equipped with bins that provide 24 hours of tempering with continuous operation of the mill.",
+          "The tempered grain is cleaned again in a scouring (brush) machine and an aspirator, then re-moistened and sent for the second tempering (for 20-30 minutes). The grain prepared in this way is sent to the milling section.",
+          "The milling section consists of 6 roller machines, 1 six-receiver batch-type sifter and one grinding machine. The milling process comprises three break systems and three reduction systems. Flour from each of the systems is sent in separate streams to the sifter transport box. The flour formed in this way is sent by pneumatic transport to the bagging bins.",
+          "The bagging bins are accumulators with a capacity of 100 kg each. At the bottom of the flour bins there is an auger and a bagging pipe for a standard bag (25-50 kg). The bagging department is equipped with weigh batchers for flour of the 1st and highest grades. Bran and the second grade are packed into standard bags without weighing.",
+          "The mill is equipped with an automatic control system (ACS). ACS is designed to control the switching on and off of departments, units and transport devices, control the state of the technological chain of equipment and ensure mutual interlocks of machines, as well as to implement the functions of accounting for the manufactured products, diagnostics, control and recording of the operating modes of individual units and assemblies of the mill."
+        ],
+        "li": [
+          [
+            "High energy efficiency: The specific energy consumption for processing wheat into bakery flour ranges from 42 to 53 kWh per ton of processed grain.",
+            "Short start/stop time: This significantly saves energy and raw materials.",
+            "Ease of maintenance: A single unit can be serviced by two people.",
+            "Modular design: Users can configure the mills optimally, and the functionality can be expanded with additional equipment, such as stone mills, entoleters, screening machines, bulk flour storage units, and more.",
+            "Scalable setup: Multiple units can be installed using a single grain cleaning and flour discharge section.",
+            "Automation options: Full process automation minimizes human intervention."
+          ],
+          [
+            "cleaning in a grain separator;",
+            "cleaning in a trieur (cockle cylinder);",
+            "cleaning in a magnetic separator;",
+            "scouring machine (with a mesh shell);",
+            "aspirator with a closed air cycle."
+          ]
+        ],
+        "span": [
+          "Advantages of MIR Mills:",
+          "The grain cleaning section provides the following process steps:"
+        ]
+      },
+      {
+        "title": "Grain Separator",
+        "description": "The grain cleaning separator is designed for cleaning grain (wheat, rye, oats, etc.) from impurities that differ from it in geometric dimensions. The separator is installed as part of technological processes in mills, elevators, and cereal plants",
+        "info": [
+          "The grain cleaning separator is designed for cleaning grain (wheat, rye, oats, etc.) from impurities that differ from it in geometric dimensions. The separator is installed as part of technological processes in mills, elevators, and cereal plants."
+        ],
+        "text": [
+          "The grain separator is used to remove impurities from grain that differ in width and thickness. For this purpose, the separator is equipped with three sieves with apertures of 1.7x20 mm, 4.25x25 mm, and Ø8 mm. The sieves are arranged at an incline and perform reciprocating oscillations.",
+          "The separator consists of the following main components: a sieve housing, a receiving box, a vibratory drive, an outlet box, and a frame.",
+          "The primary working element of the separator is the sieve frames, arranged in three tiers within the sieve housing.",
+          "The top tier of sieves is designed to separate coarse impurities from the grain mass. The middle tier (sorting sieve) removes large impurities from the grain stream.",
+          "The bottom tier (undersieve) removes small impurities from the grain stream. The sieve housing is mounted on spring dampers.",
+          "The receiving box ensures even distribution of the incoming grain across the width of the sieve. The vibratory drive consists of two counter-rotating electric vibrators that provide reciprocating oscillations.",
+          "The outlet box ensures the separate discharge of cleaned grain, coarse impurities, large impurities, and small impurities. The frame serves as the supporting structure for all the components of the separator."
+        ],
+        "table": [
+          {
+            "th": "Productivity, tons/hour, not less than",
+            "td": "1,5"
+          },
+          {
+            "th": "The area of the screening surface, m²",
+            "td": "0.7"
+          },
+          {
+            "th": "Grain cleaning efficiency, %"
+          },
+          {
+            "th": "by coarse impurities",
+            "td": "100"
+          },
+          {
+            "th": "for large impurities",
+            "td": "100"
+          },
+          {
+            "th": "for fine impurities",
+            "td": "80"
+          },
+          {
+            "th": "Vibration frequency of the sieve body, rpm.",
+            "td": "940"
+          },
+          {
+            "th": "Total power consumption, kW",
+            "td": "0,24"
+          },
+          {
+            "th": "Supply voltage, V",
+            "td": "380±38"
+          },
+          {
+            "th": "Warranty period of operation, months",
+            "td": "12"
+          },
+          {
+            "th": "Overall dimensions, not more than, mm:"
+          },
+          {
+            "th": "Length",
+            "td": "1080"
+          },
+          {
+            "th": "Width",
+            "td": "750"
+          },
+          {
+            "th": "Height",
+            "td": "900"
+          },
+          {
+            "th": "Weight, kg, max",
+            "td": "139"
+          }
+        ]
+      },
+      {
+        "title": "Destoner (Stone Separator)",
+        "description": "The destoner is designed to clean grain from mineral impurities using a dry method. It is used for operation in a set with other types of equipment at grain processing plants",
+        "info": [
+          "The destoner is designed to clean grain from mineral impurities using a dry method. It is used for operation in a set with other types of equipment at grain processing plants."
+        ],
+        "text": [
+          "The destoner consists of the following components: a frame, a deck, a vibratory drive, a mechanism for adjusting the deck’s inclination angle, an airflow regulator, a feeder, and a housing.",
+          "The technological process of cleaning from mineral impurities operates as follows:",
+          "Grain enters the mesh surface of the deck through the feeder and distributor. Under the influence of an upward airflow and the oscillatory movements of the deck at an angle to the horizontal plane, particles with a higher specific gravity (referred to as \"heavy\" particles) settle on the deck surface, while particles with a lower specific gravity (\"light\" particles) float upward. This causes the material to stratify, with the density of the lower layers being higher than that of the upper layers.",
+          "For stone flour production, the mills combine roller mills and stone mills. Roller mills are used in the break systems, while stone mills are installed in the reduction systems. A bypass system allows quick switching between traditional bakery flour milling and whole grain (or gluten-free) milling.",
+          "The lower layer of material has significant adhesion to the working surface due to friction and inertial forces, moving toward the raised edge of the deck. The upper layer of material, having minimal contact with the underlying layers, flows toward the lowered edge of the deck under the force of gravity. "
+        ],
+        "table": [
+          {
+            "th": "Installed drive power (without fan), kW",
+            "td": "0,12"
+          },
+          {
+            "th": "Productivity per hour of clean work (wheat cleaning), t/hour",
+            "td": "6-9"
+          },
+          {
+            "th": "Working area of the deck, m2",
+            "td": "0,38"
+          },
+          {
+            "th": "Deck angle, degrees",
+            "td": "5-10"
+          },
+          {
+            "th": "Air consumption, no more than, m3/hour",
+            "td": "1850"
+          },
+          {
+            "th": "Vacuum in the working chamber for an unloaded machine, mm H2O",
+            "td": "75"
+          },
+          {
+            "th": "Number of revolutions of the vibrator shaft, rpm",
+            "td": "940"
+          },
+          {
+            "th": "Service life, not less than, years",
+            "td": "13"
+          },
+          {
+            "th": "Overall dimensions mm, not more than:"
+          },
+          {
+            "th": "Length",
+            "td": "1500"
+          },
+          {
+            "th": "Width",
+            "td": "750"
+          },
+          {
+            "th": "Height",
+            "td": "1000"
+          },
+          {
+            "th": "Weight of the machine in full assembly, kg",
+            "td": "141"
+          }
+        ]
+      },
+      {
+        "title": "Mill",
+        "description": "MIR Aggregate Mills are universal modular installations designed for the production of flour, including traditional wheat flour, whole grain flour, gluten-free flour, and more. These mills can process raw materials with a fat content of up to 7% and moisture content of up to 18%. The capacity of the mills is 15, 20, and 25 tons per day",
+        "info": [
+          "MIR aggregate mills are universal modular plants for the production of flour - classic wheat, whole grain, gluten-free, etc., from cereals and leguminous crops such as wheat, rye, corn, millet, buckwheat, rice, spelt, dried peas, lentils, etc",
+          "A unique feature of MIR mills is the combination of roller and millstone groups with the separation of grinding products in a sieve, the flour produced has the advantages of both types of grinding - high baking qualities inherent in millstone flour and the size and presentation characteristic of flour produced in a roller mill. The mills use batch sieving in which sets of sieves are installed to produce flour of different fractions at the request of the Customer. The millstones have the structure and shape of notches that make it possible to obtain very fine flour. The mills allow processing of raw materials with a fat content of up to 7% and a humidity content of up to 18%. "
+        ],
+        "text": [
+          "The capacity of the mills is 15, 20, and 25 tons per day.",
+          "The basic version of the mill produces wheat flour of three grades: premium, first and second. Grain is ground in six roller machines with a roller length of 250, 320 or 400 mm and a diameter of 250 mm. The total yield of wheat flour in the basic version is 75%. Flour of the highest grade - 50-55%, 1st grade - 20-25% and 2nd grade - 5% (depending on the raw material). The milling department is equipped with a batch sifter with a process flow chart for the grinding grade ordered by the Customer. It is also possible to change the percentage of output for each grade at the Customer's request and according to the quality conditions of the original grain.",
+          "For stone flour production, the mills combine roller mills and stone mills. Roller mills are used in the break systems, while stone mills are installed in the reduction systems. A bypass system allows quick switching between traditional bakery flour milling and whole grain (or gluten-free) milling.",
+          "Grain is received at the mill in the receiving bin, from where it is fed by a bucket elevator to the grain cleaner (the receiving section and bucket elevator are not provided in the basic version). The finished grinding mixture is fed to the receiving bin. At the request of the customer, for an additional fee, it is possible to equip the mill with a receiving section with the ability to form grinding mixtures. The capacity of the silos of such a section can vary from 25 to 120 tons.",
+          "The cleaned grain is transferred to the humidification section, where it is moistened and sent to the bins for the first tempering. The section is equipped with bins that provide 24 hours of tempering with continuous operation of the mill.",
+          "The tempered grain is cleaned again in a scouring (brush) machine and an aspirator, then re-moistened and sent for the second tempering (for 20-30 minutes). The grain prepared in this way is sent to the milling section.",
+          "The milling section consists of 6 roller machines, 1 six-receiver batch-type sifter and one grinding machine. The milling process comprises three break systems and three reduction systems. Flour from each of the systems is sent in separate streams to the sifter transport box. The flour formed in this way is sent by pneumatic transport to the bagging bins.",
+          "The bagging bins are accumulators with a capacity of 100 kg each. At the bottom of the flour bins there is an auger and a bagging pipe for a standard bag (25-50 kg). The bagging department is equipped with weigh batchers for flour of the 1st and highest grades. Bran and the second grade are packed into standard bags without weighing.",
+          "The mill is equipped with an automatic control system (ACS). ACS is designed to control the switching on and off of departments, units and transport devices, control the state of the technological chain of equipment and ensure mutual interlocks of machines, as well as to implement the functions of accounting for the manufactured products, diagnostics, control and recording of the operating modes of individual units and assemblies of the mill."
+        ],
+        "li": [
+          [
+            "High energy efficiency: The specific energy consumption for processing wheat into bakery flour ranges from 42 to 53 kWh per ton of processed grain.",
+            "Short start/stop time: This significantly saves energy and raw materials.",
+            "Ease of maintenance: A single unit can be serviced by two people.",
+            "Modular design: Users can configure the mills optimally, and the functionality can be expanded with additional equipment, such as stone mills, entoleters, screening machines, bulk flour storage units, and more.",
+            "Scalable setup: Multiple units can be installed using a single grain cleaning and flour discharge section.",
+            "Automation options: Full process automation minimizes human intervention."
+          ],
+          [
+            "cleaning in a grain separator;",
+            "cleaning in a trieur (cockle cylinder);",
+            "cleaning in a magnetic separator;",
+            "scouring machine (with a mesh shell);",
+            "aspirator with a closed air cycle."
+          ]
+        ],
+        "span": [
+          "Advantages of MIR Mills:",
+          "The grain cleaning section provides the following process steps:"
+        ]
+      },
+      {
+        "title": "Scalping machine",
+        "description": "The horizontal scouring machine is designed for dry cleaning of the surface of grain crops from dust, partial removal of fruit husks, beards, and germ particles at flour milling enterprises",
+        "info": [
+          "The horizontal scouring machine is designed for dry cleaning of the surface of grain crops from dust, partial removal of fruit husks, beards, and germ particles at flour milling enterprises."
+        ],
+        "table": {
+          "headers": ["Name of the indicator", "Whip", "Brush and whip"],
+          "rows": [
+            {
+              "th": "Technical productivity, t/h",
+              "td": ["1 - 2", "1,5 - 2"]
+            },
+            {
+              "th": "Installed capacity, kW, no more than",
+              "td": ["1,1", "1,1"]
+            },
+            {
+              "th": "Reduction in grain ash content during a single pass through the machine, % (for wheat)",
+              "td": ["0,01 ÷ 0,02", "0,04 ÷ 0,06"]
+            },
+            {
+              "th": "Broken grain content, %, no more than (for wheat)",
+              "td": ["1,0", "1,0"]
+            },
+            {
+              "th": "Rotor speed, rpm, no less than",
+              "td": ["940", "940"]
+            },
+            {
+              "th": "Weight, kg, no more than",
+              "td": ["123,9", "114"]
+            },
+            {
+              "th": "Overall dimensions, mm, no more than:"
+            },
+            {
+              "th": "Lenght",
+              "td": ["1511", "1511"]
+            },
+            {
+              "th": "Width",
+              "td": ["466", "466"]
+            },
+            {
+              "th": "Height",
+              "td": ["618", "618"]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Pneumatic separator",
+        "description": "The pneumatic separator is designed to clean grain from impurities that differ in aerodynamic properties",
+        "info": [
+          "The pneumatic separator is designed to clean grain from impurities that differ in aerodynamic properties. The pneumatic separator is a welded housing divided into a series of chambers by partitions. Grain, along with the air used for its transport, enters the settling chamber of the pneumatic separator through the inlet pipe. Under its own weight, the grain opens the flap and falls in a thin layer into the pneumatic separating channel, where it is blown with air. ",
+          "As a result, lightweight impurities are separated from the grain and carried out of the machine by the airflow into a cyclone dust collector. The air velocity and the intensity of the grain blowing are adjusted using a movable wall, which allows the cross-sectional area of the channel to be changed. The cleaned grain is discharged from the pneumatic separator through an airlock valve. The cleaned grain is removed from the pneumatic separator through a rotary valve. "
+        ]
+      },
+      {
+        "title": "Plansifter",
+        "description": "The self-balancing 6-channel spindle-type plansifter is used for sifting milled products on sieves",
+        "info": [
+          "The self-balancing 6-channel spindle-type plansifter is used for sifting milled products on sieves. The plansifter consists of a main frame with a balancing mechanism mounted on it, two sieve housings with sieve frames, and an upper drive mechanism located on the second floor of the mill.",
+          "Rotation from the drive is transmitted to the balancing mechanism via a spindle. The plansifter is suspended by cables attached to the mill’s frame. The primary functional components of the plansifter are the two housings, each comprising stacked wooden frames with horizontal sieves stretched over them. The sieve housings perform oscillatory movements in the horizontal plane.",
+          "As the milled products move across the plansifter's sieves, they transition from one frame to the next, gradually sifting through and separating into top-grade flour, first-grade flour, and intermediate fractions. Through the plansifter's transport boxes, flour and bran are directed to the bins in the mill’s discharge section, while the intermediate fractions are returned for re-milling."
+        ]
+      },
+      {
+        "title": "Sieving machine",
+        "description": "The sieving machine is designed for the enrichment and sorting of semolina and middlings, as well as other bulk materials, based on their size and the aerodynamic properties of the particles using sieves and an airflow",
+        "info": [
+          "After sorting in plansifters, semolina and middlings fractions are obtained, which are uniform in size but differ in the ratio of husks to kernel. The screening machine is designed for the enrichment and sorting of semolina and middlings, as well as other bulk materials, based on their size and the aerodynamic properties of the particles using sieves and an airflow. It is primarily used in grain mills but can also be employed in other industries for sorting dry, loose, and non-cohesive materials."
+        ],
+        "text": [
+          "The technological process of sorting and enriching products in the machine occurs through the interaction of the product's movement across the sieves, caused by the reciprocating motion of the sieve housing, and an upward airflow.",
+          "Air enters from the undersieve space, flows upward through two sieve tiers, and exits into the aspiration network. As the product layer is loosened by the air, the densest particles move downward and sift through the sieves, while the least dense and roughest particles move to the top layer of the product and flow toward the discharge.",
+          "The lightest husk particles are carried away by the airflow. This process effectively sorts and enriches the product."
+        ],
+        "table": [
+          {
+            "th": "Installed drive power (without fan), kW",
+            "td": "0,36"
+          },
+          {
+            "th": "Productivity, kg/hour",
+            "td": "0,36"
+          },
+          {
+            "th": "Sieve frame dimensions, mm",
+            "td": "400х500"
+          },
+          {
+            "th": "Number of sieve frame tiers",
+            "td": "2"
+          },
+          {
+            "th": "Working area of one tier of sieve frames, m2",
+            "td": "0,6"
+          },
+          {
+            "th": "Air consumption, no more than, m3/hour",
+            "td": "1600"
+          },
+          {
+            "th": "Sieve body oscillation frequency, oscillations/min",
+            "td": "940"
+          },
+          {
+            "th": "Overall dimensions, mm, no more than:"
+          },
+          {
+            "th": "Lenght",
+            "td": "2030"
+          },
+          {
+            "th": "Width",
+            "td": "810"
+          },
+          {
+            "th": "Height",
+            "td": "1550"
+          },
+          {
+            "th": "Machine weight in complete set, kg",
+            "td": "411"
+          }
+        ]
+      },
+      {
+        "title": "Roller Mill",
+        "description": "The roller mill is designed for grinding grain and intermediate grinding products in the production of cereals, compound feed and flour - classic wheat, whole grain, gluten-free, etc",
+        "info": [
+          "The roller mill is designed for grinding grain and intermediate grinding products in the production of cereals, compound feed and flour - classic wheat, whole grain, gluten-free, etc."
+        ],
+        "text": [
+          "The roller mill consists of the following main parts: welded frame, two pairs of grinding rollers, inter-roller transmission (depending on the application), roller stopper, feeder for the initial product, automatic feed adjustment device (optional), roller cleaners, neck."
+        ],
+        "table": [
+          {
+            "th": "Nominal length of the roller barrel, mm",
+            "td": "250 / 320 / 400"
+          },
+          {
+            "th": "Technical performance of the machine on the 1st torn system of varietal milling of wheat, t/day, not less than: ",
+            "td": "21 / 27 / 33,6"
+          },
+          {
+            "th": "The maximum installed power of the electric motor of the drive of one machine, kW",
+            "td": "7,5"
+          },
+          {
+            "th": "Speed of rotation of high-speed roller, s-1 (rpm)"
+          },
+          {
+            "th": "for grooved rollers",
+            "td": "7-7,8 (420-470)"
+          },
+          {
+            "th": "for smooth rollers",
+            "td": "6,6-6,9(395-415)"
+          },
+          {
+            "th": "Overall dimensions of the machine in assembled condition, mm, not more than:"
+          },
+          {
+            "th": "Length (depth)",
+            "td": "805"
+          },
+          {
+            "th": "Width (without electric drive and inter-roller transmission)",
+            "td": "280 / 650 / 730"
+          },
+          {
+            "th": "Height",
+            "td": "952"
+          },
+          {
+            "th": "Machine weight (excluding electric drive and other parts not attached to the machine), kg, no more than",
+            "td": "358 / 401,5 / 445"
+          }
+        ]
+      },
+      {
+        "title": "Щеточно-бичевая машина",
+        "description": "Щеточно-бичевая машина  это технологически улучшенный аналог обоечной машины с более высокой степенью очистки поверхности зерна",
+        "info": [
+          "Щеточно-бичевая машина  это технологически улучшенный аналог обоечной машины с более высокой степенью очистки поверхности зерна. За счет эффективной конструкции подвижной роторной части, точно подобранных кинематических характеристик, степени шероховатости поверхности сита, щеточно-бичевая машина прекрасно очищает зерно не только от мелких примесей и грязи на поверхности зерновки, но и шлифует поверхность оболочки, удаляет бородки, надорванные частицы оболочки, пыль в бороздках. Это значительно повышает белизну муки и избавляет ее от ненужных вкраплений и серого фона.",
+          "При этом оболочка зерна в целом не травмируется и имеет после помола товарный вид в виде привычных отрубей, что не свойственно при использовании машин глубокой очистки зерна таких как шелушильно-шлифовальная машина и дебрандер."
+        ],
+        "table": [
+          {
+            "th": "Производительность техническая, т/ч",
+            "td": "1,5 - 2"
+          },
+          {
+            "th": "Установленная мощность, кВт, не более",
+            "td": "1,1"
+          },
+          {
+            "th": "Снижение зольности зерна при однократном пропуске через машину, % (для пшеницы)",
+            "td": "0,04 ÷ 0,06"
+          },
+          {
+            "th": "Содержание битого зерна, %, не более (для пшеницы)",
+            "td": "1,0"
+          },
+          {
+            "th": "Частота вращения ротора, об/мин, не менее",
+            "td": "940"
+          },
+          {
+            "th": "Масса, кг, не более",
+            "td": "114"
+          },
+          {
+            "th": "Габаритные размеры, мм, не более:"
+          },
+          {
+            "th": "Длина",
+            "td": "1511"
+          },
+          {
+            "th": "Ширина",
+            "td": "466"
+          },
+          {
+            "th": "Высота",
+            "td": "618"
+          }
+        ]
+      },
+      {
+        "title": "MİR-D15",
+        "description": "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "info": [
+          "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 7,55m, genişlik 5m, yükseklik 7m."
+        ],
+        "text": [
+          "Değirmen, bitmiş ürünlerin hazırlanması, tahıl öğütülmesi, dozajlanması ve örneklenmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahılın taşınması mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek - pnömatik taşıma ile gerçekleştirilir.",
+          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
+          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
+          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım dozajlayıcıları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrolörlerinin ayarları değiştirilerek değiştirilebilir. Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur).",
+          "Hazır öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
+          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c - %50-55, 1c - %20-25 ve 2c - %5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
+          "Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
+          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
+          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
+          "Kontrol sistemi Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve sabitlemek için tasarlanmıştır. Kurulu motorların toplam gücü 47,22 kW'tır.",
+          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir.",
+          "Değirmen, yüksekte çalışma yetkisi olan ve montaj sırasında montaj ve güvenlik kuralları konusunda eğitilmiş kişiler tarafından monte edilmelidir.",
+          "Valslerin yeniden şekillendirme arasındaki aşınma direnci, tahıl öğütme teknolojik sürecine uyulması koşuluyla, 3 aydan az değildir. Valslerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca servis edilebilirliklerini sağlar.",
+          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+        ],
+        "span": [
+          "Değirmenin teslimat seti şunları içerir:",
+          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
+          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+        ],
+        "li": [
+          [
+            "Tahıl hazırlama bölmesi,",
+            "Öğütme bölmesi,",
+            "Tartım bölmesi",
+            "Kontrol sistemi",
+            "Yedek parça, aksesuar seti."
+          ],
+          [
+            "işlenmemiş tahılın hazneye alınması;",
+            "Tahılın yuva ile beslenmesi ve değirmene yerçekimi ile taşınması;",
+            "Elek ayırıcıda tahılın boyut ve aerodinamik özellikleri bakımından ana tahıldan farklı olan safsızlıklardan temizlenmesi;",
+            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
+            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
+            "yoğun nemlendirme makinelerinde nemlendirme;",
+            "kapalı hava döngülü aspiratör",
+            "Bölümde, değirmenin sürekli çalışmasında 24 saat boyunca kabuksuzlaştırma sağlayan iki hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından yeniden nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+          ],
+          [
+            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
+            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
+            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
+            "Tahıl temizleme bölümünün kurulması,",
+            "Freze bölümünün montajı,",
+            "Tartım bölümünün montajı,",
+            "Tartım bölmesinin ürün boru hatlarının montajı,",
+            "Hava kanallarının montajı,",
+            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
+            "Elektrikli ekipmanların montajı,",
+            "Kontrolör ağının iletişim hatlarının kurulumu,",
+            "Merkezi kontrol istasyonunun kurulumu,",
+            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
+            "Ünitelerin rölanti devrinde alıştırılması,",
+            "Eleklerin dengelenmesi,",
+            "Değirmenin yük altında çalıştırılması,",
+            "Yük altında eleğin dengelenmesi,",
+            "Yük altında teknolojik ayarlama,",
+            "Operasyon personeli ile brifingler düzenlemek,",
+            "Değirmenin devreye alınması."
+          ]
+        ],
+        "table": [
+          {
+            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
+            "td": "Günlük 15 ton"
+          },
+          {
+            "th": "Temel varyantta toplam un verimi, dahil:",
+            "td": "%75"
+          },
+          {
+            "th": "üst sınıf",
+            "td": "%50-55"
+          },
+          {
+            "th": "birinci sınıf",
+            "td": "%20-25"
+          },
+          {
+            "th": "ikinci sınıf",
+            "td": "%5"
+          },
+          {
+            "th": "Makara hattı uzunluğu",
+            "td": "1,5 m"
+          },
+          {
+            "th": "Eleme yüzeyi",
+            "td": "21,2 m²"
+          },
+          {
+            "th": "Şebeke besleme gerilimi",
+            "td": "380±38 V"
+          },
+          {
+            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "td": "47,22 kW"
+          },
+          {
+            "th": "Servis personeli",
+            "td": "2 kişi"
+          },
+          {
+            "th": "Garanti çalışma süresi",
+            "td": "13 ay"
+          }
+        ]
+      },
+      {
+        "title": "MİR-D20",
+        "description": "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "info": [
+          "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 9,1m, genişlik 5m, yükseklik 7m'dir. Tahıl temizleme bölümünde - mekanik taşıma, öğütme ve kesimde - pnömatik."
+        ],
+        "text": [
+          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
+          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
+          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
+          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
+          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
+          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
+          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
+          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
+          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
+          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
+          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
+          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
+          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
+          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+        ],
+        "span": [
+          "Değirmenin teslimat seti şunları içerir:",
+          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
+          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+        ],
+        "li": [
+          [
+            "Tahıl hazırlama bölmesi,",
+            "Freze bölümü,",
+            "Tartı odası,",
+            "Kontrol sistemi",
+            "Yedek parça, aksesuar seti."
+          ],
+          [
+            "işlenmemiş tahılın hazneye alınması;",
+            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
+            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
+            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
+            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
+            "yoğun nemlendirme makinelerinde nemlendirme;",
+            "kapalı hava döngülü aspiratör",
+            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+          ],
+          [
+            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
+            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
+            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
+            "Tahıl temizleme bölümünün kurulması,",
+            "Freze bölümünün montajı,",
+            "Tartım bölümünün montajı,",
+            "Tartım bölmesinin ürün boru hatlarının montajı,",
+            "Hava kanallarının montajı,",
+            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
+            "Elektrikli ekipmanların montajı,",
+            "Kontrolör ağının iletişim hatlarının kurulumu,",
+            "Merkezi kontrol istasyonunun kurulumu,",
+            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
+            "Ünitelerin rölanti devrinde alıştırılması,",
+            "Eleklerin dengelenmesi,",
+            "Değirmenin yük altında çalıştırılması,",
+            "Yük altında eleğin dengelenmesi,",
+            "Yük altında teknolojik ayarlama,",
+            "Operasyon personeli ile brifingler düzenlemek,",
+            "Değirmenin devreye alınması."
+          ]
+        ],
+        "table": [
+          {
+            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
+            "td": "Günlük 20 ton"
+          },
+          {
+            "th": "Temel varyantta toplam un verimi, dahil:",
+            "td": "%75"
+          },
+          {
+            "th": "üst sınıf",
+            "td": "%50-55"
+          },
+          {
+            "th": "birinci sınıf",
+            "td": "%20-25"
+          },
+          {
+            "th": "ikinci sınıf",
+            "td": "%5"
+          },
+          {
+            "th": "Makara hattı uzunluğu",
+            "td": "1,92 m"
+          },
+          {
+            "th": "Eleme yüzeyi",
+            "td": "25,44 m²"
+          },
+          {
+            "th": "Şebeke besleme gerilimi",
+            "td": "380±38 V"
+          },
+          {
+            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "td": "56,72 kW"
+          },
+          {
+            "th": "Servis personeli",
+            "td": "2 kişi"
+          },
+          {
+            "th": "Garanti çalışma süresi",
+            "td": "13 ay"
+          }
+        ]
+      },
+      {
+        "title": "MİR-D25",
+        "description": "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "info": [
+          "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 10.6m, genişlik 5m, yükseklik 7m'dir."
+        ],
+        "text": [
+          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
+          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
+          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
+          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
+          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
+          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
+          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
+          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
+          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
+          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
+          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
+          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
+          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
+          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+        ],
+        "span": [
+          "Değirmenin teslimat seti şunları içerir:",
+          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
+          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+        ],
+        "li": [
+          [
+            "Tahıl hazırlama bölmesi,",
+            "Freze bölümü,",
+            "Tartı odası,",
+            "Kontrol sistemi",
+            "Yedek parça, aksesuar seti."
+          ],
+          [
+            "işlenmemiş tahılın hazneye alınması;",
+            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
+            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
+            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
+            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
+            "yoğun nemlendirme makinelerinde nemlendirme;",
+            "kapalı hava döngülü aspiratör",
+            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+          ],
+          [
+            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
+            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
+            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
+            "Tahıl temizleme bölümünün kurulması,",
+            "Freze bölümünün montajı,",
+            "Tartım bölümünün montajı,",
+            "Tartım bölmesinin ürün boru hatlarının montajı,",
+            "Hava kanallarının montajı,",
+            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
+            "Elektrikli ekipmanların montajı,",
+            "Kontrolör ağının iletişim hatlarının kurulumu,",
+            "Merkezi kontrol istasyonunun kurulumu,",
+            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
+            "Ünitelerin rölanti devrinde alıştırılması,",
+            "Eleklerin dengelenmesi,",
+            "Değirmenin yük altında çalıştırılması,",
+            "Yük altında eleğin dengelenmesi,",
+            "Yük altında teknolojik ayarlama,",
+            "Operasyon personeli ile brifingler düzenlemek,",
+            "Değirmenin devreye alınması."
+          ]
+        ],
+        "table": [
+          {
+            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
+            "td": "Günlük 25 ton"
+          },
+          {
+            "th": "Temel varyantta toplam un verimi, dahil:",
+            "td": "%75"
+          },
+          {
+            "th": "üst sınıf",
+            "td": "%50-55"
+          },
+          {
+            "th": "birinci sınıf",
+            "td": "%20-25"
+          },
+          {
+            "th": "ikinci sınıf",
+            "td": "%5"
+          },
+          {
+            "th": "Makara hattı uzunluğu",
+            "td": "2,4 m"
+          },
+          {
+            "th": "Eleme yüzeyi",
+            "td": "32  m²"
+          },
+          {
+            "th": "Şebeke besleme gerilimi",
+            "td": "380±38 V"
+          },
+          {
+            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "td": "65,22 kW"
+          },
+          {
+            "th": "Servis personeli",
+            "td": "2 kişi"
+          },
+          {
+            "th": "Garanti çalışma süresi",
+            "td": "13 ay"
+          }
+        ]
+      },
+      {
+        "title": "Otomasyon",
+        "description": "SmartWire-Darwin, bir otomasyon sisteminin oluşturulmasını basitleştirir ve hızlandırır, her cihazın hem otomatik hem de ayrı ayrı kontrol edilmesini sağlar",
+        "info": [
+          "Şirketimiz endüstriyel otomasyon alanında hazır çözümlerin geliştiricisi ve üreticisidir. Otomatik bir proses kontrol sisteminin inşası, anahtarlama cihazlarının bağlantısı için standart kablolama yerine yenilikçi SmartWire-Darwin veri yolu sistemi kullanılarak EATON otomasyon ekipmanı temelinde planlanır, bu da otomasyon sisteminin oluşturulmasını önemli ölçüde basitleştirir ve hızlandırır, her bir cihazı hem otomatik modda hem de ayrı ayrı kontrol etmeye izin verir - ek anahtarlama cihazları kullanmadan genel çalışma döngüsünden (örneğin, onarım veya bakım) açmak ve çıkarmak için.",
+          "Darwin teknolojisi, tüm kontrol kabini geliştirme sürecini büyük ölçüde basitleştirerek tasarım ve kurulumdan devreye alma ve yükseltmeye kadar her adımda daha verimli hale getirir."
+        ],
+        "text": [
+          "Sistem, PLC uygulaması ve arayüzler için dahili işlemciye sahip XV serisi dokunmatik panele dayanmaktadır: Ethernet; SmartWire-DT; CAN; Profibus, RS485, RS232, bu cihazın herhangi bir endüstriyel ağa entegre edilmesine izin verir ve herhangi bir modern teknolojik ekipmanla bilgi alışverişi sağlar"
+        ],
+        "span": ["SmartWire-DT sisteminin avantajları:"],
+        "li": [
+          [
+            "SmartWire-DT teknolojisi standart ekipmanla çalışır. Bu, kutunun dışında düşünmeye gerek olmadığı anlamına gelir. Düşük maliyetli çözümler. Yüksek kullanılabilirlik. 1600A'e kadar tüm motorlar için tek bir sistem seçeneği.",
+            "Sistem tükenmez olanaklara sahiptir: SmartWire Darwin kullanılarak, herhangi bir kablolama sorunu olmadan ve geniş kurulum alanına ihtiyaç duyulmadan 99 adede kadar cihaz birbirine bağlanabilir. Bağlantı kablosu her zaman ağ geçidinden başlar ve veri yolu sonlandırmasında biter - 100 metre proje alanı.",
+            "Elemanlar bir düğmeye dokunarak kontrol edilir. Tüm emek yoğun adresleme süreci ortadan kaldırılmıştır. Operasyon için yeni özel beceriler gerekmez. Yeni otobüs sistemi için yeni bir yenilik gerekmez.",
+            "Çalışma süreci basit ve zaman kazandırıcıdır. Temel prensip: Kur ve Çalıştır. Çok büyük zaman tasarrufu. Sistem herhangi bir bağlantı hatası yapmadığı için sorun gidermeye gerek yoktur."
+          ]
+        ]
+      }
+    ]
+  },
+  "Info": {
+    "title": "Illustrations"
+  },
+  "Contacts": {
+    "title": "Get in touch with us!"
+  },
+  "Footer": {
+    "title": ["Our products", "Our contact details", "Contacts us"],
+    "form": ["Name", "Message"],
+    "button": "Send"
+  }
+}

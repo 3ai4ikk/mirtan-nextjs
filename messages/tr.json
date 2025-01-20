@@ -1,0 +1,931 @@
+{
+  "Header": {
+    "main": "Ana sayfa",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "contacts": "İletişim"
+  },
+  "Hero": {
+    "title": "BİZİM MİSYONUMUZ!",
+    "title2": "Otomatikleştirilebilecek her şey otomatikleştirilmelidir!",
+    "subtitle": "Teknoloji yeni olasılıkların kapısını açar! Şirketimiz, tahıl, buğday ve bezelye kabuğu çıkarılmış tane, yulaf ve mısır kabuğu çıkarılmış tane ve tahıl gevreğinin işlenmesi için komple valsli değirmenler ve ekipmanlar, pirinç unu ve nohut unu üretimi için ekipmanlar üretmektedir. Müşterileriye özel olarak yeni teknolojiler geliştirip uygulayacağımız modern ekipmanlarla tahıl mahsullerinin ve karma yemlerin işlenmesine yönelik  işletmeleri modernize edeceğiz."
+  },
+  "AboutPage": {
+    "title": "Hakkımızda",
+    "subtitle": [
+      "Firmamız, fırıncılık unu elde etmek için temel şartlarda buğday tanelerinin öğütülmesi için komple merdane ve merdane değirmen taşları üretmektedir. Karabuğday ve darı tahıllarının işlenmesi, arpa, buğday ve bezelye taneleri, yulaf ezmesi, mısır taneleri ve tahıl gevreği üretimi için değirmenler ve ekipmanlar. Pirinç unu ve nohut unu üretiminin yanı sıra. Müşteriye göre bireysel olarak yeni teknolojiler geliştirecek ve tanıtacağız, tahıl işleme işletmelerini modern ekipmanlarla modernize edeceğiz. Şirket, inşaat sahasının veya üretim alanlarının araştırılmasından bitmiş fabrikanın işletmeye alınmasına kadar tahıl, un, tahıl ve karma yem üretiminin anahtar teslimi organizasyonu alanında eksiksiz bir hizmet yelpazesi sunmaktadır.",
+      "Firmamız aynı zamanda endüstriyel otomasyon alanında kullanıma hazır çözümlerin geliştiricisi ve üreticisidir. Tesislerin ve fabrikaların endüstriyel otomasyonu, konveyör hatları, değirmen kompleksleri, pompa istasyonlarının otomasyonu ve dağıtımı, su temini sistemleri, drenaj sistemleri alanlarında hazır çözümler sunuyoruz. Kontrol panellerinin ve kontrol kabinlerinin, alçak gerilim ve şalt cihazlarının kurulumunu ve montajını gerçekleştiriyoruz. Çalışanlarımız tarafından yazılan SCADA sistemi, teknolojik süreçler hakkında bilgi toplamayı ve görselleştirmeyi organize etmeyi, verileri operatör için uygun bir biçimde analiz etmeyi ve görüntülemeyi mümkün kılarken, ücretsiz Orsserver'ın kullanılması, farklı üreticilerin uygulamaları arasında veri alışverişini mümkün kılar ve herhangi bir SCADA sisteminin geliştirilmesine olanak tanır."
+    ]
+  },
+  "ProductsMain": {
+    "title": "Ürünlerimiz",
+    "list": "Tüm liste"
+  },
+  "Products": {
+    "title": ["Ürünlerimiz", "Komple değirmenler", "Endüstriyel Otomasyon"],
+    "info": "Fazla bilgi",
+    "product": [
+      {
+        "title": "Boşaltma dağıtıcısı",
+        "description": "Tartım dağıtıcısı Dökme ağırlığı 0,3-0,75 ton / m3 olan ve nemi% 15'ten fazla olmayan ürünlerin torbalara dağıtılması için tasarlanmıştır",
+        "info": [
+          "Tartım dağıtıcısı Dökme ağırlığı 0,3-0,75 ton / m3 olan ve nemi% 15'ten fazla olmayan ürünlerin torbalara dağıtılması için tasarlanmıştır.",
+          "Kompozisyon şunları içerir: 0,25 m3 depolama haznesi, ölçüm vidası, programlanabilir kontrolör, gerinim ölçerler, pnömatik torba sıkıştırma sistemi."
+        ]
+      },
+      {
+        "title": "Öğütme makinesi",
+        "description": "Öğütme makinesi, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır",
+        "info": [
+          "Öğütme makinesi, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır."
+        ],
+        "text": [
+          "Makine aşağıdaki ana bileşenlerden oluşur: gövde, egzoz gövdesi, kırbaçlanan rotor, elek yarı silindiri, huni, V kayış tahriki, tahrik, çit. Sac metalden kaynaklanmış gövde, duvar kağıdının tüm bileşenlerinin sabitlenmesinin temelidir.",
+          "Kamçılı rotor, üzerine kamçılar takılı bir şafttan oluşur. Şaft, hizalı yataklara sabitlenmiştir. Milin konsol kısmına bir tahrik kasnağı takılmıştır. Elek yarı silindiri, ahşap bir çerçeveden ve ona sabitlenmiş bir ağdan oluşur.",
+          "Rotor, bir elektrik motorundan V kayışı iletimi ile tahrik edilir. Makinedeki teknolojik süreç aşağıdaki gibi gerçekleştirilir.",
+          "Ürün, alıcı borudan rotor ile elek yarı silindiri arasındaki çalışma alanına girer, ardından çok sayıda darbe ve sürtünmeye maruz kalarak eksenel yönde yarışlarla ilerler. Bu durumda endosperm parçacıkları kepekten ayrılır, elekteki deliklerden geçer ve çıkış konisinden makineden çıkar. Daha büyük kepekler, elek yarı silindirinin benzerliğinden çıkarılır."
+        ],
+        "table": [
+          {
+            "th": "Performans, ton/saat, en az",
+            "td": "0,3-0,55"
+          },
+          {
+            "th": "Rotor ile elek yüzeyi arasındaki boşluk, mm",
+            "td": "10"
+          },
+          {
+            "th": "Elek alanı, m2",
+            "td": "0,36"
+          },
+          {
+            "th": "Kırbaçlanan rotorun dönüş hızı, RPM",
+            "td": "620"
+          },
+          {
+            "th": "Elektrik motorunun gücü, KW",
+            "td": "1,1"
+          },
+          {
+            "th": "Elektrik motorunun dönme hızı, RPM",
+            "td": "940"
+          },
+          {
+            "th": "Hizmet ömrü, yıl",
+            "td": "13"
+          },
+          {
+            "th": "Genel boyutlar, mm, en fazla değil:"
+          },
+          {
+            "th": "Uzunluk",
+            "td": "1110"
+          },
+          {
+            "th": "Genişlik",
+            "td": "475"
+          },
+          {
+            "th": "Yükseklik",
+            "td": "1030"
+          },
+          {
+            "th": "Ağırlık, kg, 110'dan fazla değil",
+            "td": "110"
+          }
+        ]
+      },
+      {
+        "title": "Değirmen taşı makinesi",
+        "description": "MİR agrega değirmenleri, buğday, çavdar, mısır, darı, karabuğday, pirinç, hecelenmiş, kuru bezelye, mercimek vb. Gibi tahıllardan ve baklagillerden klasik buğday, tam tahıllı, glütensiz vb. un üretimi için çok yönlü modüler tesislerdir.",
+        "info": [
+          "MİR agrega değirmenleri, buğday, çavdar, mısır, darı, karabuğday, pirinç, hecelenmiş, kuru bezelye, mercimek vb. Gibi tahıllardan ve baklagillerden klasik buğday, tam tahıllı, glütensiz vb. un üretimi için çok yönlü modüler tesislerdir.",
+          "MİR değirmenlerinin benzersiz bir özelliği, merdane ve değirmen taşı gruplarının elek tarağında öğütme ürünlerinin ayrılmasıyla birleştirilmesidir, üretilen un her iki öğütme türünün avantajlarına sahiptir - değirmen ununun özelliği olan yüksek fırıncılık nitelikleri ve merdane değirmeninde üretilen unun özelliği olan incelik ve sunum. Değirmenlerde, Müşterinin isteğine göre farklı fraksiyonlarda un elde etmek için elek setlerinin monte edildiği toplu eleme kullanılır. Değirmen taşları, çok ince un elde etmeyi mümkün kılan çentiklerin yapısına ve şekline sahiptir. Değirmenler, yağ içeriği% 7'ye kadar ve nem içeriği% 18'e kadar olan hammaddelerin işlenmesine izin verir."
+        ],
+        "text": [
+          "Ünitelerin kapasitesi günde 15, 20 ve 25 tondur.",
+          "Yuvarlanan makineler, öğütme sistemlerine monte edilir, değirmen taşları öğütme sistemlerine yerleştirilir. Ayrıca, klasik fırıncılardan tam tahıllı (veya glütensiz) öğütmelere kısa sürede geçmenizi sağlayan rulo makineleri ve değirmen taşlarını baypas yoluyla birleştirmek de mümkündür.",
+          "Değirmendeki tahıl, noria'nın tahıl temizliğine beslendiği alıcı bunkere alınır (temel versiyonda kabul departmanı ve noria sağlanmaz). Hazır öğütme karışımı alıcı hazneye beslenir. Müşteri ek bir ücret karşılığında isterse, değirmenin öğütme karışımları oluşturma olasılığı olan bir kabul departmanı ile donatılması mümkündür. Böyle bir bölmenin silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Saflaştırılmış tahıl, nemlendirildiği nemlendirme bölümüne aktarılır ve ilk yıpranma için silolara gönderilir. Bölmeye, değirmenin sürekli çalışması sırasında 24 saat yıpranma sağlayan hazneler yerleştirilmiştir.",
+          "Boşaltılan tahıl, duvar kağıdı (fırça) makinesinde ve aspiratörde tekrar temizlenir, ardından yeniden nemlendirilir ve ikinci bir vade için gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir.",
+          "Öğütme bölümü, 3 silindirli makineler, iki değirmen taşı kaynağı, 1. toplu tip altı kabul edilebilir eleme makinesi ve bir öğütme makinesinden oluşur. Üç kırma ve iki öğütme sistemi uygular (4 silindirli makineler ve bir değirmen taşı kaynağı kullanma seçeneği vardır). Sistemlerin her birindeki un, ayrı akışlarla eleme taşıma kutusuna gönderilir, kontrol bölümünde kontrol edilir ve ardından pnömatik taşıma ile boşaltma silolarına gönderilir.",
+          "Boşaltma hunileri, her biri 100 kg kapasiteli depolama cihazlarıdır. Un haznelerinin alt kısmında standart bir torba (25-50 kg) için bir burgu ve bir boşaltma borusu vardır. Boşaltma bölmesinde un için iki tartım dağıtıcısı bulunur. Kepek ve ikinci sınıf tartılmadan standart torbalara doldurulur.",
+          "Değirmen otomatik kontrol sistemi (ACU) ile donatılmıştır. ACS, bölmelerin, bileşenlerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu izlemek ve makinelerin karşılıklı kilitlenmesini sağlamak ve ayrıca üretilen ürünlerin muhasebeleştirilmesi, değirmenin bireysel bileşenlerinin ve montajlarının çalışma modlarının teşhisi, izlenmesi ve sabitlenmesi işlevlerini gerçekleştirmek için tasarlanmıştır."
+        ],
+        "li": [
+          [
+            "Yüksek enerji verimliliği - buğdayın fırıncı ununa işlenmesinde özgül tüketim, işlenmiş tahılın tonu başına 50 ila 70 KW arasındadır;",
+            "Kısa başlatma / durdurma süresi, enerji ve hammaddelerden önemli ölçüde tasarruf etmenizi sağlar;",
+            "Bakım kolaylığı ve rahatlığı - Bir ünitenin bakımı 2 kişi tarafından gerçekleştirilebilir;",
+            "Değirmenlerin en uygun konfigürasyonunu bağımsız olarak seçme yeteneği, modüler tasarımı ile ilişkilidir. Ek ekipmanların - değirmen taşı malzemeleri, tuzlayıcılar, elek makineleri, un yığınlarının depolanması vb. - kurulmasıyla işlevselliği genişletmek mümkündür.;",
+            "Bir tahıl temizleyici ve bir atık bölmesi kullanarak birden fazla ünite kurabilme;",
+            "Çalışırken insan faktörünü en üst düzeye çıkarmak için sürecin tam otomasyonunu kurma yeteneği."
+          ],
+          [
+            "Tahıl ayırıcıda temizlik;",
+            "Taş ayırma makinesinin temizlenmesi;",
+            "Manyetik ayırıcıda temizlik;",
+            "Duvar kağıdı makinesi (ağ kapaklı);",
+            "Kapalı hava döngüsüne sahip aspiratör."
+          ]
+        ],
+        "span": [
+          "Değirmenlerin çeşitli avantajları vardır:",
+          "Tahıl temizleme departmanı aşağıdaki teknolojik geçişleri sağlar:"
+        ]
+      },
+      {
+        "title": "Tahıl ayırıcı",
+        "description": "Tahıl temizleme ayırıcısı, tahılları (buğday, çavdar, yulaf vb.) Geometrik boyutlarında ondan farklı safsızlıklardan temizlemek için tasarlanmıştır",
+        "info": [
+          "Tahıl temizleme ayırıcısı, tahılları (buğday, çavdar, yulaf vb.) Geometrik boyutlarında ondan farklı safsızlıklardan temizlemek için tasarlanmıştır. Ayırıcı, değirmenlere, asansörlere ve tahıl fabrikalarına teknolojik şemaların bir parçası olarak kurulur."
+        ],
+        "text": [
+          "Tahıl ayırıcısı, genişliği ve kalınlığı bakımından farklı olan safsızlıkları tahıldan ayırmaya yarar. Bu amaçla, ayırıcıya 1,7x20 mm delikli üç elek takılmıştır; 4,25x25 mm; Ø8 mm. Elekler eğik olarak yerleştirilir ve karşılıklı salınımlar yapar.",
+          "Ayırıcı aşağıdaki ana bileşenlerden oluşur: elek gövdesi, alıcı kutu, titreşim tahriki, egzoz kutusu ve çerçeve.",
+          "Ayırıcının ana çalışma organı, elek gövdesine üç kat halinde monte edilmiş elek çerçeveleridir. Eleklerin üst katmanı, tahıl kütlesinden kaba safsızlıkları izole etmek için tasarlanmıştır, orta katman (eleme eleği) tahıl akışından büyük safsızlıkları serbest bırakır. Alt katman (ekim eleği) tahıl akışından küçük safsızlıklar salgılar. Elek gövdesi, damperlerin yaylarına monte edilmiştir.",
+          "Alıcı kutu, alınan tanenin elek genişliği boyunca dağılımını sağlar.",
+          "Titreşimli tahrik, zıt yönlerde dönen ve ileri geri salınımlar sağlayan iki elektrikli vibratörden oluşur.",
+          "Çıkış kutusu, rafine tahılların, kaba, iri ve küçük safsızlıkların ayrı ayrı serbest bırakılmasını sağlar.",
+          "Çerçeve, ayırıcının tüm bileşenleri için destek yapısı olarak işlev görür."
+        ],
+        "table": [
+          {
+            "th": "Performans, ton/saat, en az",
+            "td": "1,5"
+          },
+          {
+            "th": "Eleme yüzey alanı, m²",
+            "td": "0.7"
+          },
+          {
+            "th": "Tahıl arıtma verimliliği, %"
+          },
+          {
+            "th": "Kaba safsızlıklar için",
+            "td": "100"
+          },
+          {
+            "th": "Büyük safsızlıklar için",
+            "td": "100"
+          },
+          {
+            "th": "Küçük safsızlıklar için",
+            "td": "100"
+          },
+          {
+            "th": "Elek gövdesinin salınım frekansı, rpm.",
+            "td": "940"
+          },
+          {
+            "th": "Toplam güç tüketimi, KW",
+            "td": "0,24"
+          },
+          {
+            "th": "Besleme gerilimi, V",
+            "td": "380±38"
+          },
+          {
+            "th": "Garanti ömrü, ay",
+            "td": "12"
+          },
+          {
+            "th": "Genel boyutlar, en fazla değil, mm:"
+          },
+          {
+            "th": "Uzunluk",
+            "td": "1080"
+          },
+          {
+            "th": "Genişlik",
+            "td": "750"
+          },
+          {
+            "th": "Yükseklik",
+            "td": "900"
+          },
+          {
+            "th": "Ağırlık, kg, 139'dan fazla değil",
+            "td": "139"
+          }
+        ]
+      },
+      {
+        "title": "Taş ayırıcı",
+        "description": "Taş ayırıcı, tahılın mineral kirliliklerden kuru yöntemle temizlenmesi için tasarlanmıştır. Tahıl işleme tesislerinde diğer ekipman tipleriyle birlikte kombine olarak çalışmak amacıyla kullanılır",
+        "info": [
+          "Taş ayırıcı, tahılın mineral kirliliklerden kuru yöntemle temizlenmesi için tasarlanmıştır. Tahıl işleme tesislerinde diğer ekipman tipleriyle birlikte kombine olarak çalışmak amacıyla kullanılır."
+        ],
+        "text": [
+          "Taş ayırıcı, çerçeve, tabla, titreşim tahriki, tabla açısını ayarlama mekanizması, hava akış regülatörü, besleyici ve gövdeden oluşur.",
+          "Mineral kirliliklerden temizlemenin teknolojik süreci şu şekilde ilerler: Besleyici ve dağıtıcı vasıtasıyla tahıl, güvertenin gözenekli yüzeyine girer. Yükselen hava akımının etkisi ve gövdenin yatay düzleme göre açılı salınım hareketleri altında, yüksek özgül ağırlığa sahip parçacıklar (geleneksel olarak ağır olarak adlandırılır) güvertenin yüzeyine düşer ve düşük özgül ağırlığa sahip parçacıklar ( (hafif) yüzer. Bu şekilde malzeme delaminasyona uğramış olur. Alt tabakaların yoğunluğu üst tabakalardan daha fazladır.",
+          "Malzemenin alt tabakası sürtünme ve atalet kuvvetleri nedeniyle çalışma yüzeyine önemli ölçüde yapışır ve güvertenin yükseltilmiş kenarına doğru hareket eder.",
+          "Malzemenin en üst katmanının alttaki katmanlarla çok az bağlantısı vardır ve kendi ağırlığının etkisiyle güvertenin alçaltılmış kenarına doğru akar."
+        ],
+        "table": [
+          {
+            "th": "Kurulu tahrik gücü (fansız) , kW",
+            "td": "0,12"
+          },
+          {
+            "th": "Saat başına temiz iş verimliliği (buğday temizliği), t/saat",
+            "td": "6-9"
+          },
+          {
+            "th": "Güverte çalışma alanı, m2",
+            "td": "0,38"
+          },
+          {
+            "th": "Güverte eğim açısı, derece.",
+            "td": "5-10"
+          },
+          {
+            "th": "Hava tüketimi, en fazla, m3/saat",
+            "td": "1850"
+          },
+          {
+            "th": "Boş bir makine için çalışma odasındaki vakum, mm H2O",
+            "td": "75"
+          },
+          {
+            "th": "Vibratör şaftının devir sayısı, rpm ",
+            "td": "940"
+          },
+          {
+            "th": "Silinmeden önceki hizmet ömrü, en az yıl",
+            "td": "13"
+          },
+          {
+            "th": "Genel boyutlar mm, en fazla:"
+          },
+          {
+            "th": "Uzunluk",
+            "td": "1500"
+          },
+          {
+            "th": "Genişlik",
+            "td": "750"
+          },
+          {
+            "th": "Yükseklik",
+            "td": "1000"
+          },
+          {
+            "th": "Tam konfigürasyonda makine ağırlığı, kg",
+            "td": "141"
+          }
+        ]
+      },
+      {
+        "title": "Değirmen",
+        "description": "MIR agregat değirmenleri, un üretimi için evrensel modüler ünitelerdir - klasik buğday, tam tahıl, glütensiz, vb.",
+        "info": [
+          "MIR agregat değirmenleri, un üretimi için evrensel modüler ünitelerdir - klasik buğday, tam tahıl, glütensiz, vb. Değirmenler, %7'ye kadar yağ içeriğine ve %18'e kadar nem içeriğine sahip hammaddelerin işlenmesine olanak tanır."
+        ],
+        "text": [
+          "Ünitelerin kapasitesi günlük 15, 20 ve 25 tondur.",
+          "Değirmenin temel versiyonunda üç sınıf buğday unu üretiliyor: premium, birinci ve ikinci. Tahıl, 250, 320 veya 400 mm silindir uzunluklarına ve 250 mm çapa sahip altı silindirli değirmende öğütülür. Temel formdaki buğday ununun toplam randımanı %75’tir. Premium un – %50-55, 1. sınıf – %20-25 ve 2. sınıf – %5 (orijinal hammaddeye bağlı olarak). Öğütme bölümü, Müşteri tarafından sipariş edilen öğütme kalitesine ait proses akış diyagramına sahip bir parti eleği ile donatılmıştır. Müşterinin talebi ve orijinal tanenin kalite şartlarına göre her çeşit için verim yüzdesinin değiştirilmesi de mümkündür.",
+          "Değirmen taşı unu üretiminde, silindirli değirmenler ve değirmen taşı standlarının bir kombinasyonu kullanılmaktadır. Öğütme sistemlerine haddehaneler, öğütme sistemlerine ise değirmen taşları yerleştirilir. Ayrıca, bypass yoluyla silindirli değirmenler ile değirmen taşı değirmenlerinin birleştirilmesi de mümkün olup, bu sayede klasik fırıncılık öğütmesinden tam tahıllı (veya glütensiz) öğütmeye kısa sürede geçiş sağlanabilmektedir.",
+          "Tahıl, değirmende alıcı siloya alınır ve buradan bir kovalı elevatörle tahıl temizleyicisine beslenir (temel versiyonda alıcı bölüm veya kovalı elevatör bulunmaz). Biten öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, ilave bir ücret karşılığında değirmenin öğütme karışımları oluşturma kabiliyetine sahip bir alım bölümü ile donatılması mümkündür. Bu tür bir bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilmektedir.",
+          "Temizlenen tahıl nemlendirme bölümüne aktarılır, burada nemlendirilir ve ilk tavlama için bunkerlere gönderilir. Bölüm, değirmenin sürekli çalışması sırasında 24 saat nemlendirme sağlayan bunkerlerle donatılmıştır.",
+          "Tavlanan tahıl tekrar fırçalama makinesi ve aspiratörde temizlendikten sonra tekrar nemlendirilerek ikinci tavlamaya (20-30 dakika) gönderilir. Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir.",
+          "Öğütme bölümü 6 adet valsli değirmen, 1 adet altı alıcılı parti tipi elek ve 1 adet öğütme makinesinden oluşmaktadır. Üç yırtma ve üç öğütme sistemine sahiptir. Her sistemden gelen un ayrı ayrı akışlar halinde elek taşıma kutusuna gönderilir. Bu şekilde oluşturulan unlar pnömatik taşıma ile torbalama kasalarına gönderilir.",
+          "Torbalama kutuları her biri 100 kg kapasiteli depolama konteynerleridir. Un bidonlarının alt kısmında standart çuval (25-50 kg) için bir vida ve çuval doldurma başlığı bulunmaktadır. Torbalama bölümü 1. ve daha üst sınıf unlar için tartım makineleriyle donatılmıştır. Kepek ve ikinci kalite ürünler tartılmadan standart çuvallara paketlenmektedir.",
+          "Değirmen otomatik kontrol sistemi (ACS) ile donatılmıştır. Otomatik kontrol sistemi, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, ekipmanların teknolojik zincirinin durumunu izlemek ve makinelerin karşılıklı kilitlenmesini sağlamak ve üretilen ürünleri kaydetme işlevlerini yerine getirmek için tasarlanmıştır. değirmenin bireysel ünitelerinin ve düzeneklerinin çalışma modlarının teşhisi, izlenmesi ve kaydedilmesi."
+        ],
+        "li": [
+          [
+            "Yüksek enerji verimliliği - Buğdayın fırın ununa işlenmesi sırasında özgül tüketim, işlenmiş tahılın tonu başına 42 ila 53 kW arasındadır;",
+            "Kısa başlama/durma süresi, önemli miktarda elektrik ve hammadde tasarrufu sağlar;",
+            "Bakım kolaylığı ve rahatlığı - Bir üniteye 2 kişi tarafından bakım yapılabilir;",
+            "Değirmenlerin optimum konfigürasyonunu bağımsız olarak seçme yeteneği modüler tasarımıyla ilişkilidir. İlave ekipmanlar (değirmen taşı sehpaları, entolatörler, elek makineleri, toplu un depolama ünitesi, vb.) takılarak işlevselliğin genişletilmesi mümkündür;",
+            "Bir tahıl temizleme ve bir torbalama bölümü kullanılarak birden fazla ünitenin kurulma imkânı;",
+            "Çalışma esnasında insan faktörünü mümkün olduğunca ortadan kaldırmak için sürecin tam otomasyonunu kurma imkânı."
+          ],
+          [
+            "Tahıl ayırıcıda temizlik;",
+            "Trier-cockle ayırıcısında temizlik;",
+            "Manyetik ayırıcıda temizlik;",
+            "Duvar kağıdı yapıştırma makinesi (file kabuklu);",
+            "Kapalı hava devreli aspiratör."
+          ]
+        ],
+        "span": [
+          "Değirmenlerin birçok avantajı vardır:",
+          "Tahıl temizleme bölümünde aşağıdaki teknolojik geçişler sağlanmaktadır:"
+        ]
+      },
+      {
+        "title": "Kabuk soyucu",
+        "description": "Kabuk soyucu, un değirmenciliğinde tahıl ürünlerinin yüzeyinin tozdan kuru temizlenmesi, meyve kabuklarının, sakallarının ve tahıl embriyosunun kısmen ayrılması için tasarlanmıştır",
+        "info": [
+          "Kabuk soyucu, un değirmenciliğinde tahıl ürünlerinin yüzeyinin tozdan kuru temizlenmesi, meyve kabuklarının, sakallarının ve tahıl embriyosunun kısmen ayrılması için tasarlanmıştır."
+        ],
+        "table": {
+          "headers": ["Göstergenin adı", "Kırbaç", "Fırça-kırbaç"],
+          "rows": [
+            {
+              "th": "Teknik verimlilik, t/h",
+              "td": ["1 - 2", "1,5 - 2"]
+            },
+            {
+              "th": "Kurulu güç, kW, en fazla",
+              "td": ["1,1", "1,1"]
+            },
+            {
+              "th": "Makineden tek geçişte tahıl külü içeriğinin azaltılması, % (buğday için)",
+              "td": ["0,01 ÷ 0,02", "0,04 ÷ 0,06"]
+            },
+            {
+              "th": "Kırık tane içeriği, %, (buğday için) en fazla",
+              "td": ["1,0", "1,0"]
+            },
+            {
+              "th": "Rotor hızı, rpm, en az",
+              "td": ["940", "940"]
+            },
+            {
+              "th": "Ağırlık, kg, en fazla",
+              "td": ["123,9", "114"]
+            },
+            {
+              "th": "Genel boyutlar, mm, en fazla:"
+            },
+            {
+              "th": "Uzunluk",
+              "td": ["1511", "1511"]
+            },
+            {
+              "th": "Genişlik",
+              "td": ["466", "466"]
+            },
+            {
+              "th": "Yükseklik",
+              "td": ["618", "618"]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Pnömatik ayırıcı",
+        "description": "Tahılı, aerodinamik özellikleri bakımından kendisinden farklı olan yabancı maddelerden temizlemek için tasarlanmıştır. Pnömatik ayırıcı, bölmelerle bir dizi bölmeye ayrılmış kaynaklı bir kutudur",
+        "info": [
+          "Tahılı, aerodinamik özellikleri bakımından kendisinden farklı olan yabancı maddelerden temizlemek için tasarlanmıştır. Pnömatik ayırıcı, bölmelerle bir dizi bölmeye ayrılmış kaynaklı bir kutudur. Tahıl, alıcı borudan geçerek onu taşıyan hava ile birlikte pnömatik ayırıcının çökelme odasına girer. Tahıl, kendi ağırlığının etkisiyle valfi açar ve ince bir tabaka halinde pnömatik ayırma kanalına düşer ve burada hava ile üflenir.",
+          "Sonuç olarak hafif kirlilikler ayrılır ve makineden gelen hava akımıyla siklon toz toplayıcıya gönderilir. Hava hızı ve tahıl üfleme yoğunluğu, kanal kesitinin değiştirilmesine olanak tanıyan hareketli bir duvarla düzenlenir. Temizlenen tahıl, döner valf vasıtasıyla pnömatik ayırıcıdan çıkarılır."
+        ]
+      },
+      {
+        "title": "Elek",
+        "description": "Öğütme ürünlerinin elekler üzerinde ayrıştırılması için otomatik dengeleyicili 6 alıcılı mil tipi elek makinesi kullanılır",
+        "info": [
+          "Öğütme ürünlerinin elekler üzerinde ayrıştırılması için otomatik dengeleyicili 6 alıcılı mil tipi elek makinesi kullanılır. Elek, üzerinde denge mekanizması bulunan ana çerçeve, elek çerçeveli iki gövde ve değirmenin ikinci katının tavanında bulunan üst tahrik mekanizmasından oluşmaktadır.",
+          "Tahrik mekanizmasından denge mekanizmasına dönüş, mil vasıtasıyla iletilir. Elek değirmen gövdesine kablolarla bağlanır. Tarama ünitesinin temel fonksiyonel kısmı, üst üste yerleştirilmiş ahşap çerçevelerden oluşan ve bunların üzerine yatay olarak gerilen iki gövdeden oluşmaktadır. Ekran gövdeleri yatay düzlemde salınımlı hareketler yaparlar.",
+          "Eleme elekleri boyunca ilerleyen kırılmış ürünler, çerçeveden çerçeveye yukarıdan aşağıya doğru geçerek kademeli olarak elenir, birinci ve birinci sınıf un ile ara fraksiyonlara ayrılır. Eleklerin taşıma kasaları vasıtasıyla un ve kepek değirmenin çuvallama bölümünün bunkerlerine beslenirken, ara fraksiyonlar öğütülmek üzere geri döndürülür."
+        ]
+      },
+      {
+        "title": "ELEK MAKİNESİ",
+        "description": "Eleme makinası, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır",
+        "info": [
+          "Elemelerde ayıklama sonucunda, büyüklükleri aynı, ancak kabuk ve çekirdek oranları farklı olan tahıl ürünleri fraksiyonları elde edilir. Eleme makinası, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır. Genellikle tahıl değirmenlerinde kullanılmakla birlikte, kuru, dökme ve yapışkan olmayan malzemelerin ayrıştırılmasında diğer endüstrilerde de kullanılabilir."
+        ],
+        "text": [
+          "Makinede ürünlerin ayrıştırılması ve zenginleştirilmesine yönelik teknolojik işlem, elek gövdesinin ileri geri hareketi sırasında ürünün elekler boyunca hareketi ile yükselen hava akımının etkileşimi sonucu gerçekleşir. Hava, elek altı boşluğundan girer ve yükselen bir akışla iki kat elek arasından geçerek aspirasyon şebekesine boşaltılır. Ürün tabakası hava ile gevşetildikçe, en yüksek yoğunluğa sahip parçacıklar aşağıya doğru hareket eder ve eleklerden elenirken, en düşük yoğunluğa sahip ve en pürüzlü parçacıklar ürünün en üst tabakasına hareket eder ve iniş yönünde hareket eder. . Kabukların en hafif parçacıkları hava akımıyla taşınır. Ürün bu şekilde tasnif edilip zenginleştiriliyor."
+        ],
+        "table": [
+          {
+            "th": "Kurulu tahrik gücü (fansız), kW",
+            "td": "0,36"
+          },
+          {
+            "th": "Verimlilik, kg/saat",
+            "td": "0,36"
+          },
+          {
+            "th": "Elek çerçevesinin boyutları, mm",
+            "td": "400х500"
+          },
+          {
+            "th": "Eleme çerçevelerinin kademe sayısı",
+            "td": "2"
+          },
+          {
+            "th": "Bir katlı elek çerçevelerinin çalışma alanı, m2",
+            "td": "0,6"
+          },
+          {
+            "th": "Hava tüketimi, en fazla, m3/saat",
+            "td": "1600"
+          },
+          {
+            "th": "Ekran gövdesinin salınım frekansı, salınım/dakika",
+            "td": "940"
+          },
+          {
+            "th": "Genel boyutlar mm, en fazla:"
+          },
+          {
+            "th": "Uzunluk",
+            "td": "2030"
+          },
+          {
+            "th": "Genişlik",
+            "td": "810"
+          },
+          {
+            "th": "Yükseklik",
+            "td": "1550"
+          },
+          {
+            "th": "Tam konfigürasyonda makine ağırlığı, kg",
+            "td": "411"
+          }
+        ]
+      },
+      {
+        "title": "Haddehane",
+        "description": "Silindir değirmeni, tahıl, karma yem ve un (klasik buğday, tam tahıl, glütensiz vb.) üretiminde tahıl ve ara öğütme ürünlerinin öğütülmesi için tasarlanmıştır",
+        "info": [
+          "Silindir değirmeni, tahıl, karma yem ve un (klasik buğday, tam tahıl, glütensiz vb.) üretiminde tahıl ve ara öğütme ürünlerinin öğütülmesi için tasarlanmıştır."
+        ],
+        "text": [
+          "Silindir değirmeni aşağıdaki ana parçalardan oluşur: kaynaklı çerçeve, iki çift öğütme silindiri, silindirler arası şanzıman (uygulamaya bağlı olarak), silindir durdurma cihazı, ilk ürün için besleme cihazı, otomatik besleme ayarlama cihazı (isteğe bağlı), silindir temizleyiciler, boyun."
+        ],
+        "table": [
+          {
+            "th": "Silindir namlusunun nominal uzunluğu, mm",
+            "td": "250 / 320 / 400"
+          },
+          {
+            "th": "Makinenin teknik performansı buğdayın çeşit öğütmesinde ilk yırtılmış sistemde, t/gün, en az",
+            "td": "21 / 27 / 33,6"
+          },
+          {
+            "th": "Bir makineyi çalıştıran elektrik motorunun maksimum kurulu gücü, kW",
+            "td": "7,5"
+          },
+          {
+            "th": "Yüksek hızlı silindirin dönme hızı, s-1 (dev/dak)"
+          },
+          {
+            "th": "Yivli silindirler için",
+            "td": "7-7,8 (420-470)"
+          },
+          {
+            "th": "Pürüzsüz silindirler için",
+            "td": "6,6-6,9(395-415)"
+          },
+          {
+            "th": "Montajlı haldeki makinenin genel boyutları, mm, en fazla:"
+          },
+          {
+            "th": "Uzunluk",
+            "td": "805"
+          },
+          {
+            "th": "Genişlik (elektrikli tahrik ve ara silindir şanzımanı olmadan)",
+            "td": "280 / 650 / 730"
+          },
+          {
+            "th": "Yükseklik",
+            "td": "952"
+          },
+          {
+            "th": "Makine ağırlığı (elektrikli tahrik ve makineye bağlı olmayan diğer parçalar hariç), kg, en fazla",
+            "td": "358 / 401,5 / 445"
+          }
+        ]
+      },
+      {
+        "title": "Fırçalama çırpma makinesi",
+        "description": "Fırça çırpma makinesi, daha yüksek derecede tahıl yüzeyi temizleme özelliğine sahip, teknolojik olarak geliştirilmiş bir bombardıman makinesi analoğudur.",
+        "info": [
+          "Fırça çırpma makinesi, daha yüksek derecede tahıl yüzeyi temizleme özelliğine sahip, teknolojik olarak geliştirilmiş bir bombardıman makinesi analoğudur. Hareketli rotor parçasının etkili tasarımı, hassas seçilmiş kinematik özellikleri, elek yüzeyinin pürüzlülük derecesi nedeniyle, fırça çırpma makinesi tahılı sadece tahıl yüzeyindeki küçük kirliliklerden ve kirden mükemmel bir şekilde temizlemekle kalmaz, aynı zamanda kabuğun yüzeyini de taşlar, çapakları, yırtılmış kabuk parçacıklarını, oluklardaki tozu giderir. Bu, unun beyazlığını önemli ölçüde artırır ve gereksiz benekleri ve gri arka planları ortadan kaldırır.",
+          "Bu durumda, tahıl kabuğu travmatize olmaz ve kabuk soyma ve öğütme makinesi ve debrander gibi derin tahıl temizleme makinelerinin karakteristiği olmayan tanıdık kepek şeklinde öğütüldükten sonra pazarlanabilir bir görünüme sahip olur."
+        ],
+        "table": [
+          {
+            "th": "Teknik performans, ton/saat",
+            "td": "1,5 - 2"
+          },
+          {
+            "th": "Kurulu güç, kw, en fazla değil",
+            "td": "1,1"
+          },
+          {
+            "th": "Makineden tek bir geçişte tane kül içeriğinin azaltılması, % (buğday için)",
+            "td": "0,04 ÷ 0,06"
+          },
+          {
+            "th": "Kırık dane içeriği, %, daha fazla değil (buğday için)",
+            "td": "1,0"
+          },
+          {
+            "th": "Rotor hızı, rpm, en az",
+            "td": "940"
+          },
+          {
+            "th": "Ağırlık, kg, daha fazla değil",
+            "td": "114"
+          },
+          {
+            "th": "Genel boyutlar, mm, daha fazla değil:"
+          },
+          {
+            "th": "Uzunluk",
+            "td": "1511"
+          },
+          {
+            "th": "Genişlik (elektrikli tahrik ve ara silindir şanzımanı olmadan)",
+            "td": "466"
+          },
+          {
+            "th": "Yükseklik",
+            "td": "618"
+          }
+        ]
+      },
+      {
+        "title": "MİR-D15",
+        "description": "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "info": [
+          "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 7,55m, genişlik 5m, yükseklik 7m."
+        ],
+        "text": [
+          "Değirmen, bitmiş ürünlerin hazırlanması, tahıl öğütülmesi, dozajlanması ve örneklenmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahılın taşınması mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek - pnömatik taşıma ile gerçekleştirilir.",
+          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
+          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
+          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım dozajlayıcıları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrolörlerinin ayarları değiştirilerek değiştirilebilir. Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur).",
+          "Hazır öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
+          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c - %50-55, 1c - %20-25 ve 2c - %5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
+          "Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
+          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
+          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
+          "Kontrol sistemi Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve sabitlemek için tasarlanmıştır. Kurulu motorların toplam gücü 47,22 kW'tır.",
+          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir.",
+          "Değirmen, yüksekte çalışma yetkisi olan ve montaj sırasında montaj ve güvenlik kuralları konusunda eğitilmiş kişiler tarafından monte edilmelidir.",
+          "Valslerin yeniden şekillendirme arasındaki aşınma direnci, tahıl öğütme teknolojik sürecine uyulması koşuluyla, 3 aydan az değildir. Valslerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca servis edilebilirliklerini sağlar.",
+          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+        ],
+        "span": [
+          "Değirmenin teslimat seti şunları içerir:",
+          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
+          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+        ],
+        "li": [
+          [
+            "Tahıl hazırlama bölmesi,",
+            "Öğütme bölmesi,",
+            "Tartım bölmesi",
+            "Kontrol sistemi",
+            "Yedek parça, aksesuar seti."
+          ],
+          [
+            "işlenmemiş tahılın hazneye alınması;",
+            "Tahılın yuva ile beslenmesi ve değirmene yerçekimi ile taşınması;",
+            "Elek ayırıcıda tahılın boyut ve aerodinamik özellikleri bakımından ana tahıldan farklı olan safsızlıklardan temizlenmesi;",
+            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
+            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
+            "yoğun nemlendirme makinelerinde nemlendirme;",
+            "kapalı hava döngülü aspiratör",
+            "Bölümde, değirmenin sürekli çalışmasında 24 saat boyunca kabuksuzlaştırma sağlayan iki hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından yeniden nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+          ],
+          [
+            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
+            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
+            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
+            "Tahıl temizleme bölümünün kurulması,",
+            "Freze bölümünün montajı,",
+            "Tartım bölümünün montajı,",
+            "Tartım bölmesinin ürün boru hatlarının montajı,",
+            "Hava kanallarının montajı,",
+            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
+            "Elektrikli ekipmanların montajı,",
+            "Kontrolör ağının iletişim hatlarının kurulumu,",
+            "Merkezi kontrol istasyonunun kurulumu,",
+            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
+            "Ünitelerin rölanti devrinde alıştırılması,",
+            "Eleklerin dengelenmesi,",
+            "Değirmenin yük altında çalıştırılması,",
+            "Yük altında eleğin dengelenmesi,",
+            "Yük altında teknolojik ayarlama,",
+            "Operasyon personeli ile brifingler düzenlemek,",
+            "Değirmenin devreye alınması."
+          ]
+        ],
+        "table": [
+          {
+            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
+            "td": "Günlük 15 ton"
+          },
+          {
+            "th": "Temel varyantta toplam un verimi, dahil:",
+            "td": "%75"
+          },
+          {
+            "th": "üst sınıf",
+            "td": "%50-55"
+          },
+          {
+            "th": "birinci sınıf",
+            "td": "%20-25"
+          },
+          {
+            "th": "ikinci sınıf",
+            "td": "%5"
+          },
+          {
+            "th": "Makara hattı uzunluğu",
+            "td": "1,5 m"
+          },
+          {
+            "th": "Eleme yüzeyi",
+            "td": "21,2 m²"
+          },
+          {
+            "th": "Şebeke besleme gerilimi",
+            "td": "380±38 V"
+          },
+          {
+            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "td": "47,22 kW"
+          },
+          {
+            "th": "Servis personeli",
+            "td": "2 kişi"
+          },
+          {
+            "th": "Garanti çalışma süresi",
+            "td": "13 ay"
+          }
+        ]
+      },
+      {
+        "title": "MİR-D20",
+        "description": "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "info": [
+          "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 9,1m, genişlik 5m, yükseklik 7m'dir. Tahıl temizleme bölümünde - mekanik taşıma, öğütme ve kesimde - pnömatik."
+        ],
+        "text": [
+          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
+          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
+          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
+          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
+          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
+          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
+          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
+          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
+          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
+          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
+          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
+          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
+          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
+          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+        ],
+        "span": [
+          "Değirmenin teslimat seti şunları içerir:",
+          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
+          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+        ],
+        "li": [
+          [
+            "Tahıl hazırlama bölmesi,",
+            "Freze bölümü,",
+            "Tartı odası,",
+            "Kontrol sistemi",
+            "Yedek parça, aksesuar seti."
+          ],
+          [
+            "işlenmemiş tahılın hazneye alınması;",
+            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
+            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
+            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
+            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
+            "yoğun nemlendirme makinelerinde nemlendirme;",
+            "kapalı hava döngülü aspiratör",
+            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+          ],
+          [
+            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
+            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
+            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
+            "Tahıl temizleme bölümünün kurulması,",
+            "Freze bölümünün montajı,",
+            "Tartım bölümünün montajı,",
+            "Tartım bölmesinin ürün boru hatlarının montajı,",
+            "Hava kanallarının montajı,",
+            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
+            "Elektrikli ekipmanların montajı,",
+            "Kontrolör ağının iletişim hatlarının kurulumu,",
+            "Merkezi kontrol istasyonunun kurulumu,",
+            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
+            "Ünitelerin rölanti devrinde alıştırılması,",
+            "Eleklerin dengelenmesi,",
+            "Değirmenin yük altında çalıştırılması,",
+            "Yük altında eleğin dengelenmesi,",
+            "Yük altında teknolojik ayarlama,",
+            "Operasyon personeli ile brifingler düzenlemek,",
+            "Değirmenin devreye alınması."
+          ]
+        ],
+        "table": [
+          {
+            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
+            "td": "Günlük 20 ton"
+          },
+          {
+            "th": "Temel varyantta toplam un verimi, dahil:",
+            "td": "%75"
+          },
+          {
+            "th": "üst sınıf",
+            "td": "%50-55"
+          },
+          {
+            "th": "birinci sınıf",
+            "td": "%20-25"
+          },
+          {
+            "th": "ikinci sınıf",
+            "td": "%5"
+          },
+          {
+            "th": "Makara hattı uzunluğu",
+            "td": "1,92 m"
+          },
+          {
+            "th": "Eleme yüzeyi",
+            "td": "25,44 m²"
+          },
+          {
+            "th": "Şebeke besleme gerilimi",
+            "td": "380±38 V"
+          },
+          {
+            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "td": "56,72 kW"
+          },
+          {
+            "th": "Servis personeli",
+            "td": "2 kişi"
+          },
+          {
+            "th": "Garanti çalışma süresi",
+            "td": "13 ay"
+          }
+        ]
+      },
+      {
+        "title": "MİR-D25",
+        "description": "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "info": [
+          "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 10.6m, genişlik 5m, yükseklik 7m'dir."
+        ],
+        "text": [
+          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
+          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
+          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
+          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
+          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
+          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
+          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
+          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
+          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
+          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
+          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
+          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
+          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
+          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
+          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+        ],
+        "span": [
+          "Değirmenin teslimat seti şunları içerir:",
+          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
+          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+        ],
+        "li": [
+          [
+            "Tahıl hazırlama bölmesi,",
+            "Freze bölümü,",
+            "Tartı odası,",
+            "Kontrol sistemi",
+            "Yedek parça, aksesuar seti."
+          ],
+          [
+            "işlenmemiş tahılın hazneye alınması;",
+            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
+            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
+            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
+            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
+            "yoğun nemlendirme makinelerinde nemlendirme;",
+            "kapalı hava döngülü aspiratör",
+            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+          ],
+          [
+            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
+            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
+            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
+            "Tahıl temizleme bölümünün kurulması,",
+            "Freze bölümünün montajı,",
+            "Tartım bölümünün montajı,",
+            "Tartım bölmesinin ürün boru hatlarının montajı,",
+            "Hava kanallarının montajı,",
+            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
+            "Elektrikli ekipmanların montajı,",
+            "Kontrolör ağının iletişim hatlarının kurulumu,",
+            "Merkezi kontrol istasyonunun kurulumu,",
+            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
+            "Ünitelerin rölanti devrinde alıştırılması,",
+            "Eleklerin dengelenmesi,",
+            "Değirmenin yük altında çalıştırılması,",
+            "Yük altında eleğin dengelenmesi,",
+            "Yük altında teknolojik ayarlama,",
+            "Operasyon personeli ile brifingler düzenlemek,",
+            "Değirmenin devreye alınması."
+          ]
+        ],
+        "table": [
+          {
+            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
+            "td": "Günlük 25 ton"
+          },
+          {
+            "th": "Temel varyantta toplam un verimi, dahil:",
+            "td": "%75"
+          },
+          {
+            "th": "üst sınıf",
+            "td": "%50-55"
+          },
+          {
+            "th": "birinci sınıf",
+            "td": "%20-25"
+          },
+          {
+            "th": "ikinci sınıf",
+            "td": "%5"
+          },
+          {
+            "th": "Makara hattı uzunluğu",
+            "td": "2,4 m"
+          },
+          {
+            "th": "Eleme yüzeyi",
+            "td": "32  m²"
+          },
+          {
+            "th": "Şebeke besleme gerilimi",
+            "td": "380±38 V"
+          },
+          {
+            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "td": "65,22 kW"
+          },
+          {
+            "th": "Servis personeli",
+            "td": "2 kişi"
+          },
+          {
+            "th": "Garanti çalışma süresi",
+            "td": "13 ay"
+          }
+        ]
+      },
+      {
+        "title": "Otomasyon",
+        "description": "SmartWire-Darwin, bir otomasyon sisteminin oluşturulmasını basitleştirir ve hızlandırır, her cihazın hem otomatik hem de ayrı ayrı kontrol edilmesini sağlar",
+        "info": [
+          "Şirketimiz endüstriyel otomasyon alanında hazır çözümlerin geliştiricisi ve üreticisidir. Otomatik bir proses kontrol sisteminin inşası, anahtarlama cihazlarının bağlantısı için standart kablolama yerine yenilikçi SmartWire-Darwin veri yolu sistemi kullanılarak EATON otomasyon ekipmanı temelinde planlanır, bu da otomasyon sisteminin oluşturulmasını önemli ölçüde basitleştirir ve hızlandırır, her bir cihazı hem otomatik modda hem de ayrı ayrı kontrol etmeye izin verir - ek anahtarlama cihazları kullanmadan genel çalışma döngüsünden (örneğin, onarım veya bakım) açmak ve çıkarmak için.",
+          "Darwin teknolojisi, tüm kontrol kabini geliştirme sürecini büyük ölçüde basitleştirerek tasarım ve kurulumdan devreye alma ve yükseltmeye kadar her adımda daha verimli hale getirir."
+        ],
+        "text": [
+          "Sistem, PLC uygulaması ve arayüzler için dahili işlemciye sahip XV serisi dokunmatik panele dayanmaktadır: Ethernet; SmartWire-DT; CAN; Profibus, RS485, RS232, bu cihazın herhangi bir endüstriyel ağa entegre edilmesine izin verir ve herhangi bir modern teknolojik ekipmanla bilgi alışverişi sağlar",
+          "Bugün, SmartWire-DT teknolojisi kontaktörleri ve motor yol vericileri ile izleme ve sinyalizasyon cihazlarını birbirine bağlamaktadır. Bir sonraki aşama görselleştirme bileşenlerinin, devre kesicilerin ve sürücülerin bağlantısını içermektedir. SmartWire-DT teknolojisi aynı zamanda diğer üreticilerin ek anahtarlama cihazlarını bağlamak için tasarlanmıştır ve bu nedenle tüm uygulamalar ve ortak şirketler için tasarlanmıştır.",
+          "Kurulu SmartWire-DT otomasyon sistemi yapısı itibariyle çok basittir, ancak aynı zamanda mümkün olduğunca esnek ve işlevseldir, “geleceğe dönüktür” - tam da her şirketin gelecekteki büyüme için ihtiyaç duyduğu şeydir. Minimum arıza süresi, yüksek güvenilirlik ve güvenlik, net çalışma modu, kolay genişletme - tüm bunlar üretimdeki teknolojik sürecin sürekliliğini sağlamaya ve verimliliğini artırmaya olanak tanır. SmartWire-DT otomasyon sistemi tarafından sağlanan güvenlik, otomasyonun başlıca faydalarından biridir: uygun sensörlerin kurulması, işyeri yaralanmalarının sayısını azaltır. Mesaj"
+        ],
+        "span": ["SmartWire-DT sisteminin avantajları:"],
+        "li": [
+          [
+            "SmartWire-DT teknolojisi standart ekipmanla çalışır. Bu, kutunun dışında düşünmeye gerek olmadığı anlamına gelir. Düşük maliyetli çözümler. Yüksek kullanılabilirlik. 1600A'e kadar tüm motorlar için tek bir sistem seçeneği.",
+            "Sistem tükenmez olanaklara sahiptir: SmartWire Darwin kullanılarak, herhangi bir kablolama sorunu olmadan ve geniş kurulum alanına ihtiyaç duyulmadan 99 adede kadar cihaz birbirine bağlanabilir. Bağlantı kablosu her zaman ağ geçidinden başlar ve veri yolu sonlandırmasında biter - 100 metre proje alanı.",
+            "Elemanlar bir düğmeye dokunarak kontrol edilir. Tüm emek yoğun adresleme süreci ortadan kaldırılmıştır. Operasyon için yeni özel beceriler gerekmez. Yeni otobüs sistemi için yeni bir yenilik gerekmez.",
+            "Çalışma süreci basit ve zaman kazandırıcıdır. Temel prensip: Kur ve Çalıştır. Çok büyük zaman tasarrufu. Sistem herhangi bir bağlantı hatası yapmadığı için sorun gidermeye gerek yoktur."
+          ]
+        ]
+      }
+    ]
+  },
+  "Info": {
+    "title": "Resimler"
+  },
+  "Contacts": {
+    "title": "Bizimle iletişime geçin!"
+  },
+  "Footer": {
+    "title": ["Ürünlerimiz", "İletişim bilgilerimiz", "Bize yazın"],
+    "form": ["Adınız", "Mesajınız"],
+    "button": "Gönder"
+  }
+}

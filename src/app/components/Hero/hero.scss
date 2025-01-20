@@ -14,6 +14,15 @@
     margin-bottom: rem(20);
   }
 
+  &__title2 {
+    @include fluid-text(30, 24);
+    margin-bottom: rem(20);
+  }
+
+  &__subtitle {
+    text-align: justify;
+  }
+
   &::before {
     content: "";
     position: absolute;

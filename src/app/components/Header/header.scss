@@ -47,6 +47,10 @@
 
       transition-duration: var(--transition-duration);
     }
+
+    .header__options {
+      background-color: transparent;
+    }
   }
 
   &.scroll:not(&--bg-light-brown) {
@@ -63,6 +67,14 @@
         background-image: url("/logo/logo-dark-hover.png");
       }
     }
+
+    .header__select {
+      color: var(--color-dark);
+    }
+
+    .header__options {
+      background-color: var(--color-light);
+    }
   }
 
   &--bg-light-brown {
@@ -75,6 +87,9 @@
       span::before {
         background-color: var(--color-light) !important;
       }
+    }
+    .header__options {
+      background-color: var(--color-light-brown) !important;
     }
   }
 
@@ -208,6 +223,50 @@
 
     &-logo {
       margin-top: rem(10);
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    column-gap: rem(10);
+  }
+
+  &__select {
+    position: relative;
+    color: var(--color-light);
+    padding-inline: rem(10);
+    cursor: pointer;
+
+    @include hover {
+      .header__options {
+        display: flex;
+      }
+    }
+  }
+
+  &__options {
+    display: none;
+    position: absolute;
+    top: rem(30);
+    left: 50%;
+    translate: -50%;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--color-light-brown);
+    cursor: default;
+
+    &.open {
+      display: flex;
+    }
+  }
+
+  &__option {
+    text-align: center;
+    width: 100%;
+
+    &.active {
+      background-color: var(--color-red);
     }
   }
 }

@@ -1,6 +1,11 @@
-export const menuItems = [
-  { title: "Главная", link: "/" },
-  { title: "Услуги", link: "/products" },
-  { title: "О нас", link: "/about" },
-  { title: "Контакты", link: "/contacts" },
-];
+import { useTranslations } from "next-intl";
+
+type TranslationFunction = ReturnType<typeof useTranslations>;
+export const getMenuItems = (t: TranslationFunction) => {
+  return [
+    { title: t.rich("main"), link: "/" },
+    { title: t.rich("products"), link: "/products" },
+    { title: t.rich("about"), link: "/about" },
+    { title: t.rich("contacts"), link: "/contacts" },
+  ];
+};

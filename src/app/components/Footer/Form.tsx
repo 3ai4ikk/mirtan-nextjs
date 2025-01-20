@@ -3,6 +3,7 @@
 import React from "react";
 import Form from "next/form";
 import { useForm } from "react-hook-form";
+import { useTranslations } from "next-intl";
 
 type FormData = {
   name: string;
@@ -26,6 +27,8 @@ const FormComponent = ({
     console.log(formData);
   };
 
+  const t = useTranslations("Footer");
+
   return (
     <Form
       onSubmit={handleSubmit(onSubmit)}
@@ -35,7 +38,7 @@ const FormComponent = ({
       <input
         type="text"
         className="form__input"
-        placeholder="Имя"
+        placeholder={t.raw("form")[0]}
         required
         {...register("name")}
       />
@@ -48,7 +51,7 @@ const FormComponent = ({
       />
       <textarea
         className="form__text-area"
-        placeholder="Тело письма"
+        placeholder={t.raw("form")[1]}
         required
         {...register("message")}
       ></textarea>
@@ -56,7 +59,7 @@ const FormComponent = ({
         className="form__button button button--animation"
         disabled={isSubmitting}
       >
-        Отправить
+        {t("button")}
       </button>
     </Form>
   );

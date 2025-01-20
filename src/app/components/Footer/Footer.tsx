@@ -5,9 +5,15 @@ import FormComponent from "./FormComponent";
 import "./footer.scss";
 import "@/styles/components/button.scss";
 import "@/styles/components/form.scss";
-import { products } from "../products";
+import { getProductsItems } from "../products";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const tProducts = useTranslations("Products");
+  const tFooter = useTranslations("Footer");
+
+  const footerHeaders = tFooter.raw("title");
+
   return (
     <footer className="footer section">
       <div className="footer__inner container">
@@ -16,10 +22,10 @@ const Footer = () => {
         </div>
 
         <div className="footer__products">
-          <h4 className="footer__title">Наша продукция</h4>
+          <h4 className="footer__title">{footerHeaders[0]}</h4>
           <div className="footer__products-body">
             <ul className="footer__products-list">
-              {products.map(({ title, link }, index) => (
+              {getProductsItems(tProducts).map(({ title, link }, index) => (
                 <li className="footer__products-item" key={index}>
                   <Link className="footer__products-link" href={link}>
                     {title}
@@ -30,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__contacts">
-          <h4 className="footer__title">Наши контакты</h4>
+          <h4 className="footer__title">{footerHeaders[1]}</h4>
           <div className="footer__contacts-body">
             <div className="footer__contacts-address">
               <address>
@@ -65,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__form">
-          <h4 className="footer__title">Напишите нам</h4>
+          <h4 className="footer__title">{footerHeaders[2]}</h4>
           <FormComponent />
         </div>
       </div>

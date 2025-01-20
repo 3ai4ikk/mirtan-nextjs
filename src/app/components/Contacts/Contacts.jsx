@@ -2,13 +2,18 @@ import Link from "next/link";
 import React from "react";
 
 import "./contacts.scss";
+import { useLocale, useTranslations } from "next-intl";
 
 const ContactsMain = ({ className = "" }) => {
+  const t = useTranslations("Contacts");
+
+  const locale = useLocale();
+
   return (
     <section className={`contacts section ${className}`}>
       <div className="contacts__inner container">
         <div className="contacts__body">
-          <h3 className="contacts__title">Свяжитесь с нами!</h3>
+          <h3 className="contacts__title">{t("title")}</h3>
           <div className="contacts__info">
             <address className="contacts__info-address">
               Ova mahallesi 44346 sokak. <br />
@@ -41,7 +46,7 @@ const ContactsMain = ({ className = "" }) => {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.18107124717!2d35.258745076302574!3d36.98161085745176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1528864b7425175b%3A0xe07ff7cf75dd97f9!2sMirtan!5e0!3m2!1sru!2spl!4v1735910418872!5m2!1sru!2spl"
+          src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.18107124717!2d35.258745076302574!3d36.98161085745176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1528864b7425175b%3A0xe07ff7cf75dd97f9!2sMirtan!5e0!3m2!1s${locale}!2s${locale}!4v1735910418872!5m2!1s${locale}!2s${locale}`}
           width="600"
           height="450"
           style={{ border: 0 }}

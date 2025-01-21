@@ -12,14 +12,9 @@ const Header = () => {
   const [isClient, setIsClient] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  // const [isPending, startTransition] = useTransition();
-  // const [isOpen, setIsOpen] = useState(false);
-  // const [selectedOption, setSelectedOption] = useState(useLocale());
   const path = usePathname();
-  // const router = useRouter();
 
   const t = useTranslations("Header");
-  // const locale = useLocale();
 
   useEffect(() => {
     setIsClient(true);
@@ -43,22 +38,6 @@ const Header = () => {
   if (!isClient) return;
 
   const languagePrefix = path.split("/")[1];
-
-  // const handleChangeLang = () => {
-  //   const pathLocal = path.split("/").slice(2).join("/");
-  //   startTransition(() => {
-  //     router.replace(`/${locale}/${pathLocal}`);
-  //   });
-  // };
-
-  // const toggleDropdown = () => setIsOpen(!isOpen);
-
-  // const handleOptionClick = (value: string) => {
-  //   setSelectedOption(value);
-  //   setRequestLocale(value);
-  //   setIsOpen(false);
-  //   handleChangeLang();
-  // };
 
   return (
     <header
@@ -91,38 +70,7 @@ const Header = () => {
                 );
               })}
             </ul>
-            {/* <div
-              className={`header__select ${isPending && "pending"}`}
-              onClick={toggleDropdown}
-            >
-              {selectedOption.toUpperCase()}
-              <div className={`header__options ${isOpen ? "open" : ""}`}>
-                <span
-                  className={`header__option ${
-                    selectedOption === "tr" ? "active" : ""
-                  }`}
-                  onClick={() => handleOptionClick("tr")}
-                >
-                  TR
-                </span>
-                <span
-                  className={`header__option ${
-                    selectedOption === "en" ? "active" : ""
-                  }`}
-                  onClick={() => handleOptionClick("en")}
-                >
-                  EN
-                </span>
-                <span
-                  className={`header__option ${
-                    selectedOption === "ru" ? "active" : ""
-                  }`}
-                  onClick={() => handleOptionClick("ru")}
-                >
-                  RU
-                </span>
-              </div>
-            </div> */}
+            {/* <LangSwitcher /> */}
           </nav>
         )}
         {isMobile && <HeaderBurgerMenu />}

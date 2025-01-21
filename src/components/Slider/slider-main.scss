@@ -1,6 +1,6 @@
-@use "@/styles/helpers" as *;
+@use "@/app/styles/helpers" as *;
 
-.slider-products {
+.slider {
   width: 100%;
   height: auto;
   padding-block: rem(80);
@@ -9,23 +9,26 @@
 
   transition-duration: var(--transition-duration);
 
-  @include tablet {
-    padding-block: rem(40);
-  }
-
   &__wrapper {
     transition-duration: var(--transition-duration);
+    // height: rem(550);
   }
 
   &__slide {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: scale var(--transition-duration) ease;
+
+    &-active {
+      transition-duration: var(--transition-duration);
+      scale: 1.2;
+    }
 
     img {
       transition-duration: var(--transition-duration);
       display: block;
-      width: rem(600);
+      width: rem(800);
       height: auto;
       object-fit: cover;
     }

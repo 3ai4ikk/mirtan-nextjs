@@ -3,8 +3,8 @@ import React from "react";
 import FormComponent from "./FormComponent";
 
 import "./footer.scss";
-import "@/styles/components/button.scss";
-import "@/styles/components/form.scss";
+import "@/app/styles/components/button.scss";
+import "@/app/styles/components/form.scss";
 import { getProductsItems } from "../products";
 import { useTranslations } from "next-intl";
 

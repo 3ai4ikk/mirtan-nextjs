@@ -15,6 +15,8 @@ const HeaderBurgerMenu = () => {
 
   const [isActive, setIsActive] = useState(false);
 
+  const languagePrefix = path.split("/")[1];
+
   const buttonClick = () => {
     setIsActive(!isActive);
     document.documentElement.classList.toggle("is-active");
@@ -33,19 +35,26 @@ const HeaderBurgerMenu = () => {
       <div className={`header__overlay ${isActive ? "is-active" : ""}`}>
         <nav className="header__overlay-nav">
           <ul className="header__overlay-list">
-            {getMenuItems(t).map(({ title, link }, index) => (
-              <li key={index} className="header__navigation-item">
-                <Link
-                  href={link}
-                  className={`header__navigation-link ${
-                    link === "/" + path.split("/")[1] ? "is-active" : ""
-                  }`}
-                  onClick={buttonClick}
-                >
-                  {title}
-                </Link>
-              </li>
-            ))}
+            {getMenuItems(t).map(({ title, link }, index) => {
+              const fullLink = `/${languagePrefix}${link}`;
+              const isActive =
+                (link === "/" && path === `/${languagePrefix}`) ||
+                path === fullLink ||
+                path.startsWith(fullLink + "/");
+              return (
+                <li key={index} className="header__navigation-item">
+                  <Link
+                    href={link}
+                    className={`header__navigation-link ${
+                      isActive ? "is-active" : ""
+                    }`}
+                    onClick={buttonClick}
+                  >
+                    {title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       </div>

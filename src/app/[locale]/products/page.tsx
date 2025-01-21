@@ -1,7 +1,7 @@
 import React from "react";
-import Product from "../../components/Products/Product";
+import Product from "../../../components/Products/Product";
 
-import { getProductsItems } from "../../components/products";
+import { getProductsItems } from "../../../components/products";
 
 import "@/components/Products/products.scss";
 import "./products.scss";

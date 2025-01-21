@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Roboto, Assistant } from "next/font/google";
-import "@/globals.scss";
+import "@/app/globals.scss";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import { Locale, routing } from "../../i18n/routing";
+import { Locale, routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 
 import { NextIntlClientProvider } from "next-intl";

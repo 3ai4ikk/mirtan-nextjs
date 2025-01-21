@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import "./products.scss";
 
 const Product = ({ title, link, imageUrl, description }) => {
+  const t = useTranslations("Products");
+
   return (
     <div className="products__card">
       <Image
@@ -20,7 +23,7 @@ const Product = ({ title, link, imageUrl, description }) => {
             <p>{description}</p>
           </div>
           <button className="products__card-button button button--bg-red button--animation-up visible-tablet">
-            Подробнее
+            {t("button")}
           </button>
         </div>
       </Link>

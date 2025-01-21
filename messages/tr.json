@@ -23,6 +23,7 @@
   },
   "Products": {
     "title": ["Ürünlerimiz", "Komple değirmenler", "Endüstriyel Otomasyon"],
+    "button": "daha fazla detay",
     "info": "Fazla bilgi",
     "product": [
       {
@@ -34,7 +35,7 @@
         ]
       },
       {
-        "title": "Öğütme makinesi",
+        "title": "Kepek fIrçasI",
         "description": "Öğütme makinesi, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır",
         "info": [
           "Öğütme makinesi, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır."
@@ -384,7 +385,7 @@
         ]
       },
       {
-        "title": "ELEK MAKİNESİ",
+        "title": "Irmik sasörü",
         "description": "Eleme makinası, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır",
         "info": [
           "Elemelerde ayıklama sonucunda, büyüklükleri aynı, ancak kabuk ve çekirdek oranları farklı olan tahıl ürünleri fraksiyonları elde edilir. Eleme makinası, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır. Genellikle tahıl değirmenlerinde kullanılmakla birlikte, kuru, dökme ve yapışkan olmayan malzemelerin ayrıştırılmasında diğer endüstrilerde de kullanılabilir."

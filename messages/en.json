@@ -23,6 +23,7 @@
   },
   "Products": {
     "title": ["Our products", "Complete mills", "Industrial automation"],
+    "button": "more details",
     "info": "Additional information",
     "product": [
       {
@@ -502,50 +503,50 @@
         ]
       },
       {
-        "title": "Щеточно-бичевая машина",
-        "description": "Щеточно-бичевая машина  это технологически улучшенный аналог обоечной машины с более высокой степенью очистки поверхности зерна",
+        "title": "Fırçalama çırpma makinesi",
+        "description": "Fırça çırpma makinesi, daha yüksek derecede tahıl yüzeyi temizleme özelliğine sahip, teknolojik olarak geliştirilmiş bir bombardıman makinesi analoğudur.",
         "info": [
-          "Щеточно-бичевая машина  это технологически улучшенный аналог обоечной машины с более высокой степенью очистки поверхности зерна. За счет эффективной конструкции подвижной роторной части, точно подобранных кинематических характеристик, степени шероховатости поверхности сита, щеточно-бичевая машина прекрасно очищает зерно не только от мелких примесей и грязи на поверхности зерновки, но и шлифует поверхность оболочки, удаляет бородки, надорванные частицы оболочки, пыль в бороздках. Это значительно повышает белизну муки и избавляет ее от ненужных вкраплений и серого фона.",
-          "При этом оболочка зерна в целом не травмируется и имеет после помола товарный вид в виде привычных отрубей, что не свойственно при использовании машин глубокой очистки зерна таких как шелушильно-шлифовальная машина и дебрандер."
+          "Fırça çırpma makinesi, daha yüksek derecede tahıl yüzeyi temizleme özelliğine sahip, teknolojik olarak geliştirilmiş bir bombardıman makinesi analoğudur. Hareketli rotor parçasının etkili tasarımı, hassas seçilmiş kinematik özellikleri, elek yüzeyinin pürüzlülük derecesi nedeniyle, fırça çırpma makinesi tahılı sadece tahıl yüzeyindeki küçük kirliliklerden ve kirden mükemmel bir şekilde temizlemekle kalmaz, aynı zamanda kabuğun yüzeyini de taşlar, çapakları, yırtılmış kabuk parçacıklarını, oluklardaki tozu giderir. Bu, unun beyazlığını önemli ölçüde artırır ve gereksiz benekleri ve gri arka planları ortadan kaldırır.",
+          "Bu durumda, tahıl kabuğu travmatize olmaz ve kabuk soyma ve öğütme makinesi ve debrander gibi derin tahıl temizleme makinelerinin karakteristiği olmayan tanıdık kepek şeklinde öğütüldükten sonra pazarlanabilir bir görünüme sahip olur."
         ],
         "table": [
           {
-            "th": "Производительность техническая, т/ч",
+            "th": "Teknik performans, ton/saat",
             "td": "1,5 - 2"
           },
           {
-            "th": "Установленная мощность, кВт, не более",
+            "th": "Kurulu güç, kw, en fazla değil",
             "td": "1,1"
           },
           {
-            "th": "Снижение зольности зерна при однократном пропуске через машину, % (для пшеницы)",
+            "th": "Makineden tek bir geçişte tane kül içeriğinin azaltılması, % (buğday için)",
             "td": "0,04 ÷ 0,06"
           },
           {
-            "th": "Содержание битого зерна, %, не более (для пшеницы)",
+            "th": "Kırık dane içeriği, %, daha fazla değil (buğday için)",
             "td": "1,0"
           },
           {
-            "th": "Частота вращения ротора, об/мин, не менее",
+            "th": "Rotor hızı, rpm, en az",
             "td": "940"
           },
           {
-            "th": "Масса, кг, не более",
+            "th": "Ağırlık, kg, daha fazla değil",
             "td": "114"
           },
           {
-            "th": "Габаритные размеры, мм, не более:"
+            "th": "Genel boyutlar, mm, daha fazla değil:"
           },
           {
-            "th": "Длина",
+            "th": "Uzunluk",
             "td": "1511"
           },
           {
-            "th": "Ширина",
+            "th": "Genişlik (elektrikli tahrik ve ara silindir şanzımanı olmadan)",
             "td": "466"
           },
           {
-            "th": "Высота",
+            "th": "Yükseklik",
             "td": "618"
           }
         ]

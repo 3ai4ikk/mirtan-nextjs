@@ -1,4 +1,4 @@
-@use "@/styles/helpers" as *;
+@use "@/app/styles/helpers" as *;
 
 .header {
   position: fixed;
@@ -238,10 +238,8 @@
     padding-inline: rem(10);
     cursor: pointer;
 
-    @include hover {
-      .header__options {
-        display: flex;
-      }
+    &.pending {
+      cursor: progress;
     }
   }
 

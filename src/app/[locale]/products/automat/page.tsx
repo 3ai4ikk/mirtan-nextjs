@@ -3,10 +3,10 @@ import Image from "next/image";
 import image from "./images/1.jpg";
 import { useTranslations } from "next-intl";
 
-import "@/components/Slider/SliderProducts";
+import "../../../../components/Slider/SliderProducts";
 
-import "@/styles/products/products-item.scss";
-import "@/styles/components/table.scss";
+import "@/app/styles/products/products-item.scss";
+import "@/app/styles/components/table.scss";
 
 const Automat = () => {
   const t = useTranslations("Products");

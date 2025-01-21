@@ -5,8 +5,8 @@ import { useTranslations } from "next-intl";
 
 import "@/components/Slider/SliderProducts";
 
-import "@/styles/products/products-item.scss";
-import "@/styles/components/table.scss";
+import "@/app/styles/products/products-item.scss";
+import "@/app/styles/components/table.scss";
 
 const Mir15 = () => {
   const t = useTranslations("Products");

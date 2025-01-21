@@ -1,12 +1,12 @@
 import React from "react";
 
-import Slider from "@/components/Slider/SliderProducts";
+import Slider from "../../../../components/Slider/SliderProducts";
 
-import "@/components/Slider/SliderProducts";
+import "../../../../components/Slider/SliderProducts";
 
 import { images } from "./images/images";
 
-import "@/styles/products/products-item.scss";
+import "@/app/styles/products/products-item.scss";
 import { useTranslations } from "next-intl";
 
 const MillstoneMill = () => {

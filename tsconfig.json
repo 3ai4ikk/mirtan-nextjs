@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/app/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
@@ -27,8 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/components/Products/ProductsMain.jsx",
-    "src/app/components/Contacts/Contacts.jsx"
+    "src/components/Products/ProductsMain.jsx",
+    "src/components/Contacts/Contacts.jsx"
   ],
   "exclude": ["node_modules"]
 }

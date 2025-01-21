@@ -36,7 +36,7 @@
       },
       {
         "title": "Kepek fIrçasI",
-        "description": "Öğütme makinesi, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır",
+        "description": "Kepek fIrçasI, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır",
         "info": [
           "Öğütme makinesi, un üretiminde çekirdek parçacıklarını kabuklardan ayırmak için tasarlanmıştır."
         ],
@@ -386,12 +386,12 @@
       },
       {
         "title": "Irmik sasörü",
-        "description": "Eleme makinası, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır",
+        "description": "Irmik sasörü, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır",
         "info": [
           "Elemelerde ayıklama sonucunda, büyüklükleri aynı, ancak kabuk ve çekirdek oranları farklı olan tahıl ürünleri fraksiyonları elde edilir. Eleme makinası, tane ve un gibi çeşitli dökme malzemelerin, elekler ve hava akımı vasıtasıyla, boyutlarına ve parçacıkların aerodinamik özelliklerine bağlı olarak zenginleştirilmesi ve sınıflandırılması için tasarlanmıştır. Genellikle tahıl değirmenlerinde kullanılmakla birlikte, kuru, dökme ve yapışkan olmayan malzemelerin ayrıştırılmasında diğer endüstrilerde de kullanılabilir."
         ],
         "text": [
-          "Makinede ürünlerin ayrıştırılması ve zenginleştirilmesine yönelik teknolojik işlem, elek gövdesinin ileri geri hareketi sırasında ürünün elekler boyunca hareketi ile yükselen hava akımının etkileşimi sonucu gerçekleşir. Hava, elek altı boşluğundan girer ve yükselen bir akışla iki kat elek arasından geçerek aspirasyon şebekesine boşaltılır. Ürün tabakası hava ile gevşetildikçe, en yüksek yoğunluğa sahip parçacıklar aşağıya doğru hareket eder ve eleklerden elenirken, en düşük yoğunluğa sahip ve en pürüzlü parçacıklar ürünün en üst tabakasına hareket eder ve iniş yönünde hareket eder. . Kabukların en hafif parçacıkları hava akımıyla taşınır. Ürün bu şekilde tasnif edilip zenginleştiriliyor."
+          "Makinede ürünlerin ayrıştırılması ve zenginleştirilmesine yönelik teknolojik işlem, elek gövdesinin ileri geri hareketi sırasında ürünün elekler boyunca hareketi ile yükselen hava akımının etkileşimi sonucu gerçekleşir. Hava, elek altı boşluğundan girer ve yükselen bir akışla iki kat elek arasından geçerek aspirasyon şebekesine boşaltılır. Ürün tabakası hava ile gevşetildikçe, en yüksek yoğunluğa sahip parçacıklar aşağıya doğru hareket eder ve eleklerden elenirken, en düşük yoğunluğa sahip ve en pürüzlü parçacıklar ürünün en üst tabakasına hareket eder ve iniş yönünde hareket eder. Kabukların en hafif parçacıkları hava akımıyla taşınır. Ürün bu şekilde tasnif edilip zenginleştiriliyor."
         ],
         "table": [
           {

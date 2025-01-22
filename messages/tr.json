@@ -926,7 +926,7 @@
   },
   "Footer": {
     "title": ["Ürünlerimiz", "İletişim bilgilerimiz", "Bize yazın"],
-    "form": ["Adınız", "Mesajınız"],
+    "form": ["Adınız", "Mesajınız", "Mesaj başarıyla iletildi"],
     "button": "Gönder"
   }
 }

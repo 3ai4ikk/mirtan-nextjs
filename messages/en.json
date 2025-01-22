@@ -929,7 +929,7 @@
   },
   "Footer": {
     "title": ["Our products", "Our contact details", "Contacts us"],
-    "form": ["Name", "Message"],
+    "form": ["Name", "Message", "The message was delivered successfully"],
     "button": "Send"
   }
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Form from "next/form";
 import { useForm } from "react-hook-form";
 import { useTranslations } from "next-intl";
@@ -18,13 +18,21 @@ const FormComponent = ({
 }) => {
   const {
     register,
+    reset,
     handleSubmit,
     formState: { isSubmitting },
   } = useForm<FormData>();
 
+  const [success, setSuccess] = useState(false);
+
   const onSubmit = async (formData: FormData) => {
     sendMail(formData);
-    console.log(formData);
+    reset();
+    setSuccess(true);
+
+    setTimeout(() => {
+      setSuccess(false);
+    }, 3000);
   };
 
   const t = useTranslations("Footer");
@@ -61,6 +69,10 @@ const FormComponent = ({
       >
         {t("button")}
       </button>
+
+      <div className={`form__announcement ${success ? "active" : ""}`}>
+        {t.raw("form")[2]}
+      </div>
     </Form>
   );
 };

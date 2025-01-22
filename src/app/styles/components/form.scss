@@ -40,4 +40,23 @@
       }
     }
   }
+
+  &__announcement {
+    color: var(--color-light);
+    background-color: var(--color-red);
+    padding: rem(10);
+    position: fixed;
+    right: rem(10);
+    bottom: rem(10);
+
+    border-radius: rem(10);
+
+    translate: 0 rem(100);
+
+    transition: translate 0.3s ease-in-out;
+
+    &.active {
+      translate: 0;
+    }
+  }
 }

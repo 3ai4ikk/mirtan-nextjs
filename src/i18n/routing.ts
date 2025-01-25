@@ -4,14 +4,6 @@ import { createNavigation } from "next-intl/navigation";
 export const routing = defineRouting({
   locales: ["tr", "en", "ru"],
   defaultLocale: "tr",
-  // pathnames: {
-  //   "/": "/",
-  // "/pathnames": {
-  //   tr: "/pathnames",
-  //   en: "/pathnames",
-  //   ru: "/pathnames",
-  // },
-  // },
 });
 
 // export type Pathnames = keyof typeof routing.pathnames;

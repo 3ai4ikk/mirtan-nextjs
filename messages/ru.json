@@ -556,371 +556,383 @@
       },
       {
         "title": "MİR-D15",
-        "description": "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "description": "Комплектная мельница MİR-D15 (в дальнейшем \"мельница\") предназначена для помола зерна пшеницы базовых кондиций и получения хлебопекарской муки",
         "info": [
-          "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 7,55m, genişlik 5m, yükseklik 7m."
+          "Комплектная мельница MİR-D15 (в дальнейшем \"мельница\") предназначена для помола зерна пшеницы базовых кондиций и получения хлебопекарской муки. Базовый вариант мельницы вырабатывает муку трех сортов: высшего, первого и второго. Отбор манной крупы не предусмотрен. Габаритные размеры мельницы длинна 7,55м, ширина 5м, высота 7м."
         ],
         "text": [
-          "Değirmen, bitmiş ürünlerin hazırlanması, tahıl öğütülmesi, dozajlanması ve örneklenmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahılın taşınması mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek - pnömatik taşıma ile gerçekleştirilir.",
-          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
-          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
-          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım dozajlayıcıları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrolörlerinin ayarları değiştirilerek değiştirilebilir. Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur).",
-          "Hazır öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
-          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
-          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c - %50-55, 1c - %20-25 ve 2c - %5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
-          "Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
-          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
-          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
-          "Kontrol sistemi Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve sabitlemek için tasarlanmıştır. Kurulu motorların toplam gücü 47,22 kW'tır.",
-          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir.",
-          "Değirmen, yüksekte çalışma yetkisi olan ve montaj sırasında montaj ve güvenlik kuralları konusunda eğitilmiş kişiler tarafından monte edilmelidir.",
-          "Valslerin yeniden şekillendirme arasındaki aşınma direnci, tahıl öğütme teknolojik sürecine uyulması koşuluyla, 3 aydan az değildir. Valslerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca servis edilebilirliklerini sağlar.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "Мельница включает в себя комплект оборудования для подготовки, размола зерна, дозирования и выбоя готовых продуктов, а также необходимое электрическое и вспомогательное оборудование. Перемещение зерна осуществляется механическим и пневматическим транспортом, промежуточных и окончательных продуктов и отрубей - пневматическим транспортом.",
+          "*По желанию заказчика комплект поставки мельницы может изменяться.",
+          "Принцип работы мельницы заключается в последовательной очистке, двойном увлажнении и отволаживании зерна, размоле, просеивании и разделении на конечные продукты: муку высшего, первого, второго сорта и отруби.",
+          "Зерно проходит очистку, увлажнение и отволаживание. Затем производится доработка поверхности зерна, доувлажнение и отволаживание. Подготовленное зерно отправляется на помол в размольное отделение. Размол зерна осуществляется в шести вальцевых станках с длинной вальцев 250мм и диаметром 250мм. Общий выход в базовом варианте – 75%. Муки в/с – 50-55%, 1с – 20-25% и 2с – 5% (в зависимости от исходного сырья). Размольное отделение укомплектовано пакетным рассевом с технологической схемой заказываемой Заказчиком сортности помола. Также можно изменять, и проценты выходов по каждому сорту по желанию Заказчика, и по условиям качества исходного зерна. ",
+          "Далее конечные продукты транспортируются в весовыбойное отделение. Мука дозируется весовыми дозаторами и расфасовывается в тканевые мешки по ГОСТ 19317-73 длиной 1042см и шириной 53+1см. По умолчанию в мешки выбивается доза в 50кг. Значение выбиваемой дозы может быть изменено настройками контроллеров весовых дозаторов.",
+          "Зерно на мельницу принимается в приемный бункер, откуда норией подаётся в зерноочистку (приемного отделения и нории в базовом варианте не предусматривается). В приемный бункер подается готовая помольная смесь. При желании заказчика за дополнительную плату, возможно, укомплектовать мельницу приемным отделением с возможностью формирования помольных смесей. Емкость силосов такого отделения может варьироваться от 25 до 120т.",
+          "Зерноочистительное отделение представляет собой комплект зерноочистительного, подготовительного, транспортного, аспирационного и вспомогательного оборудования.",
+          "Зерно внутри отделения перемещается механическим транспортом. Зерноочистительные машины подключены к системам аспирации.",
+          "Размольное отделение представляет собой комплект размольного, просеивающего, транспортного и электрооборудования, предназначенного для переработки зерна в муку высшего и первого сортов. Размол зерна осуществляется в шести вальцевых станках с длинной вальцев 250мм и диаметром 250мм. Общий выход в базовом варианте – 75%. Муки в/с – 50-55%, 1с – 20-25% и 2с – 5% (в зависимости от исходного сырья). Размольное отделение укомплектовано пакетным рассевом с технологической схемой заказываемой Заказчиком сортности помола. Также можно изменять и проценты выходов по каждому сорту по желанию Заказчика и по условиям качества исходного зерна.",
+          "Промежуточные продукты внутри отделения транспортируются собственной пневмотранспортной системой. Выбойные бункера представляют собой накопители емкостью по 100кг каждый. В нижней части мучных бункеров имеется шнек и выбойный патрубок на стандартный мешок (50кг). Выбойное отделение укомплектовано весовыми дозаторами для муки 1 и высшего сортов. Отруби и второй сорт без взвешивания затариваются в стандартные мешки.",
+          "Весовыбойное отделение представляет собой комплект оборудования для сбора, дозирования, затаривания готовых продуктов в мешки и транспортировки мешков за пределы рабочей зоны. Дозаторы дозируют муку первого, высшего и второго сорта.",
+          "Система аспирации предназначена для поддержания в машинах, механизмах и емкостях хранения зерна и готовой продукции концентрации пыли не остаточной для возникновения условий возгорания и взрыва, также создания разряжения внутри машин, механизмов и емкостей с целью недопущения попадания пыли в производственное помещение.",
+          "Мельница оборудована системой автоматического управления (АСУ). АСУ  предназначена для управления включением и выключением отделений, узлов и транспортных устройств, контроля состояния технологической цепочки оборудования и обеспечения взаимных блокировок машин, контроля и фиксации режимов работы отдельных узлов и агрегатов мельницы. Суммарная мощность установленных двигателей 47,22 кВт.",
+          "Монтаж мельницы производится на предприятии-потребителе силами завода-изготовителя либо под руководством представителей предприятия-изготовителя. Монтаж осуществляется на договорной основе в здании класса В-IIа, соответствующем СНИП 2.1005-85 \"Предприятия, здания и сооружения по хранению и переработке зерна\" при наличии лицензии на право выполнения этих работ, а также разрешения органов Госнадзора за охраной труда на проведение этих работ при наличии проекта. Введение в эксплуатацию мельницы собственными силами без разрешения органов Госнадзора за охраной труда запрещено.",
+          "К монтажу мельницы должны быть допущены лица, имеющие допуск на выполнение работ на высоте, прошедшие инструктаж по правилам ведения монтажа и техники безопасности при монтаже.",
+          "Монтаж должен производиться в соответствии с требованиями ГОСТ 24444-87 \"Оборудование технологическое. Общие требования монтажной технологичности\".",
+          "Износостойкость вальцов между перенарезками при условии соблюдения технологического процесса помола зерна составляет не менее 3-х месяцев. Глубина отбеленного (рабочего) слоя вальцов обеспечивает их работоспособность в период гарантийного срока с учетом перенарезок."
         ],
         "span": [
-          "Değirmenin teslimat seti şunları içerir:",
-          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
-          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+          "В комплект поставки мельницы входят:",
+          "Зерно в отделении проходит следующую последовательность операций:",
+          "Монтаж осуществляется в следующей последовательности:"
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Öğütme bölmesi,",
-            "Tartım bölmesi",
-            "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Зерноподготовительное отделение",
+            "Размольное отделение",
+            "Весовыбойное отделение",
+            "Система управления",
+            "Комплект запасных частей, принадлежностей"
           ],
           [
-            "işlenmemiş tahılın hazneye alınması;",
-            "Tahılın yuva ile beslenmesi ve değirmene yerçekimi ile taşınması;",
-            "Elek ayırıcıda tahılın boyut ve aerodinamik özellikleri bakımından ana tahıldan farklı olan safsızlıklardan temizlenmesi;",
-            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
-            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
-            "yoğun nemlendirme makinelerinde nemlendirme;",
-            "kapalı hava döngülü aspiratör",
-            "Bölümde, değirmenin sürekli çalışmasında 24 saat boyunca kabuksuzlaştırma sağlayan iki hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından yeniden nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+            "прием в бункер неочищенного зерна;",
+            "подача зерна норией и самотечным транспортом в ЗО;",
+            "очистка зерна в ситовом сепараторе от примесей, отличающиеся от основного зерна размерами и аэродинамическими свойствами;",
+            "очистка зерна в барабанном триере от примеси, отличающейся от основного зерна длинной;",
+            "очистка поверхности зерна в обоечных машинах;",
+            "увлажнение на машинах интенсивного увлажнения;",
+            "аспиратор с замкнутым циклом воздуха;",
+            "В отделении установлено два бункера,  которые обеспечивают 24 часовое отволаживания при непрерывной работе мельницы. Отволоженное зерно вновь проходит очистку в обоечной машине и аспираторе, затем повторно увлажняется и направляется на второе отволаживание (в течение 20-30мин). Подготовленное таким образом зерно направляется в размольное отделение."
           ],
           [
-            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
-            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
-            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
-            "Tahıl temizleme bölümünün kurulması,",
-            "Freze bölümünün montajı,",
-            "Tartım bölümünün montajı,",
-            "Tartım bölmesinin ürün boru hatlarının montajı,",
-            "Hava kanallarının montajı,",
-            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
-            "Elektrikli ekipmanların montajı,",
-            "Kontrolör ağının iletişim hatlarının kurulumu,",
-            "Merkezi kontrol istasyonunun kurulumu,",
-            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
-            "Ünitelerin rölanti devrinde alıştırılması,",
-            "Eleklerin dengelenmesi,",
-            "Değirmenin yük altında çalıştırılması,",
-            "Yük altında eleğin dengelenmesi,",
-            "Yük altında teknolojik ayarlama,",
-            "Operasyon personeli ile brifingler düzenlemek,",
-            "Değirmenin devreye alınması."
+            "Разметка фундаментов отделений согласно планировке мельницы",
+            "Разметка и заливка фундаментов размольно-просеивающего и весовыбойного отделений с закладными элементами. Монтаж оборудования разрешается после полного отверждения бетона фундамента согласно строительных норм",
+            "Разупаковка транспортной тары и подготовка агрегатов и узлов к монтажу",
+            "Монтаж зерноочистительного отделения",
+            "Монтаж размольного отделения",
+            "Монтаж весовыбойного отделения",
+            "Монтаж продуктопроводов весовыбойного отделения",
+            "Монтаж воздуховодов",
+            "Монтаж пневмосистем блока аспирации и вентиляции",
+            "Монтаж электрооборудования",
+            "Монтаж линий связи контроллерной сети",
+            "Монтаж центрального поста управления",
+            "Проверка направления вращения электрооборудования",
+            "Проведение обкатки отделений на холостом ходу",
+            "Балансировка рассева",
+            "Пуск мельницы под нагрузкой",
+            "Балансировка рассева под нагрузкой",
+            "Технологическая настройка под нагрузкой",
+            "Проведение инструктажа с обслуживающим персоналом",
+            "Сдача мельницы в эксплуатацию."
           ]
         ],
         "table": [
           {
-            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
-            "td": "Günlük 15 ton"
+            "th": "Техническая производительность по зерну при помоле зерна базисных кондиций",
+            "td": "15 тонн в сутки"
           },
           {
-            "th": "Temel varyantta toplam un verimi, dahil:",
-            "td": "%75"
+            "th": "Общий выход муки в базовом варианте, в том числе: ",
+            "td": "75%"
           },
           {
-            "th": "üst sınıf",
-            "td": "%50-55"
+            "th": "высшего сорта",
+            "td": "50-55%"
           },
           {
-            "th": "birinci sınıf",
-            "td": "%20-25"
+            "th": "первого сорта",
+            "td": "20-25%"
           },
           {
-            "th": "ikinci sınıf",
-            "td": "%5"
+            "th": "второго сорта",
+            "td": "5%"
           },
           {
-            "th": "Makara hattı uzunluğu",
-            "td": "1,5 m"
+            "th": "Длинна вальцевой линии",
+            "td": "1,5м"
           },
           {
-            "th": "Eleme yüzeyi",
-            "td": "21,2 m²"
+            "th": "Просеивающая поверхность",
+            "td": "21,2м²"
           },
           {
-            "th": "Şebeke besleme gerilimi",
-            "td": "380±38 V"
+            "th": "Напряжение питания электрической сети",
+            "td": "380±38 В"
           },
           {
-            "th": "Kurulu elektrik motorlarının toplam gücü",
-            "td": "47,22 kW"
+            "th": "Суммарная мощность установленных электродвигателей",
+            "td": "47,22 кВт"
           },
           {
-            "th": "Servis personeli",
-            "td": "2 kişi"
+            "th": "Обслуживающий персонал",
+            "td": "2 чел"
           },
           {
-            "th": "Garanti çalışma süresi",
-            "td": "13 ay"
+            "th": "Гарантийный срок эксплуатации",
+            "td": "13 месяцев"
           }
         ]
       },
       {
         "title": "MİR-D20",
-        "description": "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "description": "Комплектная мельница MİR-D20 (в дальнейшем \"мельница\") предназначена для помола зерна пшеницы базовых кондиций и получения хлебопекарской муки. Базовый вариант мельницы вырабатывает муку трех сортов: высшего, первого и второго. Отбор манной крупы не предусмотрен",
         "info": [
-          "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 9,1m, genişlik 5m, yükseklik 7m'dir. Tahıl temizleme bölümünde - mekanik taşıma, öğütme ve kesimde - pnömatik."
+          "Комплектная мельница MİR-D20 (в дальнейшем \"мельница\") предназначена для помола зерна пшеницы базовых кондиций и получения хлебопекарской муки. Базовый вариант мельницы вырабатывает муку трех сортов: высшего, первого и второго. Отбор манной крупы не предусмотрен.",
+          "Габаритные размеры мельницы длинна 9,1м, ширина 5м, высота 7м. В зерноочистительном отделении - механический транспорт, в размольном и выбойном – пневматический."
         ],
         "text": [
-          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
-          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
-          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
-          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
-          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
-          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
-          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
-          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
-          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
-          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
-          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
-          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
-          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
-          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "Мельница включает в себя комплект оборудования для подготовки, размола зерна, дозирования и выбоя готовых продуктов, а также необходимое электрическое и вспомогательное оборудование. Перемещение зерна осуществляется механическим и пневматическим транспортом, промежуточных и окончательных продуктов и отрубей - пневматическим транспортом",
+          "*По желанию заказчика комплект поставки мельницы может изменяться.",
+          "Принцип работы мельницы заключается в последовательной очистке, двойном увлажнении и отволаживании зерна, размоле, просеивании и разделении на конечные продукты: муку высшего, первого, второго сорта и отруби.",
+          "Зерно проходит очистку, увлажнение и отволаживание. Затем производится доработка поверхности зерна, доувлажнение и отволаживание. Подготовленное зерно отправляется на помол в размольное отделение. Размол зерна осуществляется в шести вальцевых станках с длинной вальцев 320мм и диаметром 250мм. Общий выход в базовом варианте – 75%. Муки в/с – 50-55%, 1с – 20-25% и 2с – 5% (в зависимости от исходного сырья). Размольное отделение укомплектовано пакетным рассевом с технологической схемой заказываемой Заказчиком сортности помола. Также можно изменять, и проценты выходов по каждому сорту по желанию Заказчика, и по условиям качества исходного зерна.",
+          "Далее конечные продукты транспортируются в весовыбойное отделение. Мука дозируется весовыми дозаторами и расфасовывается в тканевые мешки по ГОСТ 19317-73 длиной 104,2см и шириной 53+1см. По умолчанию в мешки выбивается доза в 50кг. Значение выбиваемой дозы может быть изменено настройками контроллеров весовых дозаторов.",
+          "Зерно на мельницу принимается в приемный бункер, откуда норией подаётся в зерноочистку (приемного отделения и нории в базовом варианте не предусматривается). В приемный бункер подается готовая помольная смесь. При желании заказчика за дополнительную плату, возможно, укомплектовать мельницу приемным отделением с возможностью формирования помольных смесей. Емкость силосов такого отделения может варьироваться от 25 до 120т.",
+          "Зерноочистительное отделение представляет собой комплект зерноочистительного, подготовительного, транспортного, аспирационного и вспомогательного оборудования.",
+          "Зерно внутри отделения перемещается механическим транспортом. Зерноочистительные машины подключены к системам аспирации.",
+          "Размольное отделение представляет собой комплект размольного, просеивающего, транспортного и электрооборудования, предназначенного для переработки зерна в муку высшего и первого сортов. Размол зерна осуществляется в шести вальцевых станках с длинной вальцев 320мм и диаметром 250мм. Общий выход в базовом варианте – 75%. Муки в/с – 50-55%, 1с – 20-25% и 2с – 5% (в зависимости от исходного сырья). Размольное отделение укомплектовано пакетным рассевом с технологической схемой заказываемой Заказчиком сортности помола. Также можно изменять и проценты выходов по каждому сорту по желанию Заказчика и по условиям качества исходного зерна.",
+          "Промежуточные продукты внутри отделения транспортируются собственной пневмотранспортной системой. Выбойные бункера представляют собой накопители емкостью по 100кг каждый. В нижней части мучных бункеров имеется шнек и выбойный патрубок на стандартный мешок (50кг). Выбойное отделение укомплектовано весовыми дозаторами для муки 1 и высшего сортов. Отруби и второй сорт без взвешивания затариваются в стандартные мешки.",
+          "Весовыбойное отделение представляет собой комплект оборудования для сбора, дозирования, затаривания готовых продуктов в мешки и транспортировки мешков за пределы рабочей зоны. Дозаторы дозируют муку первого, высшего и второго сорта.",
+          "Система аспирации предназначена для поддержания в машинах, механизмах и емкостях хранения зерна и готовой продукции концентрации пыли не остаточной для возникновения условий возгорания и взрыва, также создания разряжения внутри машин, механизмов и емкостей с целью недопущения попадания пыли в производственное помещение.",
+          "Мельница оборудована системой автоматического управления (АСУ). АСУ  предназначена для управления включением и выключением отделений, узлов и транспортных устройств, контроля состояния технологической цепочки оборудования и обеспечения взаимных блокировок машин, контроля и фиксации режимов работы отдельных узлов и агрегатов мельницы. Суммарная мощность установленных двигателей 56,72 кВт.",
+          "Монтаж мельницы производится на предприятии-потребителе силами завода-изготовителя либо под руководством представителей предприятия-изготовителя. Монтаж осуществляется на договорной основе в здании класса В-IIа, соответствующем СНИП 2.1005-85 \"Предприятия, здания и сооружения по хранению и переработке зерна\" при наличии лицензии на право выполнения этих работ, а также разрешения органов Госнадзора за охраной труда на проведение этих работ при наличии проекта. Введение в эксплуатацию мельницы собственными силами без разрешения органов Госнадзора за охраной труда запрещено.",
+          "К монтажу мельницы должны быть допущены лица, имеющие допуск на выполнение работ на высоте, прошедшие инструктаж по правилам ведения монтажа и техники безопасности при монтаже.",
+          "Монтаж должен производиться в соответствии с требованиями ГОСТ 24444-87 \"Оборудование технологическое. Общие требования монтажной технологичности\".",
+          "Износостойкость вальцов между перенарезками при условии соблюдения технологического процесса помола зерна составляет не менее 3-х месяцев. Глубина отбеленного (рабочего) слоя вальцов обеспечивает их работоспособность в период гарантийного срока с учетом перенарезок."
         ],
         "span": [
-          "Değirmenin teslimat seti şunları içerir:",
-          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
-          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+          "В комплект поставки мельницы входят:",
+          "Зерно в отделении проходит следующую последовательность операций:",
+          "Монтаж осуществляется в следующей последовательности:"
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Freze bölümü,",
-            "Tartı odası,",
-            "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Зерноподготовительное отделение",
+            "Размольное отделение",
+            "Весовыбойное отделение",
+            "Система управления",
+            "Комплект запасных частей, принадлежностей  "
           ],
           [
-            "işlenmemiş tahılın hazneye alınması;",
-            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
-            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
-            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
-            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
-            "yoğun nemlendirme makinelerinde nemlendirme;",
-            "kapalı hava döngülü aspiratör",
-            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+            "прием в бункер неочищенного зерна;",
+            "подача зерна норией и самотечным транспортом в ЗО;",
+            "очистка зерна в ситовом сепараторе от примесей, отличающиеся от основного зерна размерами и аэродинамическими свойствами;",
+            "очистка зерна в барабанном триере от примеси, отличающейся от основного зерна длинной;",
+            "очистка поверхности зерна в обоечных машинах",
+            "увлажнение на машинах интенсивного увлажнения;",
+            "аспиратор с замкнутым циклом воздуха",
+            "В отделении установлено три бункера,  которые обеспечивают 24 часовое отволаживания при непрерывной работе мельницы. Отволоженное зерно вновь проходит очистку в обоечной машине и аспираторе, затем повторно увлажняется и направляется на второе отволаживание (в течение 20-30мин). Подготовленное таким образом зерно направляется в размольное отделение."
           ],
           [
-            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
-            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
-            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
-            "Tahıl temizleme bölümünün kurulması,",
-            "Freze bölümünün montajı,",
-            "Tartım bölümünün montajı,",
-            "Tartım bölmesinin ürün boru hatlarının montajı,",
-            "Hava kanallarının montajı,",
-            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
-            "Elektrikli ekipmanların montajı,",
-            "Kontrolör ağının iletişim hatlarının kurulumu,",
-            "Merkezi kontrol istasyonunun kurulumu,",
-            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
-            "Ünitelerin rölanti devrinde alıştırılması,",
-            "Eleklerin dengelenmesi,",
-            "Değirmenin yük altında çalıştırılması,",
-            "Yük altında eleğin dengelenmesi,",
-            "Yük altında teknolojik ayarlama,",
-            "Operasyon personeli ile brifingler düzenlemek,",
-            "Değirmenin devreye alınması."
+            "Разметка фундаментов отделений согласно планировке мельницы",
+            "Разметка и заливка фундаментов размольно-просеивающего и весовыбойного отделений с закладными элементами. Монтаж оборудования разрешается после полного отверждения бетона фундамента согласно строительных норм",
+            "Разупаковка транспортной тары и подготовка агрегатов и узлов к монтажу",
+            "Монтаж зерноочистительного отделения",
+            "Монтаж размольного отделения",
+            "Монтаж весовыбойного отделения",
+            "Монтаж продуктопроводов весовыбойного отделения",
+            "Монтаж воздуховодов",
+            "Монтаж пневмосистем блока аспирации и вентиляции",
+            "Монтаж электрооборудования",
+            "Монтаж линий связи контроллерной сети",
+            "Монтаж центрального поста управления",
+            "Проверка направления вращения электрооборудования",
+            "Проведение обкатки отделений на холостом ходу",
+            "Балансировка рассева",
+            "Пуск мельницы под нагрузкой",
+            "Балансировка рассева под нагрузкой",
+            "Технологическая настройка под нагрузкой",
+            "Проведение инструктажа с обслуживающим персоналом",
+            "Сдача мельницы в эксплуатацию."
           ]
         ],
         "table": [
           {
-            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
-            "td": "Günlük 20 ton"
+            "th": "Техническая производительность по зерну при помоле зерна базисных кондиций",
+            "td": "20 тонн в сутки"
           },
           {
-            "th": "Temel varyantta toplam un verimi, dahil:",
-            "td": "%75"
+            "th": "Общий выход муки в базовом варианте, в том числе: ",
+            "td": "75%"
           },
           {
-            "th": "üst sınıf",
-            "td": "%50-55"
+            "th": "высшего сорта",
+            "td": "50-55%"
           },
           {
-            "th": "birinci sınıf",
-            "td": "%20-25"
+            "th": "первого сорта",
+            "td": "20-25%"
           },
           {
-            "th": "ikinci sınıf",
-            "td": "%5"
+            "th": "второго сорта",
+            "td": "5%"
           },
           {
-            "th": "Makara hattı uzunluğu",
-            "td": "1,92 m"
+            "th": "Длинна вальцевой линии",
+            "td": "1,92м"
           },
           {
-            "th": "Eleme yüzeyi",
-            "td": "25,44 m²"
+            "th": "Просеивающая поверхность",
+            "td": "25,44м²"
           },
           {
-            "th": "Şebeke besleme gerilimi",
-            "td": "380±38 V"
+            "th": "Напряжение питания электрической сети",
+            "td": "380±38 В"
           },
           {
-            "th": "Kurulu elektrik motorlarının toplam gücü",
-            "td": "56,72 kW"
+            "th": "Суммарная мощность установленных электродвигателей",
+            "td": "56,72 кВт"
           },
           {
-            "th": "Servis personeli",
-            "td": "2 kişi"
+            "th": "Обслуживающий персонал",
+            "td": "2 чел"
           },
           {
-            "th": "Garanti çalışma süresi",
-            "td": "13 ay"
+            "th": "Гарантийный срок эксплуатации",
+            "td": "13 месяцев"
           }
         ]
       },
       {
         "title": "MİR-D25",
-        "description": "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "description": "Комплектная мельница MİR-D25 (в дальнейшем \"мельница\") предназначена для помола зерна пшеницы базовых кондиций и получения хлебопекарской муки",
         "info": [
-          "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 10.6m, genişlik 5m, yükseklik 7m'dir."
+          "Комплектная мельница MİR-D25 (в дальнейшем \"мельница\") предназначена для помола зерна пшеницы базовых кондиций и получения хлебопекарской муки. Базовый вариант мельницы вырабатывает муку трех сортов: высшего, первого и второго. Отбор манной крупы не предусмотрен."
         ],
         "text": [
-          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
-          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
-          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
-          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
-          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
-          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
-          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
-          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
-          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
-          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
-          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
-          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
-          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
-          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "Мельница включает в себя комплект оборудования для подготовки, размола зерна, дозирования и выбоя готовых продуктов, а также необходимое электрическое и вспомогательное оборудование. Перемещение зерна осуществляется механическим и пневматическим транспортом, промежуточных и окончательных продуктов и отрубей - пневматическим транспортом",
+          "*По желанию заказчика комплект поставки мельницы может изменяться.",
+          "Принцип работы мельницы заключается в последовательной очистке, двойном увлажнении и отволаживании зерна, размоле, просеивании и разделении на конечные продукты: муку высшего, первого, второго сорта и отруби.",
+          "Зерно проходит очистку, увлажнение и отволаживание. Затем производится доработка поверхности зерна, доувлажнение и отволаживание. Подготовленное зерно отправляется на помол в размольное отделение. Размол зерна осуществляется в шести вальцевых станках с длинной вальцев 320мм и диаметром 250мм. Общий выход в базовом варианте – 75%. Муки в/с – 50-55%, 1с – 20-25% и 2с – 5% (в зависимости от исходного сырья). Размольное отделение укомплектовано пакетным рассевом с технологической схемой заказываемой Заказчиком сортности помола. Также можно изменять, и проценты выходов по каждому сорту по желанию Заказчика, и по условиям качества исходного зерна.",
+          "Далее конечные продукты транспортируются в весовыбойное отделение. Мука дозируется весовыми дозаторами и расфасовывается в тканевые мешки по ГОСТ 19317-73 длиной 104,2см и шириной 53+1см. По умолчанию в мешки выбивается доза в 50кг. Значение выбиваемой дозы может быть изменено настройками контроллеров весовых дозаторов.",
+          "Зерно на мельницу принимается в приемный бункер, откуда норией подаётся в зерноочистку (приемного отделения и нории в базовом варианте не предусматривается). В приемный бункер подается готовая помольная смесь. При желании заказчика за дополнительную плату, возможно, укомплектовать мельницу приемным отделением с возможностью формирования помольных смесей. Емкость силосов такого отделения может варьироваться от 25 до 120т.",
+          "Зерноочистительное отделение представляет собой комплект зерноочистительного, подготовительного, транспортного, аспирационного и вспомогательного оборудования.",
+          "Зерно внутри отделения перемещается механическим транспортом. Зерноочистительные машины подключены к системам аспирации.",
+          "Размольное отделение представляет собой комплект размольного, просеивающего, транспортного и электрооборудования, предназначенного для переработки зерна в муку высшего и первого сортов. Размол зерна осуществляется в шести вальцевых станках с длинной вальцев 320мм и диаметром 250мм. Общий выход в базовом варианте – 75%. Муки в/с – 50-55%, 1с – 20-25% и 2с – 5% (в зависимости от исходного сырья). Размольное отделение укомплектовано пакетным рассевом с технологической схемой заказываемой Заказчиком сортности помола. Также можно изменять и проценты выходов по каждому сорту по желанию Заказчика и по условиям качества исходного зерна.",
+          "Промежуточные продукты внутри отделения транспортируются собственной пневмотранспортной системой. Выбойные бункера представляют собой накопители емкостью по 100кг каждый. В нижней части мучных бункеров имеется шнек и выбойный патрубок на стандартный мешок (50кг). Выбойное отделение укомплектовано весовыми дозаторами для муки 1 и высшего сортов. Отруби и второй сорт без взвешивания затариваются в стандартные мешки.",
+          "Весовыбойное отделение представляет собой комплект оборудования для сбора, дозирования, затаривания готовых продуктов в мешки и транспортировки мешков за пределы рабочей зоны. Дозаторы дозируют муку первого, высшего и второго сорта.",
+          "Система аспирации предназначена для поддержания в машинах, механизмах и емкостях хранения зерна и готовой продукции концентрации пыли не остаточной для возникновения условий возгорания и взрыва, также создания разряжения внутри машин, механизмов и емкостей с целью недопущения попадания пыли в производственное помещение.",
+          "Мельница оборудована системой автоматического управления (АСУ). АСУ  предназначена для управления включением и выключением отделений, узлов и транспортных устройств, контроля состояния технологической цепочки оборудования и обеспечения взаимных блокировок машин, контроля и фиксации режимов работы отдельных узлов и агрегатов мельницы. Суммарная мощность установленных двигателей 56,72 кВт.",
+          "Монтаж мельницы производится на предприятии-потребителе силами завода-изготовителя либо под руководством представителей предприятия-изготовителя. Монтаж осуществляется на договорной основе в здании класса В-IIа, соответствующем СНИП 2.1005-85 \"Предприятия, здания и сооружения по хранению и переработке зерна\" при наличии лицензии на право выполнения этих работ, а также разрешения органов Госнадзора за охраной труда на проведение этих работ при наличии проекта. Введение в эксплуатацию мельницы собственными силами без разрешения органов Госнадзора за охраной труда запрещено.",
+          "К монтажу мельницы должны быть допущены лица, имеющие допуск на выполнение работ на высоте, прошедшие инструктаж по правилам ведения монтажа и техники безопасности при монтаже.",
+          "Монтаж должен производиться в соответствии с требованиями ГОСТ 24444-87 \"Оборудование технологическое. Общие требования монтажной технологичности\".",
+          "Износостойкость вальцов между перенарезками при условии соблюдения технологического процесса помола зерна составляет не менее 3-х месяцев. Глубина отбеленного (рабочего) слоя вальцов обеспечивает их работоспособность в период гарантийного срока с учетом перенарезок."
         ],
         "span": [
-          "Değirmenin teslimat seti şunları içerir:",
-          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
-          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+          "В комплект поставки мельницы входят:",
+          "Зерно в отделении проходит следующую последовательность операций:",
+          "Монтаж осуществляется в следующей последовательности:"
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Freze bölümü,",
-            "Tartı odası,",
-            "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Зерноподготовительное отделение",
+            "Размольное отделение",
+            "Весовыбойное отделение",
+            "Система управления",
+            "Комплект запасных частей, принадлежностей  "
           ],
           [
-            "işlenmemiş tahılın hazneye alınması;",
-            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
-            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
-            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
-            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
-            "yoğun nemlendirme makinelerinde nemlendirme;",
-            "kapalı hava döngülü aspiratör",
-            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+            "прием в бункер неочищенного зерна;",
+            "подача зерна норией и самотечным транспортом в ЗО;",
+            "очистка зерна в ситовом сепараторе от примесей, отличающиеся от основного зерна размерами и аэродинамическими свойствами;",
+            "очистка зерна в барабанном триере от примеси, отличающейся от основного зерна длинной;",
+            "очистка поверхности зерна в обоечных машинах",
+            "увлажнение на машинах интенсивного увлажнения;",
+            "аспиратор с замкнутым циклом воздуха",
+            "В отделении установлено три бункера,  которые обеспечивают 24 часовое отволаживания при непрерывной работе мельницы. Отволоженное зерно вновь проходит очистку в обоечной машине и аспираторе, затем повторно увлажняется и направляется на второе отволаживание (в течение 20-30мин). Подготовленное таким образом зерно направляется в размольное отделение."
           ],
           [
-            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
-            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
-            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
-            "Tahıl temizleme bölümünün kurulması,",
-            "Freze bölümünün montajı,",
-            "Tartım bölümünün montajı,",
-            "Tartım bölmesinin ürün boru hatlarının montajı,",
-            "Hava kanallarının montajı,",
-            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
-            "Elektrikli ekipmanların montajı,",
-            "Kontrolör ağının iletişim hatlarının kurulumu,",
-            "Merkezi kontrol istasyonunun kurulumu,",
-            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
-            "Ünitelerin rölanti devrinde alıştırılması,",
-            "Eleklerin dengelenmesi,",
-            "Değirmenin yük altında çalıştırılması,",
-            "Yük altında eleğin dengelenmesi,",
-            "Yük altında teknolojik ayarlama,",
-            "Operasyon personeli ile brifingler düzenlemek,",
-            "Değirmenin devreye alınması."
+            "Разметка фундаментов отделений согласно планировке мельницы",
+            "Разметка и заливка фундаментов размольно-просеивающего и весовыбойного отделений с закладными элементами. Монтаж оборудования разрешается после полного отверждения бетона фундамента согласно строительных норм",
+            "Разупаковка транспортной тары и подготовка агрегатов и узлов к монтажу",
+            "Монтаж зерноочистительного отделения",
+            "Монтаж размольного отделения",
+            "Монтаж весовыбойного отделения",
+            "Монтаж продуктопроводов весовыбойного отделения",
+            "Монтаж воздуховодов",
+            "Монтаж пневмосистем блока аспирации и вентиляции",
+            "Монтаж электрооборудования",
+            "Монтаж линий связи контроллерной сети",
+            "Монтаж центрального поста управления",
+            "Проверка направления вращения электрооборудования",
+            "Проведение обкатки отделений на холостом ходу",
+            "Балансировка рассева",
+            "Пуск мельницы под нагрузкой",
+            "Балансировка рассева под нагрузкой",
+            "Технологическая настройка под нагрузкой",
+            "Проведение инструктажа с обслуживающим персоналом",
+            "Сдача мельницы в эксплуатацию."
           ]
         ],
         "table": [
           {
-            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
-            "td": "Günlük 25 ton"
+            "th": "Техническая производительность по зерну при помоле зерна базисных кондиций",
+            "td": "25 тонн в сутки"
           },
           {
-            "th": "Temel varyantta toplam un verimi, dahil:",
-            "td": "%75"
+            "th": "Общий выход муки в базовом варианте, в том числе: ",
+            "td": "75%"
           },
           {
-            "th": "üst sınıf",
-            "td": "%50-55"
+            "th": "высшего сорта",
+            "td": "50-55%"
           },
           {
-            "th": "birinci sınıf",
-            "td": "%20-25"
+            "th": "первого сорта",
+            "td": "20-25%"
           },
           {
-            "th": "ikinci sınıf",
-            "td": "%5"
+            "th": "второго сорта",
+            "td": "5%"
           },
           {
-            "th": "Makara hattı uzunluğu",
-            "td": "2,4 m"
+            "th": "Длинна вальцевой линии",
+            "td": "2,4м"
           },
           {
-            "th": "Eleme yüzeyi",
-            "td": "32  m²"
+            "th": "Просеивающая поверхность",
+            "td": "32м²"
           },
           {
-            "th": "Şebeke besleme gerilimi",
-            "td": "380±38 V"
+            "th": "Напряжение питания электрической сети",
+            "td": "380±38 В"
           },
           {
-            "th": "Kurulu elektrik motorlarının toplam gücü",
-            "td": "65,22 kW"
+            "th": "Суммарная мощность установленных электродвигателей",
+            "td": "65,22 кВт"
           },
           {
-            "th": "Servis personeli",
-            "td": "2 kişi"
+            "th": "Обслуживающий персонал",
+            "td": "2 чел"
           },
           {
-            "th": "Garanti çalışma süresi",
-            "td": "13 ay"
+            "th": "Гарантийный срок эксплуатации",
+            "td": "13 месяцев"
           }
         ]
       },
       {
-        "title": "Otomasyon",
-        "description": "SmartWire-Darwin, bir otomasyon sisteminin oluşturulmasını basitleştirir ve hızlandırır, her cihazın hem otomatik hem de ayrı ayrı kontrol edilmesini sağlar",
+        "title": "Автоматизация",
+        "description": "Построение автоматизированной системы управления технологическими процессами планируется на базе средств автоматизации компании «EATON» с использованием инновационной шинной системы SmartWire-Darwin",
         "info": [
-          "Şirketimiz endüstriyel otomasyon alanında hazır çözümlerin geliştiricisi ve üreticisidir. Otomatik bir proses kontrol sisteminin inşası, anahtarlama cihazlarının bağlantısı için standart kablolama yerine yenilikçi SmartWire-Darwin veri yolu sistemi kullanılarak EATON otomasyon ekipmanı temelinde planlanır, bu da otomasyon sisteminin oluşturulmasını önemli ölçüde basitleştirir ve hızlandırır, her bir cihazı hem otomatik modda hem de ayrı ayrı kontrol etmeye izin verir - ek anahtarlama cihazları kullanmadan genel çalışma döngüsünden (örneğin, onarım veya bakım) açmak ve çıkarmak için.",
-          "Darwin teknolojisi, tüm kontrol kabini geliştirme sürecini büyük ölçüde basitleştirerek tasarım ve kurulumdan devreye alma ve yükseltmeye kadar her adımda daha verimli hale getirir."
+          "Наша компания является разработчиком и производителем готовых решений в области промышленной автоматизации.",
+          "Технология Darwin весьма значительно упрощает все процедуры по обустройству шкафов управления, делая их более эффективными на каждом шаге: от проектирования и установки до ввода в эксплуатацию и усовершенствования."
         ],
         "text": [
-          "Sistem, PLC uygulaması ve arayüzler için dahili işlemciye sahip XV serisi dokunmatik panele dayanmaktadır: Ethernet; SmartWire-DT; CAN; Profibus, RS485, RS232, bu cihazın herhangi bir endüstriyel ağa entegre edilmesine izin verir ve herhangi bir modern teknolojik ekipmanla bilgi alışverişi sağlar"
+          "Построение автоматизированной системы управления технологическими процессами планируется на базе средств автоматизации компании «EATON» с использованием инновационной шинной системы SmartWire-Darwin вместо стандартной проводки для подключения коммутационных устройств, что кардинально упрощает и ускоряет создание системы автоматизации, позволяет управлять каждым устройством как в автоматическом режиме, так и в индивидуальном порядке - включать и выводить из общего цикла работы (например, ремонт или обслуживание) без применения дополнительных коммутирующих устройств, исключает необходимость применения модулей ввода/вывода, значительно уменьшает размеры шкафов, повышает производительность и качество монтажных и пусконаладочных работ.",
+          "С применением системы SmartWire-DT становится ненужным сложный электромонтаж, исключаются целые уровни устройств, в том числе и связанные с этим затраты на материально-техническое снабжение и техобслуживание. Система заменяет традиционное проводное соединение с исполнительными компонентами и позволяет осуществлять прямую и непрерывную связь между центральным контроллером и управляемыми элементами.",
+          "В основу системы заложена сенсорная панель серии XV со встроенным процессором для PLC применения, а также интерфейсами: Ethernet; SmartWire-DT; CAN; Profibus, RS485, RS232, что позволяет интегрировать это устройство в любым промышленные сети и обеспечивает обмен информацией с любым современным технологическим оборудованием.",
+          "На сегодня технология SmartWire-DT соединяет контакторы и пускатели двигателей, а также приборы контроля и сигнализации. Следующая фаза включает в себя соединение компонентов визуализации, силовых выключателей и приводов. Также технология SmartWire-DT разработана для соединения дополнительных переключающих приборов других производителей и таким образом предназначена для всех приложений и компаний-партнёров.",
+          "Установленная система автоматизации SmartWire-DT очень проста по своей структуре, и, в то же время, максимально гибкая и функциональная, «с запасом на будущее» – именно то, что необходимо каждому предприятию с учетом дальнейшего роста. Минимум простоев, высокая надежность и безопасность, наглядный режим работы, простое расширение — все это позволяет обеспечить непрерывность технологического процесса на производстве и повысить его эффективность. Безопасность, которую обеспечивает система автоматизации на базе SmartWire-DT, является одним из основных плюсов автоматизации как таковой: установка соответствующих датчиков позволяют сократить количество травм на производстве."
         ],
-        "span": ["SmartWire-DT sisteminin avantajları:"],
+        "span": ["Достоинства системы SmartWire-DT:"],
         "li": [
           [
-            "SmartWire-DT teknolojisi standart ekipmanla çalışır. Bu, kutunun dışında düşünmeye gerek olmadığı anlamına gelir. Düşük maliyetli çözümler. Yüksek kullanılabilirlik. 1600A'e kadar tüm motorlar için tek bir sistem seçeneği.",
-            "Sistem tükenmez olanaklara sahiptir: SmartWire Darwin kullanılarak, herhangi bir kablolama sorunu olmadan ve geniş kurulum alanına ihtiyaç duyulmadan 99 adede kadar cihaz birbirine bağlanabilir. Bağlantı kablosu her zaman ağ geçidinden başlar ve veri yolu sonlandırmasında biter - 100 metre proje alanı.",
-            "Elemanlar bir düğmeye dokunarak kontrol edilir. Tüm emek yoğun adresleme süreci ortadan kaldırılmıştır. Operasyon için yeni özel beceriler gerekmez. Yeni otobüs sistemi için yeni bir yenilik gerekmez.",
-            "Çalışma süreci basit ve zaman kazandırıcıdır. Temel prensip: Kur ve Çalıştır. Çok büyük zaman tasarrufu. Sistem herhangi bir bağlantı hatası yapmadığı için sorun gidermeye gerek yoktur."
+            "Технология SmartWire-DT работает со стандартным оборудованием. Это означает, что нет необходимости раздумывать. Недорогие решения. Высокая доступность. Один вариант системы для всех двигателей до 1600 А.",
+            "Система имеет неисчерпаемые возможности: до 99 приборов могут быть соединены друг с другом при помощи провода SmartWire Darwin, без каких-либо проблем с проводами и без необходимости в обширном пространстве для установки. Соединительный кабель всегда начинается со шлюза и заканчивается шинным окончанием – 100 метров проектного пространства.",
+            "Элементы управляются простым нажатием кнопки. Отсутствует весь трудоёмкий процесс адресации. Не требуется новых специальных навыков для работы. Без каких-либо нововведений для новой шинной системы.",
+            "Процесс работы прост и экономичен по времени. Основной принцип: Установил и Работай. Очень большая экономия времени. Нет необходимости в поиске неисправностей, так как система не допускает никаких ошибок при подключении."
           ]
-        ]
+        ],
+        "img": ["Без SmartWire-Darwin", "Используя SmartWire-Darwin"]
       }
     ]
   },
@@ -934,5 +946,8 @@
     "title": ["Наша продукция", "Наши контакты", "Напишите нам"],
     "form": ["Имя", "Тело письма", "Сообщение было успешно доставлено"],
     "button": "Отправить"
+  },
+  "Errors": {
+    "notFound": "Страница не найдена"
   }
 }

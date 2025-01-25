@@ -27,8 +27,8 @@ const Automat = () => {
           </div>
           <div className="products-item__right">
             <div className="products-item__right-elements">
-              <span>SmartWire-Darwin olmadan</span>
-              <span>SmartWire-Darwin ile</span>
+              <span>{item.img[0]}</span>
+              <span>{item.img[1]}</span>
             </div>
             <Image
               className="products-item__right-elements-img"

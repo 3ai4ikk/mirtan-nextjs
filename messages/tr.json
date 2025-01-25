@@ -566,8 +566,7 @@
           "Kontrol sistemi Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve sabitlemek için tasarlanmıştır. Kurulu motorların toplam gücü 47,22 kW'tır.",
           "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir.",
           "Değirmen, yüksekte çalışma yetkisi olan ve montaj sırasında montaj ve güvenlik kuralları konusunda eğitilmiş kişiler tarafından monte edilmelidir.",
-          "Valslerin yeniden şekillendirme arasındaki aşınma direnci, tahıl öğütme teknolojik sürecine uyulması koşuluyla, 3 aydan az değildir. Valslerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca servis edilebilirliklerini sağlar.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "Valslerin yeniden şekillendirme arasındaki aşınma direnci, tahıl öğütme teknolojik sürecine uyulması koşuluyla, 3 aydan az değildir. Valslerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca servis edilebilirliklerini sağlar."
         ],
         "span": [
           "Değirmenin teslimat seti şunları içerir:",
@@ -576,11 +575,11 @@
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Öğütme bölmesi,",
+            "Tahıl hazırlama bölmesi",
+            "Öğütme bölmesi",
             "Tartım bölmesi",
             "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Yedek parça, aksesuar seti"
           ],
           [
             "işlenmemiş tahılın hazneye alınması;",
@@ -682,8 +681,7 @@
           "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
           "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
           "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
-          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder."
         ],
         "span": [
           "Değirmenin teslimat seti şunları içerir:",
@@ -798,8 +796,7 @@
           "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
           "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
           "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
-          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder."
         ],
         "span": [
           "Değirmenin teslimat seti şunları içerir:",
@@ -914,7 +911,8 @@
             "Elemanlar bir düğmeye dokunarak kontrol edilir. Tüm emek yoğun adresleme süreci ortadan kaldırılmıştır. Operasyon için yeni özel beceriler gerekmez. Yeni otobüs sistemi için yeni bir yenilik gerekmez.",
             "Çalışma süreci basit ve zaman kazandırıcıdır. Temel prensip: Kur ve Çalıştır. Çok büyük zaman tasarrufu. Sistem herhangi bir bağlantı hatası yapmadığı için sorun gidermeye gerek yoktur."
           ]
-        ]
+        ],
+        "img": ["SmartWire-Darwin olmadan", "SmartWire-Darwin ile"]
       }
     ]
   },
@@ -928,5 +926,8 @@
     "title": ["Ürünlerimiz", "İletişim bilgilerimiz", "Bize yazın"],
     "form": ["Adınız", "Mesajınız", "Mesaj başarıyla iletildi"],
     "button": "Gönder"
+  },
+  "Errors": {
+    "notFound": "Sayfa bulunamadı"
   }
 }

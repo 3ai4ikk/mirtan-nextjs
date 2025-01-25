@@ -931,5 +931,8 @@
     "title": ["Our products", "Our contact details", "Contacts us"],
     "form": ["Name", "Message", "The message was delivered successfully"],
     "button": "Send"
+  },
+  "Errors": {
+    "notFound": "Page not found"
   }
 }

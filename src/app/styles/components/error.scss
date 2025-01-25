@@ -1,0 +1,12 @@
+@use "@/app/styles/helpers" as *;
+
+.error {
+  height: 70vh;
+  max-height: 100%;
+
+  align-content: center;
+
+  &__title {
+    text-align: center;
+  }
+}

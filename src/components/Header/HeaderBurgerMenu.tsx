@@ -2,11 +2,12 @@
 
 import React, { useState } from "react";
 import { getMenuItems } from "./items";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 import "./header.scss";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
+import LangSwitcher from "./LangSwitcher";
 
 const HeaderBurgerMenu = () => {
   const path = usePathname();
@@ -33,6 +34,11 @@ const HeaderBurgerMenu = () => {
         <span></span>
       </div>
       <div className={`header__overlay ${isActive ? "is-active" : ""}`}>
+        <Link
+          href="/"
+          className="header__logo-link dark"
+          onClick={buttonClick}
+        ></Link>
         <nav className="header__overlay-nav">
           <ul className="header__overlay-list">
             {getMenuItems(t).map(({ title, link }, index) => {
@@ -55,6 +61,9 @@ const HeaderBurgerMenu = () => {
                 </li>
               );
             })}
+            <li>
+              <LangSwitcher isMobile={true} />
+            </li>
           </ul>
         </nav>
       </div>

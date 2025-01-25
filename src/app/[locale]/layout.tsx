@@ -9,6 +9,12 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
+import { ReactNode } from "react";
+
+type Props = {
+  children: ReactNode;
+  params: { locale: string };
+};
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -27,16 +33,13 @@ export const metadata: Metadata = {
   description: "Mirtan website",
 };
 
-export default async function RootLayout({
-  children,
-  params,
-}: Readonly<{ children: React.ReactNode; params: { locale: string } }>) {
+export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
+  const messages = await getMessages();
+
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
-
-  const messages = await getMessages();
 
   setRequestLocale(locale);
 

@@ -21,6 +21,13 @@
       height: rem(60);
       background: url("/logo/logo-light.png") center/contain no-repeat;
 
+      &.dark {
+        background: url("/logo/logo-dark.png") center/contain no-repeat;
+        @include hover {
+          background-image: url("/logo/logo-dark-hover.png");
+        }
+      }
+
       @include hover {
         background-image: url("/logo/logo-light-hover.png");
       }
@@ -238,6 +245,10 @@
     padding-inline: rem(10);
     cursor: pointer;
 
+    &.mobile {
+      color: var(--color-dark);
+    }
+
     &.pending {
       cursor: progress;
     }
@@ -253,6 +264,10 @@
     flex-direction: column;
     background-color: var(--color-light-brown);
     cursor: default;
+
+    &.mobile {
+      background-color: transparent;
+    }
 
     &.open {
       display: flex;

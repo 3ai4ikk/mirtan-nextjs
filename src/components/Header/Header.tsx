@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import "./header.scss";
-import Link from "next/link";
 import { getMenuItems } from "./items";
 import HeaderBurgerMenu from "./HeaderBurgerMenu";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
+import LangSwitcher from "./LangSwitcher";
+import { Link } from "@/i18n/routing";
 
 const Header = () => {
   const [isClient, setIsClient] = useState(false);
@@ -70,7 +71,7 @@ const Header = () => {
                 );
               })}
             </ul>
-            {/* <LangSwitcher /> */}
+            <LangSwitcher />
           </nav>
         )}
         {isMobile && <HeaderBurgerMenu />}

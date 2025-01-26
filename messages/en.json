@@ -553,371 +553,375 @@
       },
       {
         "title": "MİR-D15",
-        "description": "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "description": "The complete mill MİR-D15 (farther “mill”) is designed for grinding basic wheat grain and producing baking flour",
         "info": [
-          "MİR-D15 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 7,55m, genişlik 5m, yükseklik 7m."
+          "The complete mill MİR-D15 (farther “mill”) is designed for grinding basic wheat grain and producing baking flour. The basic version of the mill processes flour of three grades: premium, first and second. Semolina collection is not provided. Overall dimensions of the mill: length 7.55 m, width 5 m, height 7 m."
         ],
         "text": [
-          "Değirmen, bitmiş ürünlerin hazırlanması, tahıl öğütülmesi, dozajlanması ve örneklenmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahılın taşınması mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek - pnömatik taşıma ile gerçekleştirilir.",
-          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
-          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
-          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım dozajlayıcıları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrolörlerinin ayarları değiştirilerek değiştirilebilir. Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur).",
-          "Hazır öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
-          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
-          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindir uzunluğu 250 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c - %50-55, 1c - %20-25 ve 2c - %5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
-          "Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
-          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
-          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
-          "Kontrol sistemi Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve sabitlemek için tasarlanmıştır. Kurulu motorların toplam gücü 47,22 kW'tır.",
-          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir.",
-          "Değirmen, yüksekte çalışma yetkisi olan ve montaj sırasında montaj ve güvenlik kuralları konusunda eğitilmiş kişiler tarafından monte edilmelidir.",
-          "Valslerin yeniden şekillendirme arasındaki aşınma direnci, tahıl öğütme teknolojik sürecine uyulması koşuluyla, 3 aydan az değildir. Valslerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca servis edilebilirliklerini sağlar.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "The mill includes a set of equipment for preparing, grinding grain, dosing and beating out finished products, as well as the necessary electrical and auxiliary equipment. The movement of grain is carried out by mechanical and pneumatic transport, intermediate and final products and bran - by pneumatic transport.",
+          "*At the request of the customer, the delivery set of the mill can be changed.",
+          "The principle of operation of the mill is sequential cleaning, double moistening and dampening of grain, grinding, sifting and separation into final products: premium, first, second grade flour and bran.",
+          "The grain is cleaned, moistened and dampened. Then the surface of the grain is refined, additionally moistened and cooled. The prepared grain is sent for grinding to the grinding department. Grain grinding is carried out in six roller machines with a roller length of 250 mm and a diameter of 250 mm. The overall yield in the basic version is 75%. Premium flour - 50-55%, 1с - 20-25% and 2с - 5% (depending on the raw materials). The grinding compartment is equipped with a package sieving machine with a technological diagram of the grinding grade ordered by the Customer. It is also possible to change the yield percentages for each variety at the request of the Customer, and according to the quality conditions of the original grain. Next, the final products are transported to the weighing department. Flour is dosed using weighing dispensers and packaged in fabric bags, 104+/-2cm long and 53+1cm wide. By default, a dose of 50 kg is put into bags. The value of the knocked-out dose can be changed by the settings of the weigher controllers.",
+          "The grain is received at the mill into a receiving hopper, from where it is fed into the grain cleaning machine by a elevator (a receiving compartment and elevator are not provided in the basic version). The finished grinding mixture is supplied to the receiving hopper. If the customer wishes, for an additional fee, it is possible to equip the mill with a receiving department with the ability to form grinding mixtures. The capacity of silos of this type can vary from 25 to 120 tons.",
+          "Grain cleaning compartments are a set of grain cleaning, preparatory, transport, aspiration and auxiliary equipment",
+          "The grain inside the compartment is moved by mechanical transport. Grain cleaning machines are connected to aspiration systems.",
+          "The grinding compartment is a set of grinding, sifting, transport and electrical equipment designed for processing grain into flour of the highest and first grades. Grain grinding is carried out in six roller machines with a roller length of 250 mm and a diameter of 250 mm. The overall yield in the basic version is 75%. Premium flour - 50-55%, 1с - 20-25% and 2с - 5% (depending on the raw materials). The grinding department is equipped with a batch sieving machine with a technological diagram of the grinding grade ordered by the Customer. It is also possible to change the yield percentages for each variety at the request of the Customer and according to the quality conditions of the original grain.",
+          "Intermediate products inside the compartment are transported by its own pneumatic transport system. Breakout containers are storage units with a capacity of 100 kg each. At the bottom of the flour bins there is an auger and a knockout pipe for a standard bag (50 kg). The knockout compartment is equipped with weighing dispensers for 1st and highest grade flour. Bran and second grade are packed into standard bags without weighing.",
+          "The weighing compartment is a set of equipment for collecting, dosing, packing finished products into bags and transporting the bags outside the work area. Dispensers dose first, highest and second grade flour.",
+          "The aspiration system is designed to maintain a dust concentration in machines, mechanisms and containers for storing grain and finished products that is not residual for the occurrence of fire and explosion conditions, as well as to create a vacuum inside the machines, mechanisms and containers in order to prevent dust from entering the production area.",
+          "The mill is equipped with an automatic control system (ACS). The automated control system is designed to control the switching on and off of compartments, units and transport devices, monitor the state of the technological chain of equipment and ensure mutual interlocking of machines, control and record the operating modes of individual units and units of the mill. The total power of installed engines is 47.22 kW.",
+          "The mill is installed at the consumer enterprise by the manufacturer or under the guidance of representatives of the manufacturer. Installation is carried out on a contractual basis in a class B-IIa building, as well as permission from the State Labor Safety Supervision authorities to carry out this work, subject to the availability of a project. Putting the mill into operation on its own without permission from the State Labor Safety Inspectorate is prohibited.",
+          "Persons who have permission to perform work at height and who have been instructed in the rules of installation and safety precautions during installation must be allowed to install the mill.",
+          "Installation must be carried out in accordance with the requirements of \"Process equipment. General requirements for installation manufacturability.\"",
+          "The wear resistance of the rollers between recuts, provided that the technological process of grain grinding is followed, is at least 3 months. The depth of the bleached (working) layer of the rollers ensures their performance during the warranty period, taking into account recuts."
         ],
         "span": [
-          "Değirmenin teslimat seti şunları içerir:",
-          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
-          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+          "The mill delivery set includes:",
+          "The grain in the compartment undergoes the following sequence of operations:",
+          "Installation is carried out in the following sequence:"
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Öğütme bölmesi,",
-            "Tartım bölmesi",
-            "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Grain preparation compartment",
+            "Grinding compartment",
+            "Weighing compartment",
+            "Control system",
+            "Set of spare parts and accessories"
           ],
           [
-            "işlenmemiş tahılın hazneye alınması;",
-            "Tahılın yuva ile beslenmesi ve değirmene yerçekimi ile taşınması;",
-            "Elek ayırıcıda tahılın boyut ve aerodinamik özellikleri bakımından ana tahıldan farklı olan safsızlıklardan temizlenmesi;",
-            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
-            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
-            "yoğun nemlendirme makinelerinde nemlendirme;",
-            "kapalı hava döngülü aspiratör",
-            "Bölümde, değirmenin sürekli çalışmasında 24 saat boyunca kabuksuzlaştırma sağlayan iki hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından yeniden nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+            "reception of unrefined grain into the bunker;",
+            "supply of grain by elevator and gravity transport to the area;",
+            "cleaning grain in a sieve separator from impurities that differ from the main grain in size and aerodynamic properties;",
+            "cleaning grain in a drum trier from impurities that differ from the main grain in length;",
+            "cleaning the grain surface in cleaning machines;",
+            "humidification using intensive humidification machines;",
+            "Four containers are installed in the compartment, which provide 24-hour cooling during continuous operation of the mill. The deferred grain is again cleaned in a cleaning machine and aspirator, then re-moistened and sent for a second defoliation (within 20-30 minutes). The grain prepared in this way is sent to the grinding compartment."
           ],
           [
-            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
-            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
-            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
-            "Tahıl temizleme bölümünün kurulması,",
-            "Freze bölümünün montajı,",
-            "Tartım bölümünün montajı,",
-            "Tartım bölmesinin ürün boru hatlarının montajı,",
-            "Hava kanallarının montajı,",
-            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
-            "Elektrikli ekipmanların montajı,",
-            "Kontrolör ağının iletişim hatlarının kurulumu,",
-            "Merkezi kontrol istasyonunun kurulumu,",
-            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
-            "Ünitelerin rölanti devrinde alıştırılması,",
-            "Eleklerin dengelenmesi,",
-            "Değirmenin yük altında çalıştırılması,",
-            "Yük altında eleğin dengelenmesi,",
-            "Yük altında teknolojik ayarlama,",
-            "Operasyon personeli ile brifingler düzenlemek,",
-            "Değirmenin devreye alınması."
+            "Marking the foundations of the compartments according to the layout of the mill",
+            "Marking and pouring the foundations of the grinding-sifting and weighing compartment with embedded elements. Installation of equipment is permitted after the foundation concrete has completely cured in accordance with building codes",
+            "Unpacking transport containers and preparing units and components for installation",
+            "Installation of the grain cleaning compartment",
+            "Installation of the grinding compartment",
+            "Installation of the weighing compartment",
+            "Installation of product pipelines of the weighing compartment",
+            "Installation of air ducts",
+            "Installation of pneumatic systems of the aspiration and ventilation unit",
+            "Installation of electrical equipment",
+            "Installation of communication lines of the controller network",
+            "Installation of the central control station",
+            "Checking the direction of rotation of electrical equipment",
+            "Running in the compartments at idle speed",
+            "Balancing sieves",
+            "Starting the mill under load",
+            "Balancing sieving under load",
+            "Technological adjustment under load",
+            "Conducting briefings with service personnel",
+            "Commissioning of the mill"
           ]
         ],
         "table": [
           {
-            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
-            "td": "Günlük 15 ton"
+            "th": "Technical productivity of grain when grinding grain of basic standards",
+            "td": "15 tons per day"
           },
           {
-            "th": "Temel varyantta toplam un verimi, dahil:",
-            "td": "%75"
+            "th": "The total flour yield in the basic version, including:",
+            "td": "75%"
           },
           {
-            "th": "üst sınıf",
-            "td": "%50-55"
+            "th": "Premium-class",
+            "td": "50-55%"
           },
           {
-            "th": "birinci sınıf",
-            "td": "%20-25"
+            "th": "First-class",
+            "td": "20-25%"
           },
           {
-            "th": "ikinci sınıf",
-            "td": "%5"
+            "th": "Second-class",
+            "td": "5%"
           },
           {
-            "th": "Makara hattı uzunluğu",
+            "th": "Roller line length",
             "td": "1,5 m"
           },
           {
-            "th": "Eleme yüzeyi",
+            "th": "Screening surface",
             "td": "21,2 m²"
           },
           {
-            "th": "Şebeke besleme gerilimi",
+            "th": "Mains supply voltage",
             "td": "380±38 V"
           },
           {
-            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "th": "Total power of installed electric motors",
             "td": "47,22 kW"
           },
           {
-            "th": "Servis personeli",
-            "td": "2 kişi"
+            "th": "Service staff",
+            "td": "2 person"
           },
           {
-            "th": "Garanti çalışma süresi",
-            "td": "13 ay"
+            "th": "Warranty period",
+            "td": "13 months"
           }
         ]
       },
       {
         "title": "MİR-D20",
-        "description": "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "description": "The complete mill MİR-D20 (farther “mill”) is designed for grinding basic wheat grain and producing baking flour",
         "info": [
-          "MİR-D20 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanesini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 9,1m, genişlik 5m, yükseklik 7m'dir. Tahıl temizleme bölümünde - mekanik taşıma, öğütme ve kesimde - pnömatik."
+          "The complete mill MİR-D20 (farther “mill”) is designed for grinding basic wheat grain and producing baking flour. The basic version of the mill processes flour of three grades: premium, first and second. Semolina collection is not provided. Overall dimensions of the mill: length 9.1 m, width 5 m, height 7 m."
         ],
         "text": [
-          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
-          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
-          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
-          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
-          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
-          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
-          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
-          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
-          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
-          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
-          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
-          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
-          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
-          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "The mill includes a set of equipment for preparing, grinding grain, dosing and beating out finished products, as well as the necessary electrical and auxiliary equipment. The movement of grain is carried out by mechanical and pneumatic transport, intermediate and final products and bran - by pneumatic transport.",
+          "*At the request of the customer, the delivery set of the mill can be changed.",
+          "The principle of operation of the mill is sequential cleaning, double moistening and dampening of grain, grinding, sifting and separation into final products: premium, first, second grade flour and bran.",
+          "The grain is cleaned, moistened and dampened. Then the surface of the grain is refined, additionally moistened and cooled. The prepared grain is sent for grinding to the grinding department. Grain grinding is carried out in six roller machines with a roller length of 250 mm and a diameter of 250 mm. The overall yield in the basic version is 75%. Premium flour - 50-55%, 1с - 20-25% and 2с - 5% (depending on the raw materials). The grinding compartment is equipped with a package sieving machine with a technological diagram of the grinding grade ordered by the Customer. It is also possible to change the yield percentages for each variety at the request of the Customer, and according to the quality conditions of the original grain. Next, the final products are transported to the weighing department. Flour is dosed using weighing dispensers and packaged in fabric bags, 104+/-2cm long and 53+1cm wide. By default, a dose of 50 kg is put into bags. The value of the knocked-out dose can be changed by the settings of the weigher controllers.",
+          "The grain is received at the mill into a receiving hopper, from where it is fed into the grain cleaning machine by a elevator (a receiving compartment and elevator are not provided in the basic version). The finished grinding mixture is supplied to the receiving hopper. If the customer wishes, for an additional fee, it is possible to equip the mill with a receiving department with the ability to form grinding mixtures. The capacity of silos of this type can vary from 25 to 120 tons.",
+          "Grain cleaning compartments are a set of grain cleaning, preparatory, transport, aspiration and auxiliary equipment",
+          "The grain inside the compartment is moved by mechanical transport. Grain cleaning machines are connected to aspiration systems.",
+          "The grinding compartment is a set of grinding, sifting, transport and electrical equipment designed for processing grain into flour of the highest and first grades. Grain grinding is carried out in six roller machines with a roller length of 250 mm and a diameter of 250 mm. The overall yield in the basic version is 75%. Premium flour - 50-55%, 1с - 20-25% and 2с - 5% (depending on the raw materials). The grinding department is equipped with a batch sieving machine with a technological diagram of the grinding grade ordered by the Customer. It is also possible to change the yield percentages for each variety at the request of the Customer and according to the quality conditions of the original grain.",
+          "Intermediate products inside the compartment are transported by its own pneumatic transport system. Breakout containers are storage units with a capacity of 100 kg each. At the bottom of the flour bins there is an auger and a knockout pipe for a standard bag (50 kg). The knockout compartment is equipped with weighing dispensers for 1st and highest grade flour. Bran and second grade are packed into standard bags without weighing.",
+          "The weighing compartment is a set of equipment for collecting, dosing, packing finished products into bags and transporting the bags outside the work area. Dispensers dose first, highest and second grade flour.",
+          "The aspiration system is designed to maintain a dust concentration in machines, mechanisms and containers for storing grain and finished products that is not residual for the occurrence of fire and explosion conditions, as well as to create a vacuum inside the machines, mechanisms and containers in order to prevent dust from entering the production area.",
+          "The mill is equipped with an automatic control system (ACS). The automated control system is designed to control the switching on and off of compartments, units and transport devices, monitor the state of the technological chain of equipment and ensure mutual interlocking of machines, control and record the operating modes of individual units and units of the mill. The total power of installed engines is 47.22 kW.",
+          "The mill is installed at the consumer enterprise by the manufacturer or under the guidance of representatives of the manufacturer. Installation is carried out on a contractual basis in a class B-IIa building, as well as permission from the State Labor Safety Supervision authorities to carry out this work, subject to the availability of a project. Putting the mill into operation on its own without permission from the State Labor Safety Inspectorate is prohibited.",
+          "Persons who have permission to perform work at height and who have been instructed in the rules of installation and safety precautions during installation must be allowed to install the mill.",
+          "Installation must be carried out in accordance with the requirements of \"Process equipment. General requirements for installation manufacturability.\"",
+          "The wear resistance of the rollers between recuts, provided that the technological process of grain grinding is followed, is at least 3 months. The depth of the bleached (working) layer of the rollers ensures their performance during the warranty period, taking into account recuts."
         ],
         "span": [
-          "Değirmenin teslimat seti şunları içerir:",
-          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
-          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+          "The mill delivery set includes:",
+          "The grain in the compartment undergoes the following sequence of operations:",
+          "Installation is carried out in the following sequence:"
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Freze bölümü,",
-            "Tartı odası,",
-            "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Grain preparation compartment",
+            "Grinding compartment",
+            "Weighing compartment",
+            "Control system",
+            "Set of spare parts and accessories"
           ],
           [
-            "işlenmemiş tahılın hazneye alınması;",
-            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
-            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
-            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
-            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
-            "yoğun nemlendirme makinelerinde nemlendirme;",
-            "kapalı hava döngülü aspiratör",
-            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+            "reception of unrefined grain into the bunker;",
+            "supply of grain by elevator and gravity transport to the area;",
+            "cleaning grain in a sieve separator from impurities that differ from the main grain in size and aerodynamic properties;",
+            "cleaning grain in a drum trier from impurities that differ from the main grain in length;",
+            "cleaning the grain surface in cleaning machines;",
+            "humidification using intensive humidification machines;",
+            "Four containers are installed in the compartment, which provide 24-hour cooling during continuous operation of the mill. The deferred grain is again cleaned in a cleaning machine and aspirator, then re-moistened and sent for a second defoliation (within 20-30 minutes). The grain prepared in this way is sent to the grinding compartment."
           ],
           [
-            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
-            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
-            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
-            "Tahıl temizleme bölümünün kurulması,",
-            "Freze bölümünün montajı,",
-            "Tartım bölümünün montajı,",
-            "Tartım bölmesinin ürün boru hatlarının montajı,",
-            "Hava kanallarının montajı,",
-            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
-            "Elektrikli ekipmanların montajı,",
-            "Kontrolör ağının iletişim hatlarının kurulumu,",
-            "Merkezi kontrol istasyonunun kurulumu,",
-            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
-            "Ünitelerin rölanti devrinde alıştırılması,",
-            "Eleklerin dengelenmesi,",
-            "Değirmenin yük altında çalıştırılması,",
-            "Yük altında eleğin dengelenmesi,",
-            "Yük altında teknolojik ayarlama,",
-            "Operasyon personeli ile brifingler düzenlemek,",
-            "Değirmenin devreye alınması."
+            "Marking the foundations of the compartments according to the layout of the mill",
+            "Marking and pouring the foundations of the grinding-sifting and weighing compartment with embedded elements. Installation of equipment is permitted after the foundation concrete has completely cured in accordance with building codes",
+            "Unpacking transport containers and preparing units and components for installation",
+            "Installation of the grain cleaning compartment",
+            "Installation of the grinding compartment",
+            "Installation of the weighing compartment",
+            "Installation of product pipelines of the weighing compartment",
+            "Installation of air ducts",
+            "Installation of pneumatic systems of the aspiration and ventilation unit",
+            "Installation of electrical equipment",
+            "Installation of communication lines of the controller network",
+            "Installation of the central control station",
+            "Checking the direction of rotation of electrical equipment",
+            "Running in the compartments at idle speed",
+            "Balancing sieves",
+            "Starting the mill under load",
+            "Balancing sieving under load",
+            "Technological adjustment under load",
+            "Conducting briefings with service personnel",
+            "Commissioning of the mill"
           ]
         ],
         "table": [
           {
-            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
-            "td": "Günlük 20 ton"
+            "th": "Technical productivity of grain when grinding grain of basic standards",
+            "td": "20 tons per day"
           },
           {
-            "th": "Temel varyantta toplam un verimi, dahil:",
-            "td": "%75"
+            "th": "The total flour yield in the basic version, including:",
+            "td": "75%"
           },
           {
-            "th": "üst sınıf",
-            "td": "%50-55"
+            "th": "Premium-class",
+            "td": "50-55%"
           },
           {
-            "th": "birinci sınıf",
-            "td": "%20-25"
+            "th": "First-class",
+            "td": "20-25%"
           },
           {
-            "th": "ikinci sınıf",
-            "td": "%5"
+            "th": "Second-class",
+            "td": "5%"
           },
           {
-            "th": "Makara hattı uzunluğu",
+            "th": "Roller line length",
             "td": "1,92 m"
           },
           {
-            "th": "Eleme yüzeyi",
+            "th": "Screening surface",
             "td": "25,44 m²"
           },
           {
-            "th": "Şebeke besleme gerilimi",
+            "th": "Mains supply voltage",
             "td": "380±38 V"
           },
           {
-            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "th": "Total power of installed electric motors",
             "td": "56,72 kW"
           },
           {
-            "th": "Servis personeli",
-            "td": "2 kişi"
+            "th": "Service staff",
+            "td": "2 person"
           },
           {
-            "th": "Garanti çalışma süresi",
-            "td": "13 ay"
+            "th": "Warranty period",
+            "td": "13 months"
           }
         ]
       },
       {
         "title": "MİR-D25",
-        "description": "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır",
+        "description": "The complete mill MİR-D25 (farther “mill”) is designed for grinding basic wheat grain and producing baking flour",
         "info": [
-          "MİR-D25 Komple Değirmen (bundan böyle “Değirmen” olarak anılacaktır), temel koşullardaki buğday tanelerini öğütmek ve fırın unu üretmek için tasarlanmıştır. Değirmenin temel versiyonu üç tip un üretir: üst, birinci ve ikinci. İrmik ekstraksiyonu sağlanmamaktadır. Değirmenin genel boyutları uzunluk 10.6m, genişlik 5m, yükseklik 7m'dir."
+          "The complete mill MİR-D25 (farther “mill”) is designed for grinding basic wheat grain and producing baking flour. The basic version of the mill processes flour of three grades: premium, first and second. Semolina collection is not provided. Overall dimensions of the mill: length 10.6 m, width 5 m, height 7 m."
         ],
         "text": [
-          "Değirmen, tahılın hazırlanması, öğütülmesi, dozajlanması ve bitmiş ürünlerin seçilmesi için bir dizi ekipmanın yanı sıra gerekli elektrikli ve yardımcı ekipmanı içerir. Tahıl mekanik ve pnömatik taşıma, ara ve nihai ürünler ve kepek pnömatik taşıma ile taşınır.",
-          "Değirmenin çalışma prensibi, tahılın sıralı olarak temizlenmesi, çift nemlendirilmesi ve çözülmesi, öğütülmesi, elenmesi ve nihai ürünlere ayrılmasıdır: en yüksek, birinci, ikinci sınıf un ve kepek.",
-          "Tahıl temizlenir, nemlendirilir ve çözdürülür. Daha sonra tahılın yüzeyi rafine edilir, yeniden nemlendirilir ve nemi alınır. Hazırlanan tahıl öğütülmek üzere öğütme bölümüne gönderilir. Tahıl, 320 mm merdane uzunluğuna ve 250 mm çapa sahip altı merdanede öğütülür. Temel versiyondaki toplam verim %75'tir. Un / c -% 50-55, 1c -% 20-25 ve 2c -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir parti eleği ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdelerini değiştirmek de mümkündür.",
-          "Nihai ürünler daha sonra tartım bölümüne taşınır. Un, tartım ölçüm cihazları ile dozajlanır ve uzunluğu 104+/-2 cm ve genişliği 53+1cm olan bez torbalara paketlenir. Varsayılan olarak, torbalara 50 kg'lık bir doz delinir. Bu, tartı kontrol cihazlarının ayarları değiştirilerek değiştirilebilir.",
-          "Tahıl, alım hunisinde değirmene alınır ve buradan elevatör ile tahıl temizleme tesisine beslenir (temel versiyonda alım bölümü ve elevatör yoktur). Bitmiş öğütme karışımı alıcı hazneye beslenir. Müşterinin talebi üzerine, değirmeni ek bir maliyetle öğütme karışımları oluşturma olasılığı olan bir alma bölümü ile donatmak mümkündür. Bu bölümün silolarının kapasitesi 25 ila 120 ton arasında değişebilir.",
-          "Tahıl temizleme departmanı, tahıl temizleme, hazırlama, taşıma, aspirasyon ve yardımcı ekipmanlardan oluşan bir settir.",
-          "Bölme içindeki tahıl mekanik taşıma ile taşınır. Tahıl temizleme makineleri aspirasyon sistemlerine bağlıdır. ",
-          "Değirmen bölümü, tahılı en yüksek ve birinci sınıf un haline getirmek için tasarlanmış bir dizi öğütme, eleme, taşıma ve elektrik ekipmanıdır. Tahıl, silindirlerin uzunluğu 320 mm ve çapı 250 mm olan altı silindirde öğütülür. Temel varyantta toplam verim %75'tir. Un / c -% 50-55, 1s -% 20-25 ve 2s -% 5 (hammaddeye bağlı olarak). Öğütme departmanı, Müşteri tarafından sipariş edilen öğütme derecesinin teknolojik şemasına sahip bir toplu elek ile donatılmıştır. Müşterinin isteğine ve ilk tahılın kalite koşullarına göre her sınıf için çıktı yüzdesini değiştirmek de mümkündür.",
-          "Ara ürünler bölüm içinde kendi pnömatik taşıma sistemi ile taşınır. Kesim bunkerleri, her biri 100 kg kapasiteli depolama tanklarıdır. Un haznelerinin alt kısmında bir burgu ve standart bir torba (50kg) için bir boşaltma ağzı bulunmaktadır. Çıkarma bölmesi, 1. ve üst sınıf unlar için tartım dozerleri ile donatılmıştır. Kepek ve ikinci sınıf unlar tartılmadan standart çuvallara doldurulur.",
-          "Tartım bölümü, bitmiş ürünlerin toplanması, dozajlanması, torbalara doldurulması ve torbaların çalışma alanının dışına taşınması için kullanılan bir ekipman setidir. Dozajlama makineleri birinci, daha yüksek ve ikinci sınıf unları dozajlar.",
-          "Aspirasyon sistemi, makinelerde, mekanizmalarda ve tahıl ve bitmiş ürün depolama kaplarında, yangın ve patlama koşullarının oluşması için artık olmayan toz konsantrasyonunu korumak ve ayrıca tozun üretim odasına girmesini önlemek için makinelerin, mekanizmaların ve kapların içinde bir vakum oluşturmak için tasarlanmıştır.",
-          "Değirmen bir otomatik kontrol sistemi (ACS) ile donatılmıştır. ACS, bölümlerin, ünitelerin ve taşıma cihazlarının açılıp kapanmasını kontrol etmek, teknolojik ekipman zincirinin durumunu kontrol etmek ve makinelerin karşılıklı kilitlenmesini sağlamak, değirmenin münferit ünitelerinin ve montajlarının çalışma modlarını kontrol etmek ve kaydetmek için tasarlanmıştır. Kurulu motorların toplam gücü 56,72 kW'tır.",
-          "Değirmen, üretici tarafından veya üreticinin temsilcilerinin gözetimi altında müşterinin tesisinde monte edilir. Kurulum sözleşmeye dayalı olarak gerçekleştirilir. Değirmen, yüksekte çalışma yetkisine sahip ve montaj ve montaj sırasında güvenlik kuralları konusunda eğitim almış kişiler tarafından monte edilmelidir.",
-          "Tane öğütme teknolojik sürecine uyulması koşuluyla, silindirlerin yeniden karıştırma arasındaki aşınma direnci 3 aydan az değildir. Silindirlerin ağartılmış (çalışan) tabakasının derinliği, yeniden şekillendirme dikkate alınarak garanti süresi boyunca performanslarını garanti eder.",
-          "ŞİRKET ÜRETİLEN ÜRÜNLERİN TASARIMINI SÜREKLİ GELİŞTİRMEKTEDİR, BU NEDENLE TEKNİK ÖZELLİKLERİ ETKİLEMEYEN BAZI DEĞİŞİKLİKLER BU TANIMLAMAYA YANSIMAYABİLİR. MÜŞTERİNİN İSTEĞİ ÜZERİNE DEĞİRMEN EK EKİPMANLARLA TAMAMLANABİLİR. "
+          "The mill includes a set of equipment for preparing, grinding grain, dosing and beating out finished products, as well as the necessary electrical and auxiliary equipment. The movement of grain is carried out by mechanical and pneumatic transport, intermediate and final products and bran - by pneumatic transport.",
+          "*At the request of the customer, the delivery set of the mill can be changed.",
+          "The principle of operation of the mill is sequential cleaning, double moistening and dampening of grain, grinding, sifting and separation into final products: premium, first, second grade flour and bran.",
+          "The grain is cleaned, moistened and dampened. Then the surface of the grain is refined, additionally moistened and cooled. The prepared grain is sent for grinding to the grinding department. Grain grinding is carried out in six roller machines with a roller length of 250 mm and a diameter of 250 mm. The overall yield in the basic version is 75%. Premium flour - 50-55%, 1с - 20-25% and 2с - 5% (depending on the raw materials). The grinding compartment is equipped with a package sieving machine with a technological diagram of the grinding grade ordered by the Customer. It is also possible to change the yield percentages for each variety at the request of the Customer, and according to the quality conditions of the original grain. Next, the final products are transported to the weighing department. Flour is dosed using weighing dispensers and packaged in fabric bags, 104+/-2cm long and 53+1cm wide. By default, a dose of 50 kg is put into bags. The value of the knocked-out dose can be changed by the settings of the weigher controllers.",
+          "The grain is received at the mill into a receiving hopper, from where it is fed into the grain cleaning machine by a elevator (a receiving compartment and elevator are not provided in the basic version). The finished grinding mixture is supplied to the receiving hopper. If the customer wishes, for an additional fee, it is possible to equip the mill with a receiving department with the ability to form grinding mixtures. The capacity of silos of this type can vary from 25 to 120 tons.",
+          "Grain cleaning compartments are a set of grain cleaning, preparatory, transport, aspiration and auxiliary equipment",
+          "The grain inside the compartment is moved by mechanical transport. Grain cleaning machines are connected to aspiration systems.",
+          "The grinding compartment is a set of grinding, sifting, transport and electrical equipment designed for processing grain into flour of the highest and first grades. Grain grinding is carried out in six roller machines with a roller length of 250 mm and a diameter of 250 mm. The overall yield in the basic version is 75%. Premium flour - 50-55%, 1с - 20-25% and 2с - 5% (depending on the raw materials). The grinding department is equipped with a batch sieving machine with a technological diagram of the grinding grade ordered by the Customer. It is also possible to change the yield percentages for each variety at the request of the Customer and according to the quality conditions of the original grain.",
+          "Intermediate products inside the compartment are transported by its own pneumatic transport system. Breakout containers are storage units with a capacity of 100 kg each. At the bottom of the flour bins there is an auger and a knockout pipe for a standard bag (50 kg). The knockout compartment is equipped with weighing dispensers for 1st and highest grade flour. Bran and second grade are packed into standard bags without weighing.",
+          "The weighing compartment is a set of equipment for collecting, dosing, packing finished products into bags and transporting the bags outside the work area. Dispensers dose first, highest and second grade flour.",
+          "The aspiration system is designed to maintain a dust concentration in machines, mechanisms and containers for storing grain and finished products that is not residual for the occurrence of fire and explosion conditions, as well as to create a vacuum inside the machines, mechanisms and containers in order to prevent dust from entering the production area.",
+          "The mill is equipped with an automatic control system (ACS). The automated control system is designed to control the switching on and off of compartments, units and transport devices, monitor the state of the technological chain of equipment and ensure mutual interlocking of machines, control and record the operating modes of individual units and units of the mill. The total power of installed engines is 47.22 kW.",
+          "The mill is installed at the consumer enterprise by the manufacturer or under the guidance of representatives of the manufacturer. Installation is carried out on a contractual basis in a class B-IIa building, as well as permission from the State Labor Safety Supervision authorities to carry out this work, subject to the availability of a project. Putting the mill into operation on its own without permission from the State Labor Safety Inspectorate is prohibited.",
+          "Persons who have permission to perform work at height and who have been instructed in the rules of installation and safety precautions during installation must be allowed to install the mill.",
+          "Installation must be carried out in accordance with the requirements of \"Process equipment. General requirements for installation manufacturability.\"",
+          "The wear resistance of the rollers between recuts, provided that the technological process of grain grinding is followed, is at least 3 months. The depth of the bleached (working) layer of the rollers ensures their performance during the warranty period, taking into account recuts."
         ],
         "span": [
-          "Değirmenin teslimat seti şunları içerir:",
-          "Bölümdeki tahıl aşağıdaki işlem sırasına tabi tutulur:",
-          "Kurulum aşağıdaki sırayla gerçekleştirilir:"
+          "The mill delivery set includes:",
+          "The grain in the compartment undergoes the following sequence of operations:",
+          "Installation is carried out in the following sequence:"
         ],
         "li": [
           [
-            "Tahıl hazırlama bölmesi,",
-            "Freze bölümü,",
-            "Tartı odası,",
-            "Kontrol sistemi",
-            "Yedek parça, aksesuar seti."
+            "Grain preparation compartment",
+            "Grinding compartment",
+            "Weighing compartment",
+            "Control system",
+            "Set of spare parts and accessories"
           ],
           [
-            "işlenmemiş tahılın hazneye alınması;",
-            "tahılın elevatör ile beslenmesi ve tahıl depolama alanına yerçekimi ile taşınması;",
-            "tahılın bir elek ayırıcıda ana tahıldan boyut ve aerodinamik özellikler bakımından farklı olan yabancı maddelerden temizlenmesi;",
-            "Bir tamburlu trierdeki tahılın, ana tahıldan uzunluğuna göre farklı olan yabancı maddelerden temizlenmesi;",
-            "durulama makinelerinde tahıl yüzeyinin temizlenmesi,",
-            "yoğun nemlendirme makinelerinde nemlendirme;",
-            "kapalı hava döngülü aspiratör",
-            "Bölümde, değirmenin sürekli çalışmasında 24 saat kabuk soyma sağlayan üç hazne bulunmaktadır. Kabuğu soyulan tahıl, kabuk soyucuda ve aspiratörde tekrar temizlenir, ardından tekrar nemlendirilir ve ikinci bir kabuk soyma işlemine gönderilir (20-30 dakika içinde). Bu şekilde hazırlanan tahıl öğütme bölümüne gönderilir."
+            "reception of unrefined grain into the bunker;",
+            "supply of grain by elevator and gravity transport to the area;",
+            "cleaning grain in a sieve separator from impurities that differ from the main grain in size and aerodynamic properties;",
+            "cleaning grain in a drum trier from impurities that differ from the main grain in length;",
+            "cleaning the grain surface in cleaning machines;",
+            "humidification using intensive humidification machines;",
+            "Four containers are installed in the compartment, which provide 24-hour cooling during continuous operation of the mill. The deferred grain is again cleaned in a cleaning machine and aspirator, then re-moistened and sent for a second defoliation (within 20-30 minutes). The grain prepared in this way is sent to the grinding compartment."
           ],
           [
-            "Bölmelerin temellerinin değirmen yerleşimine göre işaretlenmesi",
-            "Öğütme, eleme ve tartma bölmelerinin temellerinin gömülü elemanlarla işaretlenmesi ve dökülmesi. Temel betonu inşaat normlarına göre tamamen kürlendikten sonra ekipmanın kurulumuna izin verilir,",
-            "Nakliye ambalajının açılması ve ünitelerin ve tertibatların kurulum için hazırlanması,",
-            "Tahıl temizleme bölümünün kurulması,",
-            "Freze bölümünün montajı,",
-            "Tartım bölümünün montajı,",
-            "Tartım bölmesinin ürün boru hatlarının montajı,",
-            "Hava kanallarının montajı,",
-            "Aspirasyon ve havalandırma ünitesinin pnömatik sistemlerinin montajı,",
-            "Elektrikli ekipmanların montajı,",
-            "Kontrolör ağının iletişim hatlarının kurulumu,",
-            "Merkezi kontrol istasyonunun kurulumu,",
-            "Elektrikli ekipmanın dönüş yönünün kontrol edilmesi,",
-            "Ünitelerin rölanti devrinde alıştırılması,",
-            "Eleklerin dengelenmesi,",
-            "Değirmenin yük altında çalıştırılması,",
-            "Yük altında eleğin dengelenmesi,",
-            "Yük altında teknolojik ayarlama,",
-            "Operasyon personeli ile brifingler düzenlemek,",
-            "Değirmenin devreye alınması."
+            "Marking the foundations of the compartments according to the layout of the mill",
+            "Marking and pouring the foundations of the grinding-sifting and weighing compartment with embedded elements. Installation of equipment is permitted after the foundation concrete has completely cured in accordance with building codes",
+            "Unpacking transport containers and preparing units and components for installation",
+            "Installation of the grain cleaning compartment",
+            "Installation of the grinding compartment",
+            "Installation of the weighing compartment",
+            "Installation of product pipelines of the weighing compartment",
+            "Installation of air ducts",
+            "Installation of pneumatic systems of the aspiration and ventilation unit",
+            "Installation of electrical equipment",
+            "Installation of communication lines of the controller network",
+            "Installation of the central control station",
+            "Checking the direction of rotation of electrical equipment",
+            "Running in the compartments at idle speed",
+            "Balancing sieves",
+            "Starting the mill under load",
+            "Balancing sieving under load",
+            "Technological adjustment under load",
+            "Conducting briefings with service personnel",
+            "Commissioning of the mill"
           ]
         ],
         "table": [
           {
-            "th": "Temel koşullarda tahıl öğütmek için teknik tahıl verimi",
-            "td": "Günlük 25 ton"
+            "th": "Technical productivity of grain when grinding grain of basic standards",
+            "td": "25 tons per day"
           },
           {
-            "th": "Temel varyantta toplam un verimi, dahil:",
-            "td": "%75"
+            "th": "The total flour yield in the basic version, including:",
+            "td": "75%"
           },
           {
-            "th": "üst sınıf",
-            "td": "%50-55"
+            "th": "Premium-class",
+            "td": "50-55%"
           },
           {
-            "th": "birinci sınıf",
-            "td": "%20-25"
+            "th": "First-class",
+            "td": "20-25%"
           },
           {
-            "th": "ikinci sınıf",
-            "td": "%5"
+            "th": "Second-class",
+            "td": "5%"
           },
           {
-            "th": "Makara hattı uzunluğu",
+            "th": "Roller line length",
             "td": "2,4 m"
           },
           {
-            "th": "Eleme yüzeyi",
-            "td": "32  m²"
+            "th": "Screening surface",
+            "td": "32 m²"
           },
           {
-            "th": "Şebeke besleme gerilimi",
+            "th": "Mains supply voltage",
             "td": "380±38 V"
           },
           {
-            "th": "Kurulu elektrik motorlarının toplam gücü",
+            "th": "Total power of installed electric motors",
             "td": "65,22 kW"
           },
           {
-            "th": "Servis personeli",
-            "td": "2 kişi"
+            "th": "Service staff",
+            "td": "2 person"
           },
           {
-            "th": "Garanti çalışma süresi",
-            "td": "13 ay"
+            "th": "Warranty period",
+            "td": "13 months"
           }
         ]
       },
       {
-        "title": "Otomasyon",
-        "description": "SmartWire-Darwin, bir otomasyon sisteminin oluşturulmasını basitleştirir ve hızlandırır, her cihazın hem otomatik hem de ayrı ayrı kontrol edilmesini sağlar",
+        "title": "Automation",
+        "description": "The construction of an automated control system for technological processes is planned on the basis of EATON automation equipment using the innovative SmartWire-Darwin",
         "info": [
-          "Şirketimiz endüstriyel otomasyon alanında hazır çözümlerin geliştiricisi ve üreticisidir. Otomatik bir proses kontrol sisteminin inşası, anahtarlama cihazlarının bağlantısı için standart kablolama yerine yenilikçi SmartWire-Darwin veri yolu sistemi kullanılarak EATON otomasyon ekipmanı temelinde planlanır, bu da otomasyon sisteminin oluşturulmasını önemli ölçüde basitleştirir ve hızlandırır, her bir cihazı hem otomatik modda hem de ayrı ayrı kontrol etmeye izin verir - ek anahtarlama cihazları kullanmadan genel çalışma döngüsünden (örneğin, onarım veya bakım) açmak ve çıkarmak için.",
-          "Darwin teknolojisi, tüm kontrol kabini geliştirme sürecini büyük ölçüde basitleştirerek tasarım ve kurulumdan devreye alma ve yükseltmeye kadar her adımda daha verimli hale getirir."
+          "Our company is a developer and manufacturer of ready-made solutions in the field of industrial automation.",
+          "The construction of an automated control system for technological processes is planned on the basis of EATON automation equipment using the innovative SmartWire-Darwin bus system instead of standard wiring for connecting switching devices, which dramatically simplifies and accelerates the creation of the automation system, allows you to control each device both in automatic mode and individually - to turn on and take out of the general cycle of operation (for example, repair or maintenance) without the use of additional switching devices."
         ],
         "text": [
-          "Sistem, PLC uygulaması ve arayüzler için dahili işlemciye sahip XV serisi dokunmatik panele dayanmaktadır: Ethernet; SmartWire-DT; CAN; Profibus, RS485, RS232, bu cihazın herhangi bir endüstriyel ağa entegre edilmesine izin verir ve herhangi bir modern teknolojik ekipmanla bilgi alışverişi sağlar"
+          "Darwin technology greatly simplifies the entire control cabinet process, making it more efficient at every step, from design and installation to commissioning and upgrading. The SmartWire-DT system eliminates complex wiring, eliminates entire layers of devices, including the associated logistics and maintenance costs. The system replaces the traditional wired connection to the actuating components and enables direct and continuous communication between the central controller and the controlled elements.",
+          "The system is based on XV series touch panel with built-in processor for PLC application, as well as interfaces: Ethernet; SmartWire-DT; CAN; Profibus, RS485, RS232, which allows to integrate this device into any industrial networks and provides information exchange with any modern technological equipment.",
+          "Today, SmartWire-DT technology connects contactors and motor starters as well as monitoring and signaling devices. The next phase includes the connection of visualization components, circuit breakers and drives. The SmartWire-DT technology is also designed to connect additional switching devices from other manufacturers and is thus designed for all applications and partner companies.",
+          "The installed SmartWire-DT automation system is very simple in its structure, but at the same time, as flexible and functional as possible, “future-proofed” - exactly what every company needs for future growth. Minimal downtime, high reliability and safety, clear operation mode, easy expansion - all this allows to ensure the continuity of the technological process in production and increase its efficiency. The safety provided by the SmartWire-DT automation system is one of the main advantages of automation itself: the installation of appropriate sensors can reduce the number of injuries in production."
         ],
-        "span": ["SmartWire-DT sisteminin avantajları:"],
+        "span": ["Advantages of SmartWire-DT system:"],
         "li": [
           [
-            "SmartWire-DT teknolojisi standart ekipmanla çalışır. Bu, kutunun dışında düşünmeye gerek olmadığı anlamına gelir. Düşük maliyetli çözümler. Yüksek kullanılabilirlik. 1600A'e kadar tüm motorlar için tek bir sistem seçeneği.",
-            "Sistem tükenmez olanaklara sahiptir: SmartWire Darwin kullanılarak, herhangi bir kablolama sorunu olmadan ve geniş kurulum alanına ihtiyaç duyulmadan 99 adede kadar cihaz birbirine bağlanabilir. Bağlantı kablosu her zaman ağ geçidinden başlar ve veri yolu sonlandırmasında biter - 100 metre proje alanı.",
-            "Elemanlar bir düğmeye dokunarak kontrol edilir. Tüm emek yoğun adresleme süreci ortadan kaldırılmıştır. Operasyon için yeni özel beceriler gerekmez. Yeni otobüs sistemi için yeni bir yenilik gerekmez.",
-            "Çalışma süreci basit ve zaman kazandırıcıdır. Temel prensip: Kur ve Çalıştır. Çok büyük zaman tasarrufu. Sistem herhangi bir bağlantı hatası yapmadığı için sorun gidermeye gerek yoktur."
+            "SmartWire-DT technology works with standard equipment. This means there is no need to think outside the box. Low-cost solutions. High availability. One system option for all motors up to 1600 amps.",
+            "The system has inexhaustible possibilities: up to 99 devices can be connected to each other using the SmartWire Darwin, without any wiring problems and without the need for extensive installation space. The connection cable always starts at the gateway and ends at the bus termination - 100 meters of project space.",
+            "The elements are controlled by simply pressing a button. All labor-intensive addressing process is eliminated. No new special skills are required for operation. No new innovations for the new bus system.",
+            "The working process is simple and time-saving. Basic principle: Install and Operate. Very big time saving. No need for troubleshooting as the system does not make any connection errors."
           ]
-        ]
+        ],
+        "img": ["Without SmartWire-Darwin", "With SmartWire-Darwin"]
       }
     ]
   },

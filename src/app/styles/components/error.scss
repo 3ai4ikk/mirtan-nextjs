@@ -1,9 +1,7 @@
 @use "@/app/styles/helpers" as *;
 
 .error {
-  height: 70vh;
-  max-height: 100%;
-
+  padding-block: rem(250);
   align-content: center;
 
   &__title {

@@ -9,7 +9,7 @@ export const getProductsItems = (t: TranslationFunction) => {
     {
       title: product[5].title,
       link: "/products/mill",
-      imageUrl: "/images/products/6.jpg",
+      imageUrl: "/images/products/6e.jpg",
       description: product[5].description,
     },
     {
@@ -21,61 +21,61 @@ export const getProductsItems = (t: TranslationFunction) => {
     {
       title: product[0].title,
       link: "/products/breakout",
-      imageUrl: "/images/products/1.jpg",
+      imageUrl: "/images/products/1e.jpg",
       description: product[0].description,
     },
     {
       title: product[1].title,
       link: "/products/beating-machine",
-      imageUrl: "/images/products/2.jpg",
+      imageUrl: "/images/products/2e.jpg",
       description: product[1].description,
     },
     {
       title: product[3].title,
       link: "/products/grain-separator",
-      imageUrl: "/images/products/4.jpg",
+      imageUrl: "/images/products/4e.jpg",
       description: product[3].description,
     },
     {
       title: product[4].title,
       link: "/products/stone-picker",
-      imageUrl: "/images/products/5.jpg",
+      imageUrl: "/images/products/5e.jpg",
       description: product[4].description,
     },
     {
       title: product[6].title,
       link: "/products/scalping-machine",
-      imageUrl: "/images/products/7.jpg",
+      imageUrl: "/images/products/7e.jpg",
       description: product[6].description,
     },
     {
       title: product[7].title,
       link: "/products/pneumatic-separator",
-      imageUrl: "/images/products/8.jpg",
+      imageUrl: "/images/products/8e.jpg",
       description: product[7].description,
     },
     {
       title: product[8].title,
       link: "/products/sieving",
-      imageUrl: "/images/products/9.jpg",
+      imageUrl: "/images/products/9e.jpg",
       description: product[8].description,
     },
     {
       title: product[9].title,
       link: "/products/purifier",
-      imageUrl: "/images/products/10.jpg",
+      imageUrl: "/images/products/10e.jpg",
       description: product[9].description,
     },
     {
       title: product[10].title,
       link: "/products/rolling-mill",
-      imageUrl: "/images/products/11.jpg",
+      imageUrl: "/images/products/11e.jpg",
       description: product[10].description,
     },
     {
       title: product[11].title,
       link: "/products/brush-machine",
-      imageUrl: "/images/products/12.jpg",
+      imageUrl: "/images/products/12e.jpg",
       description: product[11].description,
     },
     {
@@ -99,7 +99,7 @@ export const getProductsItems = (t: TranslationFunction) => {
     {
       title: product[15].title,
       link: "/products/automat",
-      imageUrl: "/images/products/16.jpg",
+      imageUrl: "/images/products/16e.jpg",
       description: product[15].description,
     },
   ];

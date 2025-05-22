@@ -1,0 +1,29 @@
+@use "@/app/styles/helpers" as *;
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__square {
+    width: rem(100);
+    height: rem(100);
+    border-radius: rem(10);
+    border: rem(1) solid black;
+    position: relative;
+
+    &::before,
+    &::after {
+      @include abs-center;
+      position: absolute;
+      content: "";
+      background-color: black;
+      width: rem(2);
+      height: 50%;
+    }
+
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+}

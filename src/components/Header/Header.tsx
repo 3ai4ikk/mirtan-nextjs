@@ -7,7 +7,7 @@ import HeaderBurgerMenu from "./HeaderBurgerMenu";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import LangSwitcher from "./LangSwitcher";
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 
 const Header = () => {
   const [isClient, setIsClient] = useState(false);

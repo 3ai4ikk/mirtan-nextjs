@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { getMenuItems } from "./items";
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 
 import "./header.scss";
 import { usePathname } from "next/navigation";

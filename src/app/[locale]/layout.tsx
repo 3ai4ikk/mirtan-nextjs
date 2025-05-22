@@ -1,19 +1,13 @@
-import type { Metadata } from "next";
-import { Roboto, Assistant } from "next/font/google";
-import "@/app/globals.scss";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import { Locale, routing } from "@/i18n/routing";
-import { notFound } from "next/navigation";
-
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
-import { setRequestLocale } from "next-intl/server";
 import { ReactNode } from "react";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { Assistant, Roboto } from "next/font/google";
 
 type Props = {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 const roboto = Roboto({
@@ -28,24 +22,15 @@ const assistant = Assistant({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Mirtan",
-  description: "Mirtan website",
-};
-
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
   const messages = await getMessages();
 
-  if (!routing.locales.includes(locale as Locale)) {
-    notFound();
-  }
-
   setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
-      <body className={roboto.variable + " " + assistant.variable}>
+    <html lang={locale} className={`${roboto.variable} ${assistant.variable}`}>
+      <body>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>

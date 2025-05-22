@@ -1,19 +1,28 @@
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
+import { NextRequest, NextResponse } from "next/server";
+import { getToken } from "next-auth/jwt";
 
-export default createMiddleware(routing);
+const intlMiddleware = createMiddleware(routing);
 
 export const config = {
   matcher: [
-    // Enable a redirect to a matching locale at the root
-    "/",
-
-    // Set a cookie to remember the previous locale for
-    // all requests that have a locale prefix
-    "/(tr|en|ru)/:path*",
-
-    // Enable redirects that add missing locales
-    // (e.g. `/pathnames` -> `/en/pathnames`)
-    "/((?!_next|_vercel|.*\\..*).*)",
+    "/((?!api|_next|_vercel|.*\\..*|login).*)",
+    "/admin",
+    "/admin/:path*",
   ],
 };
+
+export async function middleware(request: NextRequest) {
+  if (request.nextUrl.pathname.startsWith("/admin")) {
+    const token = await getToken({
+      req: request,
+      secret: process.env.NEXTAUTH_SECRET,
+    });
+    if (!token) {
+      return NextResponse.redirect(new URL("/login", request.url));
+    }
+    return NextResponse.next();
+  }
+  return intlMiddleware(request);
+}

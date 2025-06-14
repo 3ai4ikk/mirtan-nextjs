@@ -1,0 +1,52 @@
+.div {
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gray;
+  }
+
+  &.green {
+    &::after {
+      background: gray;
+    }
+  }
+
+  &.green {
+    &::after {
+      background: green;
+    }
+  }
+
+  &.red {
+    &::after {
+      background: red;
+    }
+  }
+}
+
+.li {
+  display: inline-flex;
+  cursor: pointer;
+  &.active {
+    color: blue;
+  }
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.ul {
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: gray;
+  padding: 10px;
+  position: fixed;
+  gap: 1rem;
+  left: 50%;
+  text-align: center;
+  z-index: 100;
+}

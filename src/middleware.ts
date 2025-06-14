@@ -7,20 +7,29 @@ const intlMiddleware = createMiddleware(routing);
 
 export const config = {
   matcher: [
-    "/((?!api|_next|_vercel|.*\\..*|login).*)",
+    "/((?!api|trpc|_next|_vercel|.*\\..*).*)",
+    "/login",
     "/admin",
     "/admin/:path*",
   ],
 };
 
 export async function middleware(request: NextRequest) {
-  if (request.nextUrl.pathname.startsWith("/admin")) {
-    const token = await getToken({
-      req: request,
-      secret: process.env.NEXTAUTH_SECRET,
-    });
+  const token = await getToken({
+    req: request,
+    secret: process.env.NEXTAUTH_SECRET,
+  });
+
+  if (request.nextUrl.pathname.split("/")[1] === "admin") {
     if (!token) {
       return NextResponse.redirect(new URL("/login", request.url));
+    }
+    return NextResponse.next();
+  }
+
+  if (request.nextUrl.pathname === "/login") {
+    if (token) {
+      return NextResponse.redirect(new URL("/admin", request.url));
     }
     return NextResponse.next();
   }

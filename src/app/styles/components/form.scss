@@ -33,6 +33,7 @@
 
   &__button {
     color: var(--color-dark);
+    background-color: rgb(255, 255, 255);
 
     &:not(:disabled) {
       @include hover {

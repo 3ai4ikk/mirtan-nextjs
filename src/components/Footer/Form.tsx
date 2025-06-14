@@ -5,6 +5,9 @@ import Form from "next/form";
 import { useForm } from "react-hook-form";
 import { useTranslations } from "next-intl";
 
+import "@/app/styles/components/button.scss";
+import "@/app/styles/components/form.scss";
+
 type FormData = {
   name: string;
   email: string;
@@ -48,6 +51,7 @@ const FormComponent = ({
         className="form__input"
         placeholder={t.raw("form")[0]}
         required
+        autoComplete="name"
         {...register("name")}
       />
       <input
@@ -55,6 +59,7 @@ const FormComponent = ({
         className="form__input"
         placeholder="Email"
         required
+        autoComplete="email"
         {...register("email")}
       />
       <textarea

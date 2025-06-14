@@ -2,12 +2,14 @@
 
 import React, { useState, useRef, useEffect, useMemo } from "react";
 
+import style from "./TableComponent.module.scss";
+
 export type Cell = { value: string; width: number; height: number };
 export type Column = { width: number };
 export type Row = { height: number };
 
-const MIN_COLUMNS = 1;
-const MIN_ROWS = 1;
+const MIN_COLUMNS = 2;
+const MIN_ROWS = 2;
 
 export type TableInitialValue = {
   columns: Column[];
@@ -21,8 +23,56 @@ type TableComponentProps = {
 };
 
 const defaultColumns: Column[] = [{ width: 100 }, { width: 100 }];
-const defaultRows: Row[] = [{ height: 40 }, { height: 40 }];
+const defaultRows: Row[] = [
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+  { height: 40 },
+];
 const defaultCells: Cell[][] = [
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
+  [
+    { value: "", width: 100, height: 40 },
+    { value: "", width: 100, height: 40 },
+  ],
   [
     { value: "", width: 100, height: 40 },
     { value: "", width: 100, height: 40 },
@@ -127,14 +177,27 @@ const TableComponent: React.FC<TableComponentProps> = ({
 
   const resizerRef = useRef<HTMLDivElement>(null);
   const [content, setContent] = useState<string>("");
-  const [contentJSON, setContentJSON] = useState<object>({});
 
   const generateRawHTML = (cells: Cell[][]) => {
     const tbody = cells
-      .map(
-        (row) =>
-          `<tr>${row.map((cell) => `<td>${cell.value}</td>`).join("")}</tr>`
-      )
+      .map((row) => {
+        // Проверяем, пустые ли все td ячейки (все кроме первой)
+        const tdCells = row.slice(1);
+        const allTdEmpty = tdCells.every((cell) => !cell.value.trim());
+
+        if (allTdEmpty) {
+          // Если все td пустые, генерируем только th с colspan
+          return `<tr><th colspan="${row.length}">${row[0].value}</th></tr>`;
+        } else {
+          // Иначе генерируем обычную структуру th + td
+          return `<tr>${row
+            .map((cell, cellIndex) => {
+              const tag = cellIndex === 0 ? "th" : "td";
+              return `<${tag}>${cell.value}</${tag}>`;
+            })
+            .join("")}</tr>`;
+        }
+      })
       .join("");
 
     return `<table><tbody>${tbody}</tbody></table>`;
@@ -148,7 +211,6 @@ const TableComponent: React.FC<TableComponentProps> = ({
 
   useEffect(() => {
     setContent(rawHTML);
-    setContentJSON(newContentJSON);
     onChange(rawHTML, newContentJSON);
   }, [rawHTML, newContentJSON, onChange]);
 
@@ -214,7 +276,6 @@ const TableComponent: React.FC<TableComponentProps> = ({
                         value: e.target.value,
                       };
                       setCells(newCells);
-                      onChange(content, contentJSON);
                     }}
                     className="w-full h-full border-0 p-1 resize-none outline-none leading-[36px]"
                     rows={Math.max(
@@ -229,7 +290,10 @@ const TableComponent: React.FC<TableComponentProps> = ({
         </tbody>
       </table>
 
-      <div dangerouslySetInnerHTML={{ __html: content }} />
+      <div
+        className={style.table}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
     </div>
   );
 };

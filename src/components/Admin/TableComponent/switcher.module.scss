@@ -1,0 +1,31 @@
+@use "@/app/styles/helpers" as *;
+
+.switcher {
+  width: rem(100);
+  height: rem(40);
+  border-radius: rem(30);
+  position: relative;
+  background-color: #3a57b7;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: block;
+    height: rem(50);
+    width: 50%;
+    border-radius: 50%;
+    transition: var(--transition-duration);
+    background-color: #2f427f;
+  }
+
+  &.true {
+    &::before {
+      background-color: #153ab4;
+      left: 50%;
+      transition: var(--transition-duration);
+    }
+  }
+}

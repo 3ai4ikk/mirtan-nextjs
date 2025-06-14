@@ -11,11 +11,36 @@ const EditProductPage = async ({
 }) => {
   const { id } = await params;
 
-  const product = await prisma.product.findUnique({ where: { link: id } });
+  const product = await prisma.product.findUnique({
+    where: { link: id },
+    include: { content: true },
+  });
 
   if (!product) return notFound();
 
-  return <EditProductClientForm product={product} />;
+  const getContentByField = (field: keyof (typeof product.content)[0]) =>
+    Object.fromEntries(
+      product.content.map((c) => [c.lang, { value: c[field] ?? "" }])
+    );
+
+  const availableLangs = product.content.map((c) => c.lang);
+
+  return (
+    <EditProductClientForm
+      productLangs={availableLangs}
+      images={product.images}
+      productPreview={product.preview}
+      productLink={product.link}
+      productTitle={getContentByField("title")}
+      productDescription={getContentByField("description")}
+      productSubBody={getContentByField("subBody")}
+      productSubBodyJSON={getContentByField("subBodyJSON")}
+      productBody={getContentByField("body")}
+      productBodyJSON={getContentByField("bodyJSON")}
+      productTable={getContentByField("table")}
+      productTableJSON={getContentByField("tableJSON")}
+    />
+  );
 };
 
 export default EditProductPage;

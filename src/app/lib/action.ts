@@ -2,42 +2,47 @@
 
 import prisma from "./prismaClient";
 import { Prisma } from "../../../generated/prisma";
-import { revalidatePath } from "next/cache";
-
-export const revalidate = async (path: string) => {
-  revalidatePath(path, "page");
-};
+import { Content } from "../types/types";
+import { Locale } from "@/i18n/routing";
 
 export const addProduct = async (
-  formData: FormData,
-  subBody: string,
-  subBodyJSON: string,
-  body: string,
-  bodyJSON: string,
-  table: string,
-  tableJSON: string
+  link: string,
+  langs: Locale[],
+  title: Content,
+  description: Content,
+  subBody: Content,
+  subBodyJSON: Content,
+  body: Content,
+  bodyJSON: Content,
+  table: Content,
+  tableJSON: Content,
+  isTable: Content
 ) => {
-  const { title, link, description } = Object.fromEntries(formData);
-
   let res = null;
 
   try {
     res = await prisma.product.create({
       data: {
-        title: title as string,
-        link: link as string,
-        description: description as string,
+        link: link,
         preview: "",
         images: [],
-        subBody: subBody,
-        subBodyJSON: subBodyJSON,
-        body: body,
-        bodyJSON: bodyJSON,
-        table: table,
-        tableJSON: tableJSON,
+        content: {
+          create: langs.map((lang) => ({
+            lang: lang,
+            title: title[lang]?.value as string,
+            description: description[lang]?.value as string,
+            subBody: subBody[lang]?.value as string,
+            subBodyJSON: JSON.parse(subBodyJSON[lang]?.value as string),
+            body: body[lang]?.value as string,
+            bodyJSON: JSON.parse(bodyJSON[lang]?.value as string),
+            table: isTable[lang]?.value ? (table[lang]?.value as string) : "",
+            tableJSON: isTable[lang]?.value
+              ? JSON.parse(JSON.stringify(tableJSON[lang]?.value as string))
+              : {},
+          })),
+        },
       },
     });
-
     console.log("Product created");
     return res;
   } catch (error) {
@@ -68,28 +73,69 @@ export const addImages = async (
 
 export const updateProduct = async (
   link: string,
-  formData: FormData,
-  subBody: string,
-  subBodyJSON: string,
-  body: string,
-  bodyJSON: string,
-  table: string,
-  tableJSON: string
+  newLink: string,
+  langs: Locale[],
+  title: Content,
+  description: Content,
+  subBody: Content,
+  subBodyJSON: Content,
+  body: Content,
+  bodyJSON: Content,
+  table: Content,
+  tableJSON: Content,
+  isTable: Content
 ) => {
-  const { title, description } = Object.fromEntries(formData);
+  // Получаем существующие языки для продукта
+  const product = await prisma.product.findUnique({
+    where: { link },
+    include: { content: true },
+  });
+  const existingLangs = product?.content.map((c) => c.lang) ?? [];
+
+  // Разделяем на существующие и новые
+  const langsToUpdate = langs.filter((lang) => existingLangs.includes(lang));
+  const langsToCreate = langs.filter((lang) => !existingLangs.includes(lang));
 
   await prisma.product.update({
     where: { link: link },
     data: {
-      title: title as string,
-      link: link as string,
-      description: description as string,
-      subBody: subBody,
-      subBodyJSON: subBodyJSON,
-      body: body,
-      bodyJSON: bodyJSON,
-      table: table,
-      tableJSON: tableJSON,
+      link: newLink,
+      content: {
+        updateMany: langsToUpdate.map((lang) => ({
+          where: { lang: lang },
+          data: {
+            title: title[lang]?.value as string,
+            description: description[lang]?.value as string,
+            subBody: subBody[lang]?.value as string,
+            subBodyJSON: JSON.parse(
+              JSON.stringify(subBodyJSON[lang]?.value as string)
+            ),
+            body: body[lang]?.value as string,
+            bodyJSON: JSON.parse(
+              JSON.stringify(bodyJSON[lang]?.value as string)
+            ),
+            table: isTable[lang]?.value ? (table[lang]?.value as string) : "",
+            tableJSON: isTable[lang]?.value
+              ? JSON.parse(JSON.stringify(tableJSON[lang]?.value as string))
+              : {},
+          },
+        })),
+        create: langsToCreate.map((lang) => ({
+          lang: lang,
+          title: title[lang]?.value as string,
+          description: description[lang]?.value as string,
+          subBody: subBody[lang]?.value as string,
+          subBodyJSON: JSON.parse(
+            JSON.stringify(subBodyJSON[lang]?.value as string)
+          ),
+          body: body[lang]?.value as string,
+          bodyJSON: JSON.parse(JSON.stringify(bodyJSON[lang]?.value as string)),
+          table: isTable[lang]?.value ? (table[lang]?.value as string) : "",
+          tableJSON: isTable[lang]?.value
+            ? JSON.parse(JSON.stringify(tableJSON[lang]?.value as string))
+            : {},
+        })),
+      },
     },
   });
 

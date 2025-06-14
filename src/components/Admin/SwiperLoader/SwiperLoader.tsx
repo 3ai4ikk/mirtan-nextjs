@@ -1,108 +1,161 @@
 "use client";
 
-import React, { useRef, useState } from "react";
-
+import React, { useRef, useState, useMemo } from "react";
 import { Navigation } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import type SwiperCore from "swiper";
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import style from "./swiper.module.scss";
 import ImageLoader from "../ImageLoader/ImageLoader";
-import { Download } from "lucide-react";
+import { Trash2 } from "lucide-react";
 
 type Props = {
-  onFileSelected: (file: File | File[]) => void;
-  images?: string | string[];
+  images?: (string | File)[];
+  onFileSelected: (images: (string | File)[]) => void;
 };
 
-const SwiperLoader = ({ onFileSelected, images }: Props) => {
-  const ref = useRef<HTMLInputElement>(null);
-  const [files, setFiles] = useState<File | File[]>([]);
-  const [urls, setUrls] = useState<string | string[]>(images || []);
+const getUniqueKey = (img: string | File) => {
+  if (typeof img === "string") return img;
+  // Use file.name + file.lastModified for File objects
+  return img.name + "_" + img.lastModified;
+};
 
-  const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+const SwiperLoader: React.FC<Props> = ({
+  images = [],
+  onFileSelected,
+}: Props) => {
+  const addInputRef = useRef<HTMLInputElement>(null);
+  const swiperRef = useRef<SwiperCore | null>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const [imageList, setImageList] = useState<(string | File)[]>(images);
+
+  // Cache unique keys for images
+  const slideKeys = useMemo(() => images.map(getUniqueKey), [images]);
+
+  // Add new images to gallery (appends to end of array)
+  const handleAddImages = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
       const files = Array.from(e.target.files);
-      setFiles(files);
-      setUrls(files.map((file) => URL.createObjectURL(file)));
-      onFileSelected(files);
+      onFileSelected([...images, ...files]);
+      setImageList([...images, ...files]);
     }
   };
 
-  const onClickHandler = () => {
-    if (urls.length == 0) ref.current?.click();
+  // Replace single image at a specific index
+  const handleReplaceImage = (file: File, idx: number) => {
+    const newImages = [...images];
+    newImages[idx] = file;
+    onFileSelected(newImages);
+    setImageList(newImages);
   };
 
-  const handleFileUpdate = (file: File | null, index: number) => {
-    const newFiles = Array.isArray(files) ? [...files] : [];
+  // Remove active image with visual sync
+  const handleDeleteCurrent = () => {
+    if (images.length === 0) return;
+    const newImages = [...images];
+    newImages.splice(activeIndex, 1);
 
-    if (file) {
-      newFiles[index] = file;
-    } else {
-      newFiles.splice(index, 1);
+    // Подбираем следующий правильный активный индекс:
+    let newActiveIndex = activeIndex;
+    if (activeIndex >= newImages.length) {
+      newActiveIndex = newImages.length - 1; // Если удалён последний
     }
+    if (newActiveIndex < 0) newActiveIndex = 0;
 
-    setFiles([...newFiles]);
-    onFileSelected([...newFiles]);
+    onFileSelected(newImages);
+    setImageList(newImages);
+
+    // Ждём когда Swiper перерендерится, затем скроллим на нужный индекс
+    setTimeout(() => {
+      if (swiperRef.current && newImages.length > 0) {
+        swiperRef.current.slideTo(newActiveIndex, 0);
+        setActiveIndex(newActiveIndex);
+      }
+    }, 0);
   };
 
-  const SwiperInput = () => (
-    <input
-      type="file"
-      accept="image/*"
-      ref={ref}
-      onChange={onChangeHandler}
-      multiple
-      hidden
-    />
-  );
+  // Preview URL logic
+  const getImageSrc = (image: string | File) => {
+    if (typeof image === "string") return image;
+    return URL.createObjectURL(image);
+  };
 
   return (
     <div className="SwiperLoader">
-      <SwiperInput />
+      <input
+        type="file"
+        accept="image/*"
+        multiple
+        ref={addInputRef}
+        hidden
+        onChange={handleAddImages}
+      />
       <div className={style.image}>
-        <Download
-          onClick={onClickHandler}
-          className={`${style.image__svg} ${urls.length === 0 ? "" : "hidden"}`}
-        />
-        {urls.length === 1 && (
-          <ImageLoader
-            src={urls[0]}
-            onFileSelect={(file) => {
-              setFiles(file);
-              onFileSelected(file);
-            }}
-          />
-        )}
-        {urls.length > 1 && (
-          <Swiper
-            className={style.slider}
-            modules={[Navigation]}
-            slidesPerView={1}
-            slideClass={style.slider__slide}
-            wrapperClass={style.slider__wrapper}
-            speed={1300}
-            navigation
-            loop
-          >
-            {[...urls].map((src, index) => {
-              return (
-                <SwiperSlide key={index} className={style.slider__slide}>
-                  <ImageLoader
-                    src={src}
-                    onFileSelect={(file) => {
-                      handleFileUpdate(file, index);
+        {/* If no images, show big "add" button */}
+
+        <Swiper
+          className={style.slider}
+          modules={[Navigation]}
+          slidesPerView={1}
+          navigation
+          speed={800}
+          wrapperClass={style.slider__wrapper}
+          onSwiper={(swiper) => {
+            swiperRef.current = swiper;
+            setActiveIndex(swiper.realIndex);
+          }}
+          onActiveIndexChange={(swiper) => {
+            setActiveIndex(swiper.realIndex);
+          }}
+        >
+          {imageList.map((img, idx) => (
+            <SwiperSlide
+              key={slideKeys[idx] || idx}
+              className={style.slider__slide}
+            >
+              <div style={{ position: "relative" }}>
+                {/* ImageLoader for replacing */}
+                <ImageLoader
+                  src={getImageSrc(img)}
+                  onFileSelect={(file) => {
+                    handleReplaceImage(file, idx);
+                    setImageList((prev) => [...prev, file]);
+                  }}
+                />
+                {/* Delete button — only show for active slide */}
+                {activeIndex === idx && (
+                  <div
+                    className={style.deleteBtn}
+                    style={{
+                      position: "absolute",
+                      top: 8,
+                      right: 8,
+                      background: "rgba(255,255,255,0.7)",
+                      border: "none",
+                      borderRadius: "50%",
+                      cursor: "pointer",
+                      zIndex: 40,
                     }}
-                  />
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
-        )}
+                    onClick={handleDeleteCurrent}
+                  >
+                    <Trash2 size={24} color="#e3342f" />
+                  </div>
+                )}
+              </div>
+            </SwiperSlide>
+          ))}
+          {/* Slide to add new images */}
+          <SwiperSlide className={style.slider__slide}>
+            <p
+              style={{ cursor: "pointer", userSelect: "none" }}
+              onClick={() => addInputRef.current?.click()}
+            >
+              + Добавить изображения
+            </p>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

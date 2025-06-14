@@ -5,6 +5,8 @@
   height: auto;
   margin: 0;
 
+  position: relative;
+
   border: rem(1) solid black;
   border-radius: rem(10);
 
@@ -28,6 +30,12 @@
       width: rem(300);
       height: rem(200);
       object-fit: contain;
+    }
+
+    &_new {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
@@ -64,3 +72,13 @@
   transition-duration: 0ms;
   opacity: 0;
 }
+
+// .deleteBtn {
+//   @include abs-center;
+//   // left: 0;
+//   left: 70%;
+//   padding: rem(10);
+//   background-color: #fff;
+//   opacity: 60%;
+//   border-radius: 20%;
+// }

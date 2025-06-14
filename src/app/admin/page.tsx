@@ -6,7 +6,9 @@ import ProductAdmin from "@/components/Products/ProductAdmin";
 import AddProductComponent from "@/components/Admin/AddProductComponent";
 
 const AdminPage = async () => {
-  const products = await prisma.product.findMany();
+  const products = await prisma.product.findMany({
+    include: { content: true },
+  });
 
   return (
     <section className="products section">
@@ -15,15 +17,20 @@ const AdminPage = async () => {
         <div className="products__body">
           <div className="products__list">
             <AddProductComponent />
-            {products.map((product) => (
-              <ProductAdmin
-                key={product.id}
-                description={product.description}
-                title={product.title}
-                link={`/admin/products/${product.link}`}
-                imageUrl={product.preview}
-              />
-            ))}
+            {products.map((product) => {
+              const productLang = product.content.find(
+                (item) => item.lang === "ru"
+              );
+              return (
+                <ProductAdmin
+                  key={product.id}
+                  description={productLang?.description as string}
+                  title={productLang?.title as string}
+                  link={`/admin/products/${product.link}`}
+                  imageUrl={product.preview}
+                />
+              );
+            })}
           </div>
         </div>
       </div>

@@ -1,13 +1,18 @@
 import { ReactNode } from "react";
 import SessionProviderWrapper from "@/components/SessionProviderWrapper";
-import { Assistant, Roboto } from "next/font/google";
+import "@/app/globals.scss";
+import { EdgeStoreProvider } from "@/app/lib/edgestore";
 import { Metadata } from "next";
-import { NextIntlClientProvider } from "next-intl";
-import "./globals.scss";
-import { EdgeStoreProvider } from "./lib/edgestore";
+import { Assistant, Roboto } from "next/font/google";
+import { cn } from "../lib/utils";
 
 type Props = {
   children: ReactNode;
+};
+
+export const metadata: Metadata = {
+  title: "Mirtan | Admin Panel",
+  description: "Mirtan admin panel",
 };
 
 const roboto = Roboto({
@@ -22,22 +27,15 @@ const assistant = Assistant({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Mirtan",
-  description: "Mirtan website",
-};
-
 // Since we have a `not-found.tsx` page on the root, a layout file
 // is required, even if it's just passing children through.
 export default function RootLayout({ children }: Props) {
   return (
-    <html className={`${roboto.variable} ${assistant.variable}`}>
-      <body>
-        <NextIntlClientProvider>
-          <SessionProviderWrapper>
-            <EdgeStoreProvider>{children}</EdgeStoreProvider>
-          </SessionProviderWrapper>
-        </NextIntlClientProvider>
+    <html>
+      <body className={cn(roboto.variable, assistant.variable)}>
+        <SessionProviderWrapper>
+          <EdgeStoreProvider>{children}</EdgeStoreProvider>
+        </SessionProviderWrapper>
       </body>
     </html>
   );

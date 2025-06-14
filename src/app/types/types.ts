@@ -1,3 +1,5 @@
+import { Locale } from "@/i18n/routing";
+
 export type Product = {
   id: number;
   link: string;
@@ -11,4 +13,10 @@ export type Product = {
   subBodyJSON: object;
   bodyJSON: object;
   tableJSON: object;
+};
+
+export type Content = {
+  [key in Locale]?: {
+    value: string | string[][] | FormData | object | boolean;
+  };
 };

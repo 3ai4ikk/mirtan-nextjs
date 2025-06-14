@@ -262,11 +262,16 @@
     translate: -50%;
     width: 100%;
     flex-direction: column;
-    background-color: var(--color-light-brown);
+    // background-color: var(--color-light-brown);
     cursor: default;
 
+    text-align: center;
+    width: 100%;
+
     &.mobile {
-      background-color: transparent;
+      .header__option:not(.active) {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
     }
 
     &.open {

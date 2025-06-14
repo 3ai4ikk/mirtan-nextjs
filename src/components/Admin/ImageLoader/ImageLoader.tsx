@@ -6,20 +6,36 @@ import style from "./ImageLoader.module.scss";
 import { Download } from "lucide-react";
 
 type Props = {
-  onFileSelect: (file: File) => void;
+  onFileSelect?: (file: File) => void;
+  onImageReplace?: (file: File, index: number) => void;
   src?: string;
+  index?: number;
+  allowReplace?: boolean;
 };
 
-const ImageLoader = ({ onFileSelect, src }: Props) => {
+const ImageLoader = ({
+  onFileSelect,
+  onImageReplace,
+  src,
+  index,
+  allowReplace = false,
+}: Props) => {
   const ref = useRef<HTMLInputElement>(null);
-  const [file, setFile] = useState<File>();
   const [url, setURL] = useState<string>(src || "");
 
   const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      setURL(URL.createObjectURL(e.target.files[0]));
-      setFile(e.target.files[0]);
-      onFileSelect(e.target.files[0]);
+      const file = e.target.files[0];
+      setURL(URL.createObjectURL(file));
+
+      // If this is an image replacement in a parent component
+      if (allowReplace && onImageReplace && index !== undefined) {
+        onImageReplace(file, index);
+      }
+      // If this is a regular file selection (e.g., for preview)
+      else if (onFileSelect) {
+        onFileSelect(file);
+      }
     }
   };
 

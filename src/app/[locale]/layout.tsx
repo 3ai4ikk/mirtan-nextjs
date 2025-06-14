@@ -1,9 +1,14 @@
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { ReactNode } from "react";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { NextIntlClientProvider } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
+import "@/app/globals.scss";
 import { Assistant, Roboto } from "next/font/google";
+import { Metadata } from "next";
+import { cn } from "../lib/utils";
 
 type Props = {
   children: ReactNode;
@@ -22,15 +27,22 @@ const assistant = Assistant({
   subsets: ["latin"],
 });
 
+export const metadata: Metadata = {
+  title: "Mirtan",
+  description: "Mirtan website",
+};
+
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
   const messages = await getMessages();
 
+  if (!hasLocale(routing.locales, locale)) return notFound();
+
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${roboto.variable} ${assistant.variable}`}>
-      <body>
+    <html lang={locale}>
+      <body className={cn(roboto.variable, assistant.variable)}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>

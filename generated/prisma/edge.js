@@ -160,7 +160,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\Петя\\Desktop\\Visual Studio Code Projects\\2025\\Mirtan-Next-js\\generated\\prisma",
+      "value": "C:\\Users\\Петя\\Desktop\\WebstormProjects\\Mirtan-Next-js\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -174,7 +174,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\Петя\\Desktop\\Visual Studio Code Projects\\2025\\Mirtan-Next-js\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\Петя\\Desktop\\WebstormProjects\\Mirtan-Next-js\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -188,6 +188,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {

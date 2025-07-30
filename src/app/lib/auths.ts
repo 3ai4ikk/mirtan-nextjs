@@ -1,4 +1,4 @@
-import { NextAuthOptions } from "next-auth";
+import {NextAuthOptions} from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 
 export const authOptions: NextAuthOptions = {
@@ -6,11 +6,15 @@ export const authOptions: NextAuthOptions = {
     Credentials({
       name: "Credentials",
       credentials: {
-        username: { label: "Username", type: "text" },
-        password: { label: "Password", type: "password" },
+        username: {label: "Username", type: "text"},
+        password: {label: "Password", type: "password"},
       },
       async authorize(credentials) {
-        const user = { id: "0", name: "admin", password: "admin" };
+        const user = {
+          id: "0",
+          name: process.env.ADMIN_PANEL_LOGIN,
+          password: process.env.ADMIN_PANEL_PASSWORD
+        };
 
         if (
           credentials?.username !== user.name ||

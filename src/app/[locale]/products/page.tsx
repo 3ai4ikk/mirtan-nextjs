@@ -1,14 +1,27 @@
 import React from "react";
 import Product from "../../../components/Products/Product";
 
-import { getProductsItems } from "../../../components/products";
+import { getItems } from "@/components/products";
 
 import "@/components/Products/products.scss";
 import "./products.scss";
-import { useTranslations } from "next-intl";
+import {getLocale, getTranslations} from "next-intl/server";
+import {Category} from "@/app/lib/utils";
 
-const Products = () => {
-  const t = useTranslations("Products");
+const Products = async () => {
+  const t = await getTranslations("Products");
+
+  const locale = await getLocale();
+
+  const products = await getItems();
+
+  const mills = products.filter(
+    (item) => item.category === Category.CompleteMills
+  ).sort((a, b) => a.id - b.id);
+
+  const automation = products.filter(
+    (item) => item.category === Category.IndustrialAutomation
+  ).sort((a, b) => a.id - b.id);
 
   const productsTitles = t.raw("title");
 
@@ -18,51 +31,37 @@ const Products = () => {
         <h1 className="products__title">{productsTitles[1]}</h1>
         <div className="products__body">
           <div className="products__list">
-            <Product
-              title={getProductsItems(t)[12].title}
-              link={getProductsItems(t)[12].link}
-              imageUrl={getProductsItems(t)[12].imageUrl}
-              description={getProductsItems(t)[12].description}
-            />
-            <Product
-              title={getProductsItems(t)[13].title}
-              link={getProductsItems(t)[13].link}
-              imageUrl={getProductsItems(t)[13].imageUrl}
-              description={getProductsItems(t)[13].description}
-            />
-            <Product
-              title={getProductsItems(t)[14].title}
-              link={getProductsItems(t)[14].link}
-              imageUrl={getProductsItems(t)[14].imageUrl}
-              description={getProductsItems(t)[14].description}
-            />
+            {mills.map((item) => (<Product
+              key={item.id}
+              title={item.content.find((item) => item.lang === locale)?.title}
+              link={"/products/" + item.link}
+              imageUrl={item.preview}
+              description={item.content.find((item) => item.lang === locale)?.description}
+            />))}
           </div>
         </div>
         <h1 className="products__title">{productsTitles[0]}</h1>
         <div className="products__body">
           <div className="products__list">
-            {getProductsItems(t).map(
-              ({ title, link, imageUrl, description }, index) => (
-                <Product
-                  key={index}
-                  title={title}
-                  link={link}
-                  imageUrl={imageUrl}
-                  description={description}
-                />
-              )
-            )}
+            {products.map((item) => (<Product
+              key={item.id}
+              title={item.content.find((item) => item.lang === locale)?.title}
+              link={"/products/" + item.link}
+              imageUrl={item.preview}
+              description={item.content.find((item) => item.lang === locale)?.description}
+            />))}
           </div>
         </div>
         <h1 className="products__title">{productsTitles[2]}</h1>
         <div className="products__body">
           <div className="products__list">
-            <Product
-              title={getProductsItems(t)[15].title}
-              link={getProductsItems(t)[15].link}
-              imageUrl={getProductsItems(t)[15].imageUrl}
-              description={getProductsItems(t)[15].description}
-            />
+            {automation.map((item) => (<Product
+              key={item.id}
+              title={item.content.find((item) => item.lang === locale)?.title}
+              link={"/products/" + item.link}
+              imageUrl={item.preview}
+              description={item.content.find((item) => item.lang === locale)?.description}
+            />))}
           </div>
         </div>
       </div>

@@ -19,6 +19,7 @@ model Product {
   link String @unique
   preview String
   images String[]
+  category String
   content Content[]
 }
 

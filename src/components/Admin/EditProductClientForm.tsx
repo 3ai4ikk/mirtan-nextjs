@@ -1,28 +1,29 @@
 "use client";
-import { useCallback, useState } from "react";
+import {useCallback, useState} from "react";
 import Editor from "@/components/Editor/Editor";
 import Form from "next/form";
 import ImageLoader from "./ImageLoader/ImageLoader";
-import { addImages, updateProduct } from "@/app/lib/action";
-import { useEdgeStore } from "@/app/lib/edgestore";
+import {addImages, deleteProduct, updateProduct} from "@/app/lib/action";
+import {useEdgeStore} from "@/app/lib/edgestore";
 import Switcher from "./TableComponent/Switcher";
-import SwiperLoaderTest, { ImageChange } from "./SwiperLoader/SwiperLoaderTest";
+import SwiperLoaderTest, {ImageChange} from "./SwiperLoader/SwiperLoaderTest";
 
-import { type ImageItem } from "./SwiperLoader/SwiperLoaderTest";
-import { useRouter } from "next/navigation";
-import { Content } from "@/app/types/types";
-import { Locale } from "@/i18n/routing";
-import { cn } from "@/app/lib/utils";
+import {type ImageItem} from "./SwiperLoader/SwiperLoaderTest";
+import {useRouter} from "next/navigation";
+import {Content} from "@/app/types/types";
+import {Locale} from "@/i18n/routing";
+import {Category, cn, initialEditorValue} from "@/app/lib/utils";
 
 import style from "@/app/admin/add/page.module.scss";
-import { hasProduct } from "@/app/lib/serverUtils";
-import { useDebouncedCallback } from "use-debounce";
+import {hasProduct} from "@/app/lib/serverUtils";
+import {useDebouncedCallback} from "use-debounce";
 import MyTableComponent from "./TableComponent/MyTableComponent";
-import { initialEditorValue } from "@/app/admin/add/page";
 
 type Props = {
+  productId: number;
   productLangs: string[];
   productLink: string;
+  productCategory: string;
   productPreview: string;
   images: string[];
   productTitle: Content;
@@ -35,21 +36,24 @@ type Props = {
   productTableJSON: Content;
 };
 
-export default function EditProductClientForm({
-  productLangs,
-  productLink,
-  productPreview,
-  images,
-  productDescription,
-  productSubBody,
-  productSubBodyJSON,
-  productBody,
-  productBodyJSON,
-  productTable,
-  productTableJSON,
-  productTitle,
-}: Props) {
-  const { edgestore } = useEdgeStore();
+export default function EditProductClientForm(
+  {
+    productId,
+    productLangs,
+    productLink,
+    productCategory,
+    productPreview,
+    images,
+    productDescription,
+    productSubBody,
+    productSubBodyJSON,
+    productBody,
+    productBodyJSON,
+    productTable,
+    productTableJSON,
+    productTitle,
+  }: Props) {
+  const {edgestore} = useEdgeStore();
 
   const [langs, setLangs] = useState<Locale[]>(productLangs as Locale[]);
 
@@ -77,6 +81,10 @@ export default function EditProductClientForm({
 
   const [linkState, setLinkState] = useState<"red" | "green" | "gray">("green");
 
+  const [category, setCategory] = useState<Category>(
+    productCategory as Category
+  );
+
   const router = useRouter();
 
   const linkHandler = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -86,10 +94,10 @@ export default function EditProductClientForm({
 
   const handleTableChange = useCallback(
     (html: string, json: string[][]) => {
-      setTable((prev) => ({ ...prev, [locale]: { value: html } }));
+      setTable((prev) => ({...prev, [locale]: {value: html}}));
       setTableJSON((prev) => ({
         ...prev,
-        [locale]: { value: json },
+        [locale]: {value: json},
       }));
     },
     [locale]
@@ -201,6 +209,7 @@ export default function EditProductClientForm({
       await updateProduct(
         productLink,
         link,
+        category,
         langs,
         title,
         description,
@@ -228,7 +237,7 @@ export default function EditProductClientForm({
       console.log("Form submission completed successfully");
 
       // Revalidate page
-      router.replace(`/admin/products/${link}`, { scroll: false });
+      router.replace(`/admin/products/${link}`, {scroll: false});
     } catch (error) {
       console.error("Error during form submission:", error);
       // Could add user-facing error handling here
@@ -236,30 +245,35 @@ export default function EditProductClientForm({
   };
 
   const addNewLang = (lang: Locale) => {
-    setDescription((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setTitle((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setTable((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setSubBody((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setBody((prev) => ({ ...prev, [lang]: { value: "" } }));
+    setDescription((prev) => ({...prev, [lang]: {value: ""}}));
+    setTitle((prev) => ({...prev, [lang]: {value: ""}}));
+    setTable((prev) => ({...prev, [lang]: {value: ""}}));
+    setSubBody((prev) => ({...prev, [lang]: {value: ""}}));
+    setBody((prev) => ({...prev, [lang]: {value: ""}}));
     setSubBodyJSON((prev) => ({
       ...prev,
-      [lang]: { value: initialEditorValue },
+      [lang]: {value: initialEditorValue},
     }));
     setBodyJSON((prev) => ({
       ...prev,
-      [lang]: { value: initialEditorValue },
+      [lang]: {value: initialEditorValue},
     }));
     setTableJSON((prev) => ({
       ...prev,
-      [lang]: { value: {} },
+      [lang]: {value: {}},
     }));
-    setIsTable((prev) => ({ ...prev, [lang]: { value: false } }));
+    setIsTable((prev) => ({...prev, [lang]: {value: false}}));
   };
+
+  const handleDelete = async () => {
+    await deleteProduct(productId);
+    router.replace("/admin");
+  }
 
   return (
     <>
-      <nav>
-        <ul className={style.ul}>
+      <nav className={style.nav}>
+        <ul>
           {langs.map((lang) => (
             <li
               key={lang}
@@ -291,7 +305,7 @@ export default function EditProductClientForm({
         id="form"
         formMethod="POST"
         action={handleForm}
-        className="space-y-8 bg-white p-6 rounded-xl shadow-md"
+        className={cn(style.form, "space-y-8 bg-white pt-15 rounded-xl shadow-md container")}
       >
         <div className="space-y-4">
           <h2 className="text-lg font-semibold text-gray-700 pb-2 border-b border-gray-200">
@@ -328,6 +342,22 @@ export default function EditProductClientForm({
           </div>
 
           <div className="space-y-2">
+            <span className="block text-sm font-medium text-gray-600">
+              Категория товара
+            </span>
+            <select
+              value={category}
+              onChange={(e) => setCategory(e.target.value as Category)}
+              style={{fontSize: "14px"}}
+              name="select-category"
+            >
+              <option>{Category.EMPTY}</option>
+              <option>{Category.CompleteMills}</option>
+              <option>{Category.IndustrialAutomation}</option>
+            </select>
+          </div>
+
+          <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-600">
               Название товара
               <input
@@ -340,7 +370,7 @@ export default function EditProductClientForm({
                 onChange={(e) => {
                   setTitle((prev) => ({
                     ...prev,
-                    [locale]: { value: e.target.value },
+                    [locale]: {value: e.target.value},
                   }));
                 }}
               />
@@ -360,14 +390,14 @@ export default function EditProductClientForm({
                 onChange={(e) => {
                   setDescription((prev) => ({
                     ...prev,
-                    [locale]: { value: e.target.value },
+                    [locale]: {value: e.target.value},
                   }));
                 }}
               />
             </label>
           </div>
         </div>
-        <div className="space-y-6">
+        <div className={cn(style.images, "space-y-6")}>
           <h2 className="text-lg font-semibold text-gray-700 pb-2 border-b border-gray-200">
             Изображения
           </h2>
@@ -377,7 +407,10 @@ export default function EditProductClientForm({
               <h3 className="text-sm font-medium text-gray-600 mb-2">
                 Главное изображение
               </h3>
-              <ImageLoader src={productPreview} onFileSelect={setPreview} />
+              <ImageLoader
+                src={productPreview}
+                onFileSelect={setPreview}
+              />
             </div>
 
             <div className="border-2 border-dashed border-gray-200 rounded-lg p-4">
@@ -407,11 +440,11 @@ export default function EditProductClientForm({
                 onChange={(jsonContent, htmlContent) => {
                   setSubBodyJSON((prev) => ({
                     ...prev,
-                    [locale]: { value: jsonContent },
+                    [locale]: {value: jsonContent},
                   }));
                   setSubBody((prev) => ({
                     ...prev,
-                    [locale]: { value: htmlContent },
+                    [locale]: {value: htmlContent},
                   }));
                 }}
               />
@@ -427,11 +460,11 @@ export default function EditProductClientForm({
                 onChange={(jsonContent, htmlContent) => {
                   setBodyJSON((prev) => ({
                     ...prev,
-                    [locale]: { value: jsonContent },
+                    [locale]: {value: jsonContent},
                   }));
                   setBody((prev) => ({
                     ...prev,
-                    [locale]: { value: htmlContent },
+                    [locale]: {value: htmlContent},
                   }));
                 }}
               />
@@ -441,7 +474,7 @@ export default function EditProductClientForm({
         <Switcher
           initialValue={isTable[locale]?.value as boolean}
           onChange={(value) => {
-            setIsTable((prev) => ({ ...prev, [locale]: { value: value } }));
+            setIsTable((prev) => ({...prev, [locale]: {value: value}}));
           }}
         />
         {isTable[locale]?.value && (
@@ -451,12 +484,23 @@ export default function EditProductClientForm({
             onChange={handleTableChange}
           />
         )}
-        <button
-          type="submit"
-          className="w-full md:w-auto px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-colors duration-150"
-        >
-          Сохранить товар
-        </button>
+        <div className="flex justify-between gap-10">
+          <button
+            type="submit"
+            className="w-full md:w-auto px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-colors duration-150"
+          >
+            Сохранить товар
+          </button>
+
+          <button
+            type="button"
+            className="w-full md:w-auto px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-medium rounded-md transition-colors duration-150"
+            onClick={handleDelete}
+          >
+            Удалить товар
+          </button>
+        </div>
+
       </Form>
     </>
   );

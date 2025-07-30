@@ -1,29 +1,53 @@
 @use "@/app/styles/helpers" as *;
 
-.add {
+$box-shadow: 3px 3px 12px 0 #42445AFF;
+
+.box {
+  width: 420px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+
+  padding-block: 50px;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
 
-  &__square {
-    width: rem(100);
-    height: rem(100);
-    border-radius: rem(10);
-    border: rem(1) solid black;
-    position: relative;
+  @include tablet {
+    width: 100%;
+  }
+}
 
-    &::before,
-    &::after {
-      @include abs-center;
-      position: absolute;
-      content: "";
-      background-color: black;
-      width: rem(2);
-      height: 50%;
-    }
+.button {
+  width: 100px;
+  height: 100px;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+  position: relative;
 
-    &::after {
-      transform: rotate(90deg);
-    }
+  @include mobile {
+    width: 70px;
+    height: 70px;
+  }
+
+  &:hover {
+    box-shadow: 3px 3px 12px 0 #60637b;
+  }
+
+  &:before, &:after {
+    @include abs-center;
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  &:after {
+    rotate: 90deg;
   }
 }

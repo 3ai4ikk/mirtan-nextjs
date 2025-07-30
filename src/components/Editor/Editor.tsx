@@ -8,6 +8,8 @@ import { NodeSelector } from "./selectors/node-selector";
 import { TextButtons } from "./selectors/text-buttons";
 import { ColorSelector } from "./selectors/color-selector";
 
+import "./Editor.scss";
+
 type Props = {
   onChange: (JSONContent: JSONContent, HTMLContent: string) => void;
   initialContent?: JSONContent;
@@ -39,7 +41,7 @@ const Editor = ({ onChange, initialContent }: Props) => {
         onUpdate={({ editor }) => {
           onChange(editor.getJSON(), editor.getHTML());
         }}
-        className="min-h-96 rounded-xl border p-4"
+        className="min-h-96 rounded-xl border p-4 editor"
         editorProps={{
           attributes: {
             class:

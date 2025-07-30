@@ -43,6 +43,21 @@
 
     &-text {
       text-align: justify;
+
+      ul {
+        list-style: disc;
+
+        margin-block: 18px;
+
+        li {
+          margin-left: 40px;
+          margin-bottom: 5px;
+
+          p {
+            text-align: left;
+          }
+        }
+      }
     }
   }
 

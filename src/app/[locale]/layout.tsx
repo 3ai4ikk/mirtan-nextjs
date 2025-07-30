@@ -1,14 +1,15 @@
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import { ReactNode } from "react";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
-import { routing } from "@/i18n/routing";
-import { notFound } from "next/navigation";
+import {ReactNode} from "react";
+import {hasLocale, NextIntlClientProvider} from "next-intl";
+import {getMessages, setRequestLocale} from "next-intl/server";
+import {routing} from "@/i18n/routing";
+import {notFound} from "next/navigation";
 import "@/app/globals.scss";
-import { Assistant, Roboto } from "next/font/google";
-import { Metadata } from "next";
-import { cn } from "../lib/utils";
+import {Assistant, Roboto} from "next/font/google";
+import {Metadata} from "next";
+import {cn} from "../lib/utils";
+import {Analytics} from "@vercel/analytics/next"
 
 type Props = {
   children: ReactNode;
@@ -32,8 +33,8 @@ export const metadata: Metadata = {
   description: "Mirtan website",
 };
 
-export default async function RootLayout({ children, params }: Props) {
-  const { locale } = await params;
+export default async function RootLayout({children, params}: Props) {
+  const {locale} = await params;
   const messages = await getMessages();
 
   if (!hasLocale(routing.locales, locale)) return notFound();
@@ -42,13 +43,14 @@ export default async function RootLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <body className={cn(roboto.variable, assistant.variable)}>
-        <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
+    <body className={cn(roboto.variable, assistant.variable)}>
+    <Analytics />
+    <NextIntlClientProvider messages={messages}>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </NextIntlClientProvider>
+    </body>
     </html>
   );
 }

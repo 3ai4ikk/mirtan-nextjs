@@ -15,11 +15,12 @@ datasource db {
 }
 
 model Product {
-  id      Int       @id @unique @default(autoincrement())
-  link    String    @unique
-  preview String
-  images  String[]
-  content Content[]
+  id       Int       @id @unique @default(autoincrement())
+  link     String    @unique
+  preview  String
+  images   String[]
+  category String
+  content  Content[]
 }
 
 model Content {

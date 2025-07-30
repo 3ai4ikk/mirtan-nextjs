@@ -3,6 +3,9 @@ import { EditorBubbleItem, useEditor } from "novel";
 
 import { Button } from "../ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+
+import "../Editor.scss";
+
 export interface BubbleColorMenuItem {
   name: string;
   color: string;
@@ -122,7 +125,7 @@ export const ColorSelector = ({ open, onOpenChange }: ColorSelectorProps) => {
 
       <PopoverContent
         sideOffset={5}
-        className="my-1 flex max-h-80 w-48 flex-col overflow-hidden overflow-y-auto rounded border p-1 shadow-xl"
+        className="editor__color-picker my-1 flex max-h-80 w-48 flex-col overflow-hidden overflow-y-auto rounded border p-1 shadow-xl"
         align="start"
       >
         <div className="flex flex-col">

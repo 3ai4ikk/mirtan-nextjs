@@ -1,10 +1,11 @@
-import { ReactNode } from "react";
+import {ReactNode} from "react";
 import SessionProviderWrapper from "@/components/SessionProviderWrapper";
 import "@/app/globals.scss";
-import { EdgeStoreProvider } from "@/app/lib/edgestore";
-import { Metadata } from "next";
-import { Assistant, Roboto } from "next/font/google";
-import { cn } from "../lib/utils";
+import {EdgeStoreProvider} from "@/app/lib/edgestore";
+import {Metadata} from "next";
+import {Assistant, Roboto} from "next/font/google";
+import {cn} from "../lib/utils";
+import Header from "@/components/Admin/Header";
 
 type Props = {
   children: ReactNode;
@@ -29,14 +30,17 @@ const assistant = Assistant({
 
 // Since we have a `not-found.tsx` page on the root, a layout file
 // is required, even if it's just passing children through.
-export default function RootLayout({ children }: Props) {
+export default function RootLayout({children}: Props) {
   return (
     <html>
-      <body className={cn(roboto.variable, assistant.variable)}>
-        <SessionProviderWrapper>
-          <EdgeStoreProvider>{children}</EdgeStoreProvider>
-        </SessionProviderWrapper>
-      </body>
+    <body className={cn(roboto.variable, assistant.variable)}>
+    <SessionProviderWrapper>
+      <EdgeStoreProvider>
+        <Header />
+        {children}
+      </EdgeStoreProvider>
+    </SessionProviderWrapper>
+    </body>
     </html>
   );
 }

@@ -1,12 +1,14 @@
 "use server";
 
 import prisma from "./prismaClient";
-import { Prisma } from "../../../generated/prisma";
-import { Content } from "../types/types";
-import { Locale } from "@/i18n/routing";
+import {Prisma} from "../../../generated/prisma";
+import {Content} from "../types/types";
+import {Locale} from "@/i18n/routing";
+import {Category} from "./utils";
 
 export const addProduct = async (
   link: string,
+  category: Category,
   langs: Locale[],
   title: Content,
   description: Content,
@@ -26,6 +28,7 @@ export const addProduct = async (
         link: link,
         preview: "",
         images: [],
+        category: category,
         content: {
           create: langs.map((lang) => ({
             lang: lang,
@@ -74,6 +77,7 @@ export const addImages = async (
 export const updateProduct = async (
   link: string,
   newLink: string,
+  category: Category,
   langs: Locale[],
   title: Content,
   description: Content,
@@ -87,8 +91,8 @@ export const updateProduct = async (
 ) => {
   // Получаем существующие языки для продукта
   const product = await prisma.product.findUnique({
-    where: { link },
-    include: { content: true },
+    where: {link},
+    include: {content: true},
   });
   const existingLangs = product?.content.map((c) => c.lang) ?? [];
 
@@ -97,12 +101,13 @@ export const updateProduct = async (
   const langsToCreate = langs.filter((lang) => !existingLangs.includes(lang));
 
   await prisma.product.update({
-    where: { link: link },
+    where: {link: link},
     data: {
       link: newLink,
+      category: category,
       content: {
         updateMany: langsToUpdate.map((lang) => ({
-          where: { lang: lang },
+          where: {lang: lang},
           data: {
             title: title[lang]?.value as string,
             description: description[lang]?.value as string,
@@ -142,10 +147,9 @@ export const updateProduct = async (
   console.log("Product updated");
 };
 
-export const deleteProduct = async (link: string) => {
-  await prisma.product.delete({
-    where: {
-      link: link,
-    },
-  });
+export const deleteProduct = async (id: number) => {
+
+  await prisma.content.deleteMany({where: {productId: id}});
+
+  await prisma.product.delete({where: {id}});
 };

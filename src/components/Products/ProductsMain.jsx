@@ -1,16 +1,18 @@
-import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import React from "react";
 
 import Product from "./Product";
-import { getProductsItems } from "../products";
+import { getItems } from "../products";
 
 import "./products.scss";
-import { useTranslations } from "next-intl";
+import {getLocale, getTranslations} from "next-intl/server";
 
-const ProductsMain = () => {
-  const tMain = useTranslations("ProductsMain");
-  const tProducts = useTranslations("Products");
+const ProductsMain = async () => {
+  const tMain = await getTranslations("ProductsMain");
+
+  const locale = await getLocale();
+
+  const products = await getItems();
 
   return (
     <section className="products section">
@@ -26,15 +28,15 @@ const ProductsMain = () => {
         </header>
         <div className="products__body">
           <div className="products__list">
-            {getProductsItems(tProducts)
+            {products
               .slice(0, 6)
-              .map(({ title, link, imageUrl, description }, index) => (
+              .map((item) => (
                 <Product
-                  key={index}
-                  title={title}
-                  link={link}
-                  imageUrl={imageUrl}
-                  description={description}
+                  key={item.id}
+                  title={item?.content.find((item) => item.lang === locale)?.title}
+                  link={"/products/" + item.link}
+                  imageUrl={item.preview}
+                  description={item?.content.find((item) => item.lang === locale)?.description}
                 />
               ))}
           </div>

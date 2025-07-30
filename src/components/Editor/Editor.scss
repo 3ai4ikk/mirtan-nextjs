@@ -1,0 +1,21 @@
+.editor {
+  ul {
+    list-style: disc;
+    padding-bottom: 10px;
+  }
+
+  li {
+    margin-left: 40px;
+    margin-bottom: 5px;
+  }
+
+  &__menu {
+    background-color: #8C8C8CFF;
+    color: #fff;
+  }
+
+  &__color-picker {
+    background-color: #8C8C8CFF;
+    scrollbar-width: none;
+  }
+}

@@ -11,3 +11,14 @@ export const revalidate = async (path: string) => {
 };
 
 export const langs = ["ru", "en", "tr"] as const;
+
+export enum Category {
+  EMPTY = "Без категории",
+  CompleteMills = "Комплектные мельницы",
+  IndustrialAutomation = "Промышленная автоматизация",
+}
+
+export const initialEditorValue = {
+  type: "doc",
+  content: [],
+};

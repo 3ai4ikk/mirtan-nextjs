@@ -177,7 +177,6 @@ const MyTableComponent = ({ initialValue, onChange }: TableProps) => {
           })}
         </tbody>
       </table>
-      <div dangerouslySetInnerHTML={{ __html: generateRawHTML(cells) }} />
     </div>
   );
 };

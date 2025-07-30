@@ -5,12 +5,16 @@ import FormComponent from "./FormComponent";
 import "./footer.scss";
 import "@/app/styles/components/button.scss";
 import "@/app/styles/components/form.scss";
-import { getProductsItems } from "../products";
-import { useTranslations } from "next-intl";
+import { getItems } from "../products";
+import {getLocale, getTranslations} from "next-intl/server";
 
-const Footer = () => {
-  const tProducts = useTranslations("Products");
-  const tFooter = useTranslations("Footer");
+const Footer = async () => {
+  // const tProducts = useTranslations("Products");
+  const tFooter = await getTranslations("Footer");
+
+  const locale = await getLocale();
+
+  const product = await getItems();
 
   const footerHeaders = tFooter.raw("title");
 
@@ -25,13 +29,16 @@ const Footer = () => {
           <h4 className="footer__title">{footerHeaders[0]}</h4>
           <div className="footer__products-body">
             <ul className="footer__products-list">
-              {getProductsItems(tProducts).map(({ title, link }, index) => (
-                <li className="footer__products-item" key={index}>
-                  <Link className="footer__products-link" href={link}>
-                    {title}
-                  </Link>
-                </li>
-              ))}
+              {product.map((item) => {
+                const i = item.content.find((item) => item.lang === locale);
+                return (i &&
+                  (<li className="footer__products-item" key={item.id}>
+                    <Link className="footer__products-link" href={"/products/" + item.link}>
+                      {item.content.find((item) => item.lang === locale)?.title}
+                    </Link>
+                  </li>)
+                )
+              })}
             </ul>
           </div>
         </div>

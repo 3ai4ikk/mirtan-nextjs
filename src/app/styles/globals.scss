@@ -11,7 +11,7 @@ html {
 
 body {
   @include fluid-text(18, 14);
-  font-family: var(--font-family-base);
+  font-family: var(--font-family-base), serif;
   color: var(--color-dark);
 
   display: flex;

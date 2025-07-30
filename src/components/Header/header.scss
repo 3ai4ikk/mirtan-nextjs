@@ -18,7 +18,7 @@
   &__logo {
     &-link {
       width: fluid(200, 120);
-      height: rem(60);
+      height: 60px;
       background: url("/logo/logo-light.png") center/contain no-repeat;
 
       &.dark {
@@ -63,7 +63,7 @@
   &.scroll:not(&--bg-light-brown) {
     background-color: var(--color-light);
     color: var(--color-dark);
-    box-shadow: 0px 4px 12px 0px rgba(66, 68, 90, 0.5);
+    box-shadow: 0 4px 12px 0 rgba(66, 68, 90, 0.5);
 
     transition-duration: var(--transition-duration);
 
@@ -109,14 +109,14 @@
 
   &__list {
     display: flex;
-    column-gap: rem(10);
+    column-gap: 10px;
   }
 
   &__link,
   &__navigation-link {
     display: inline-flex;
-    height: rem(48);
-    padding-inline: rem(20);
+    height: 48px;
+    padding-inline: 20px;
     align-items: center;
 
     position: relative;
@@ -124,7 +124,7 @@
     &::after {
       @include abs-x;
       content: "";
-      width: 0%;
+      width: 0;
       height: 100%;
       background-color: var(--color-red);
       z-index: -1;
@@ -155,7 +155,7 @@
     left: 200vw;
     z-index: 100;
     top: 0;
-    padding: rem(20);
+    padding: 20px;
 
     width: 100vw;
     height: 100vh;
@@ -180,25 +180,25 @@
 
       span {
         @include abs-center;
-        width: rem(24);
-        height: rem(2);
+        width: 24px;
+        height: 2px;
         background-color: var(--color-dark);
 
         &::before,
         &::after {
           position: absolute;
           content: "";
-          width: rem(24);
-          height: rem(2);
+          width: 24px;
+          height: 2px;
           background-color: var(--color-dark);
         }
 
         &::before {
-          top: rem(-6);
+          top: -6px;
         }
 
         &::after {
-          bottom: rem(-6);
+          bottom: -6px;
         }
       }
 
@@ -221,7 +221,7 @@
     &-list {
       display: flex;
       flex-direction: column;
-      row-gap: rem(5);
+      row-gap: 5px;
     }
 
     &-nav {
@@ -229,20 +229,20 @@
     }
 
     &-logo {
-      margin-top: rem(10);
+      margin-top: 10px;
     }
   }
 
   &__menu {
     display: flex;
     align-items: center;
-    column-gap: rem(10);
+    column-gap: 10px;
   }
 
   &__select {
     position: relative;
     color: var(--color-light);
-    padding-inline: rem(10);
+    padding-inline: 10px;
     cursor: pointer;
 
     &.mobile {
@@ -257,16 +257,14 @@
   &__options {
     display: none;
     position: absolute;
-    top: rem(30);
+    top: 30px;
     left: 50%;
     translate: -50%;
     width: 100%;
     flex-direction: column;
-    // background-color: var(--color-light-brown);
     cursor: default;
 
     text-align: center;
-    width: 100%;
 
     &.mobile {
       .header__option:not(.active) {

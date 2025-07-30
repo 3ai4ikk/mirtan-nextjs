@@ -226,8 +226,8 @@ export namespace Prisma {
   export import Exact = $Public.Exact
 
   /**
-   * Prisma Client JS version: 6.8.2
-   * Query Engine version: 2060c79ba17c6bb9f5823312b6f6b7f4a845738e
+   * Prisma Client JS version: 6.9.0
+   * Query Engine version: 81e4af48011447c3cc503a190e86995b66d2a28e
    */
   export type PrismaVersion = {
     client: string
@@ -1014,12 +1014,14 @@ export namespace Prisma {
     id: number | null
     link: string | null
     preview: string | null
+    category: string | null
   }
 
   export type ProductMaxAggregateOutputType = {
     id: number | null
     link: string | null
     preview: string | null
+    category: string | null
   }
 
   export type ProductCountAggregateOutputType = {
@@ -1027,6 +1029,7 @@ export namespace Prisma {
     link: number
     preview: number
     images: number
+    category: number
     _all: number
   }
 
@@ -1043,12 +1046,14 @@ export namespace Prisma {
     id?: true
     link?: true
     preview?: true
+    category?: true
   }
 
   export type ProductMaxAggregateInputType = {
     id?: true
     link?: true
     preview?: true
+    category?: true
   }
 
   export type ProductCountAggregateInputType = {
@@ -1056,6 +1061,7 @@ export namespace Prisma {
     link?: true
     preview?: true
     images?: true
+    category?: true
     _all?: true
   }
 
@@ -1150,6 +1156,7 @@ export namespace Prisma {
     link: string
     preview: string
     images: string[]
+    category: string
     _count: ProductCountAggregateOutputType | null
     _avg: ProductAvgAggregateOutputType | null
     _sum: ProductSumAggregateOutputType | null
@@ -1176,6 +1183,7 @@ export namespace Prisma {
     link?: boolean
     preview?: boolean
     images?: boolean
+    category?: boolean
     content?: boolean | Product$contentArgs<ExtArgs>
     _count?: boolean | ProductCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["product"]>
@@ -1185,6 +1193,7 @@ export namespace Prisma {
     link?: boolean
     preview?: boolean
     images?: boolean
+    category?: boolean
   }, ExtArgs["result"]["product"]>
 
   export type ProductSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
@@ -1192,6 +1201,7 @@ export namespace Prisma {
     link?: boolean
     preview?: boolean
     images?: boolean
+    category?: boolean
   }, ExtArgs["result"]["product"]>
 
   export type ProductSelectScalar = {
@@ -1199,9 +1209,10 @@ export namespace Prisma {
     link?: boolean
     preview?: boolean
     images?: boolean
+    category?: boolean
   }
 
-  export type ProductOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "link" | "preview" | "images", ExtArgs["result"]["product"]>
+  export type ProductOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "link" | "preview" | "images" | "category", ExtArgs["result"]["product"]>
   export type ProductInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     content?: boolean | Product$contentArgs<ExtArgs>
     _count?: boolean | ProductCountOutputTypeDefaultArgs<ExtArgs>
@@ -1219,6 +1230,7 @@ export namespace Prisma {
       link: string
       preview: string
       images: string[]
+      category: string
     }, ExtArgs["result"]["product"]>
     composites: {}
   }
@@ -1647,6 +1659,7 @@ export namespace Prisma {
     readonly link: FieldRef<"Product", 'String'>
     readonly preview: FieldRef<"Product", 'String'>
     readonly images: FieldRef<"Product", 'String[]'>
+    readonly category: FieldRef<"Product", 'String'>
   }
     
 
@@ -3257,7 +3270,8 @@ export namespace Prisma {
     id: 'id',
     link: 'link',
     preview: 'preview',
-    images: 'images'
+    images: 'images',
+    category: 'category'
   };
 
   export type ProductScalarFieldEnum = (typeof ProductScalarFieldEnum)[keyof typeof ProductScalarFieldEnum]
@@ -3400,6 +3414,7 @@ export namespace Prisma {
     link?: StringFilter<"Product"> | string
     preview?: StringFilter<"Product"> | string
     images?: StringNullableListFilter<"Product">
+    category?: StringFilter<"Product"> | string
     content?: ContentListRelationFilter
   }
 
@@ -3408,6 +3423,7 @@ export namespace Prisma {
     link?: SortOrder
     preview?: SortOrder
     images?: SortOrder
+    category?: SortOrder
     content?: ContentOrderByRelationAggregateInput
   }
 
@@ -3419,6 +3435,7 @@ export namespace Prisma {
     NOT?: ProductWhereInput | ProductWhereInput[]
     preview?: StringFilter<"Product"> | string
     images?: StringNullableListFilter<"Product">
+    category?: StringFilter<"Product"> | string
     content?: ContentListRelationFilter
   }, "id" | "id" | "link">
 
@@ -3427,6 +3444,7 @@ export namespace Prisma {
     link?: SortOrder
     preview?: SortOrder
     images?: SortOrder
+    category?: SortOrder
     _count?: ProductCountOrderByAggregateInput
     _avg?: ProductAvgOrderByAggregateInput
     _max?: ProductMaxOrderByAggregateInput
@@ -3442,6 +3460,7 @@ export namespace Prisma {
     link?: StringWithAggregatesFilter<"Product"> | string
     preview?: StringWithAggregatesFilter<"Product"> | string
     images?: StringNullableListFilter<"Product">
+    category?: StringWithAggregatesFilter<"Product"> | string
   }
 
   export type ContentWhereInput = {
@@ -3535,6 +3554,7 @@ export namespace Prisma {
     link: string
     preview: string
     images?: ProductCreateimagesInput | string[]
+    category: string
     content?: ContentCreateNestedManyWithoutProductInput
   }
 
@@ -3543,6 +3563,7 @@ export namespace Prisma {
     link: string
     preview: string
     images?: ProductCreateimagesInput | string[]
+    category: string
     content?: ContentUncheckedCreateNestedManyWithoutProductInput
   }
 
@@ -3550,6 +3571,7 @@ export namespace Prisma {
     link?: StringFieldUpdateOperationsInput | string
     preview?: StringFieldUpdateOperationsInput | string
     images?: ProductUpdateimagesInput | string[]
+    category?: StringFieldUpdateOperationsInput | string
     content?: ContentUpdateManyWithoutProductNestedInput
   }
 
@@ -3558,6 +3580,7 @@ export namespace Prisma {
     link?: StringFieldUpdateOperationsInput | string
     preview?: StringFieldUpdateOperationsInput | string
     images?: ProductUpdateimagesInput | string[]
+    category?: StringFieldUpdateOperationsInput | string
     content?: ContentUncheckedUpdateManyWithoutProductNestedInput
   }
 
@@ -3566,12 +3589,14 @@ export namespace Prisma {
     link: string
     preview: string
     images?: ProductCreateimagesInput | string[]
+    category: string
   }
 
   export type ProductUpdateManyMutationInput = {
     link?: StringFieldUpdateOperationsInput | string
     preview?: StringFieldUpdateOperationsInput | string
     images?: ProductUpdateimagesInput | string[]
+    category?: StringFieldUpdateOperationsInput | string
   }
 
   export type ProductUncheckedUpdateManyInput = {
@@ -3579,6 +3604,7 @@ export namespace Prisma {
     link?: StringFieldUpdateOperationsInput | string
     preview?: StringFieldUpdateOperationsInput | string
     images?: ProductUpdateimagesInput | string[]
+    category?: StringFieldUpdateOperationsInput | string
   }
 
   export type ContentCreateInput = {
@@ -3724,6 +3750,7 @@ export namespace Prisma {
     link?: SortOrder
     preview?: SortOrder
     images?: SortOrder
+    category?: SortOrder
   }
 
   export type ProductAvgOrderByAggregateInput = {
@@ -3734,12 +3761,14 @@ export namespace Prisma {
     id?: SortOrder
     link?: SortOrder
     preview?: SortOrder
+    category?: SortOrder
   }
 
   export type ProductMinOrderByAggregateInput = {
     id?: SortOrder
     link?: SortOrder
     preview?: SortOrder
+    category?: SortOrder
   }
 
   export type ProductSumOrderByAggregateInput = {
@@ -4277,6 +4306,7 @@ export namespace Prisma {
     link: string
     preview: string
     images?: ProductCreateimagesInput | string[]
+    category: string
   }
 
   export type ProductUncheckedCreateWithoutContentInput = {
@@ -4284,6 +4314,7 @@ export namespace Prisma {
     link: string
     preview: string
     images?: ProductCreateimagesInput | string[]
+    category: string
   }
 
   export type ProductCreateOrConnectWithoutContentInput = {
@@ -4306,6 +4337,7 @@ export namespace Prisma {
     link?: StringFieldUpdateOperationsInput | string
     preview?: StringFieldUpdateOperationsInput | string
     images?: ProductUpdateimagesInput | string[]
+    category?: StringFieldUpdateOperationsInput | string
   }
 
   export type ProductUncheckedUpdateWithoutContentInput = {
@@ -4313,6 +4345,7 @@ export namespace Prisma {
     link?: StringFieldUpdateOperationsInput | string
     preview?: StringFieldUpdateOperationsInput | string
     images?: ProductUpdateimagesInput | string[]
+    category?: StringFieldUpdateOperationsInput | string
   }
 
   export type ContentCreateManyProductInput = {

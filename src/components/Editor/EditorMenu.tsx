@@ -2,6 +2,8 @@ import { EditorBubble, useEditor } from "novel";
 
 import { type ReactNode, useEffect } from "react";
 
+import "./Editor.scss";
+
 interface EditorMenuProps {
   children: ReactNode;
   open: boolean;
@@ -28,7 +30,7 @@ export default function EditorMenu({
           editor?.chain().unsetHighlight().run();
         },
       }}
-      className="flex w-fit max-w-[90vw] overflow-hidden rounded-md border border-muted bg-background shadow-xl"
+      className="flex w-fit max-w-[90vw] overflow-hidden rounded-md border border-muted bg-background shadow-xl editor__menu"
     >
       {!open && children}
     </EditorBubble>

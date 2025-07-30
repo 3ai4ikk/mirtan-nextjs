@@ -1,8 +1,8 @@
 "use client";
 
-import { addProduct, addImages } from "@/app/lib/action";
-import { useEdgeStore } from "@/app/lib/edgestore";
-import { hasProduct } from "@/app/lib/serverUtils";
+import {addProduct, addImages} from "@/app/lib/action";
+import {useEdgeStore} from "@/app/lib/edgestore";
+import {hasProduct} from "@/app/lib/serverUtils";
 import ImageLoader from "@/components/Admin/ImageLoader/ImageLoader";
 import SwiperLoaderTest, {
   ImageChange,
@@ -11,20 +11,16 @@ import SwiperLoaderTest, {
 import Switcher from "@/components/Admin/TableComponent/Switcher";
 import Editor from "@/components/Editor/Editor";
 import Form from "next/form";
-import { redirect } from "next/navigation";
-import React, { useState, useCallback } from "react";
-import { useDebouncedCallback } from "use-debounce";
+import {redirect} from "next/navigation";
+import React, {useState, useCallback} from "react";
+import {useDebouncedCallback} from "use-debounce";
 
 import style from "./page.module.scss";
-import { cn } from "@/app/lib/utils";
-import { Content } from "@/app/types/types";
-import { Locale } from "@/i18n/routing";
-import MyTableComponent from "@/components/Admin/TableComponent/MyTableComponent";
-
-export const initialEditorValue = {
-  type: "doc",
-  content: [],
-};
+import {Category, cn, initialEditorValue} from "@/app/lib/utils";
+import {Content} from "@/app/types/types";
+import {Locale} from "@/i18n/routing";
+import MyTableComponent
+  from "@/components/Admin/TableComponent/MyTableComponent";
 
 const initialLang = "ru";
 
@@ -34,36 +30,36 @@ const AddProductPage = () => {
   const [images, setImages] = useState<File[]>([]);
   const [subBodyJSON, setSubBodyJSON] = useState<Content>(
     Object.fromEntries(
-      langs.map((lang) => [lang, { value: JSON.stringify(initialEditorValue) }])
+      langs.map((lang) => [lang, {value: JSON.stringify(initialEditorValue)}])
     )
   );
   const [subBody, setSubBody] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: "" }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: ""}]))
   );
   const [body, setBody] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: "" }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: ""}]))
   );
   const [bodyJSON, setBodyJSON] = useState<Content>(
     Object.fromEntries(
-      langs.map((lang) => [lang, { value: JSON.stringify(initialEditorValue) }])
+      langs.map((lang) => [lang, {value: JSON.stringify(initialEditorValue)}])
     )
   );
   const [table, setTable] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: "" }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: ""}]))
   );
   const [tableJSON, setTableJSON] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: "" }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: ""}]))
   );
   const [isTable, setIsTable] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: false }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: false}]))
   );
 
   const [title, setTitle] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: "" }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: ""}]))
   );
 
   const [description, setDescription] = useState<Content>(
-    Object.fromEntries(langs.map((lang) => [lang, { value: "" }]))
+    Object.fromEntries(langs.map((lang) => [lang, {value: ""}]))
   );
 
   const [link, setLink] = useState<string>("");
@@ -72,7 +68,9 @@ const AddProductPage = () => {
 
   const [locale, setLocale] = useState<Locale>("ru");
 
-  const { edgestore } = useEdgeStore();
+  const [category, setCategory] = useState<Category>(Category.EMPTY);
+
+  const {edgestore} = useEdgeStore();
 
   const linkHandler = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const link = e.target.value;
@@ -83,8 +81,8 @@ const AddProductPage = () => {
 
   const handleTableChange = useCallback(
     (html: string, json: string[][]) => {
-      setTable((prev) => ({ ...prev, [locale]: { value: html } }));
-      setTableJSON((prev) => ({ ...prev, [locale]: { value: json } }));
+      setTable((prev) => ({...prev, [locale]: {value: html}}));
+      setTableJSON((prev) => ({...prev, [locale]: {value: json}}));
     },
     [locale]
   );
@@ -148,6 +146,7 @@ const AddProductPage = () => {
   const formHandler = async () => {
     const res = await addProduct(
       link,
+      category,
       langs,
       title,
       description,
@@ -172,30 +171,30 @@ const AddProductPage = () => {
   };
 
   const addNewLang = (lang: Locale) => {
-    setDescription((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setTitle((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setTable((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setSubBody((prev) => ({ ...prev, [lang]: { value: "" } }));
-    setBody((prev) => ({ ...prev, [lang]: { value: "" } }));
+    setDescription((prev) => ({...prev, [lang]: {value: ""}}));
+    setTitle((prev) => ({...prev, [lang]: {value: ""}}));
+    setTable((prev) => ({...prev, [lang]: {value: ""}}));
+    setSubBody((prev) => ({...prev, [lang]: {value: ""}}));
+    setBody((prev) => ({...prev, [lang]: {value: ""}}));
     setSubBodyJSON((prev) => ({
       ...prev,
-      [lang]: { value: JSON.stringify(initialEditorValue) },
+      [lang]: {value: JSON.stringify(initialEditorValue)},
     }));
     setBodyJSON((prev) => ({
       ...prev,
-      [lang]: { value: JSON.stringify(initialEditorValue) },
+      [lang]: {value: JSON.stringify(initialEditorValue)},
     }));
     setTableJSON((prev) => ({
       ...prev,
-      [lang]: { value: {} },
+      [lang]: {value: {}},
     }));
-    setIsTable((prev) => ({ ...prev, [lang]: { value: false } }));
+    setIsTable((prev) => ({...prev, [lang]: {value: false}}));
   };
 
   return (
     <>
-      <nav>
-        <ul className={style.ul}>
+      <nav className={style.nav}>
+        <ul>
           {langs.map((lang) => (
             <li
               key={lang}
@@ -262,6 +261,24 @@ const AddProductPage = () => {
           </div>
 
           <div className="space-y-2">
+            <span className="block text-sm font-medium text-gray-600">
+              Категория товара
+            </span>
+            <select
+              value={category}
+              onChange={(e) => {
+                setCategory(e.target.value as Category);
+              }}
+              style={{fontSize: "14px"}}
+              name="select-category"
+            >
+              <option>{Category.EMPTY}</option>
+              <option>{Category.CompleteMills}</option>
+              <option>{Category.IndustrialAutomation}</option>
+            </select>
+          </div>
+
+          <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-600">
               Название товара
               <input
@@ -274,7 +291,7 @@ const AddProductPage = () => {
                 onChange={(e) => {
                   setTitle((prev) => ({
                     ...prev,
-                    [locale]: { value: e.target.value },
+                    [locale]: {value: e.target.value},
                   }));
                 }}
               />
@@ -294,7 +311,7 @@ const AddProductPage = () => {
                 onChange={(e) => {
                   setDescription((prev) => ({
                     ...prev,
-                    [locale]: { value: e.target.value },
+                    [locale]: {value: e.target.value},
                   }));
                 }}
               />
@@ -342,11 +359,11 @@ const AddProductPage = () => {
                 onChange={(jsonContent, htmlContent) => {
                   setSubBodyJSON((prev) => ({
                     ...prev,
-                    [locale]: { value: JSON.stringify(jsonContent) },
+                    [locale]: {value: JSON.stringify(jsonContent)},
                   }));
                   setSubBody((prev) => ({
                     ...prev,
-                    [locale]: { value: htmlContent },
+                    [locale]: {value: htmlContent},
                   }));
                 }}
               />
@@ -362,11 +379,11 @@ const AddProductPage = () => {
                 onChange={(jsonContent, htmlContent) => {
                   setBodyJSON((prev) => ({
                     ...prev,
-                    [locale]: { value: JSON.stringify(jsonContent) },
+                    [locale]: {value: JSON.stringify(jsonContent)},
                   }));
                   setBody((prev) => ({
                     ...prev,
-                    [locale]: { value: htmlContent },
+                    [locale]: {value: htmlContent},
                   }));
                 }}
               />
@@ -376,7 +393,7 @@ const AddProductPage = () => {
         <Switcher
           initialValue={isTable[locale]?.value as boolean}
           onChange={(value) => {
-            setIsTable((prev) => ({ ...prev, [locale]: { value: value } }));
+            setIsTable((prev) => ({...prev, [locale]: {value: value}}));
           }}
         />
         {isTable[locale]?.value && (

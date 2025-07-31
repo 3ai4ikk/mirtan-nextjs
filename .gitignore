@@ -43,5 +43,4 @@ README.md
 .qodo
 
 #prisma
-/prisma/migrations
-/generated/
+/prisma/migrations/

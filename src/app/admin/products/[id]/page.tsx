@@ -3,12 +3,30 @@ import EditProductClientForm from "@/components/Admin/EditProductClientForm";
 
 import {notFound} from "next/navigation";
 import React from "react";
+import {Metadata} from "next";
 
-const EditProductPage = async ({
-                                 params,
-                               }: {
-  params: Promise<{ id: string }>;
-}) => {
+export async function generateMetadata({params}: {
+  params: Promise<{ id: string }>
+}): Promise<Metadata> {
+
+  const {id} = await params;
+
+  const product = await prisma.product.findUnique({
+    where: {link: id},
+    include: {content: true},
+  });
+
+  return {
+    title: "Mirtan | " + product?.content.find(item => item.lang === "ru")?.title
+  };
+}
+
+const EditProductPage = async (
+  {
+    params,
+  }: {
+    params: Promise<{ id: string }>;
+  }) => {
   const {id} = await params;
 
   const product = await prisma.product.findUnique({

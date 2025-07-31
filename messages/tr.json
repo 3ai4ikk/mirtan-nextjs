@@ -22,7 +22,11 @@
     "list": "Tüm liste"
   },
   "Products": {
-    "title": ["Ürünlerimiz", "Komple değirmenler", "Endüstriyel Otomasyon"],
+    "title": [
+      "Ürünlerimiz",
+      "Komple değirmenler",
+      "Endüstriyel Otomasyon"
+    ],
     "button": "daha fazla detay",
     "info": "Fazla bilgi",
     "product": [
@@ -323,46 +327,77 @@
           "Kabuk soyucu, un değirmenciliğinde tahıl ürünlerinin yüzeyinin tozdan kuru temizlenmesi, meyve kabuklarının, sakallarının ve tahıl embriyosunun kısmen ayrılması için tasarlanmıştır."
         ],
         "table": {
-          "headers": ["Göstergenin adı", "Kırbaç", "Fırça-kırbaç"],
+          "headers": [
+            "Göstergenin adı",
+            "Kırbaç",
+            "Fırça-kırbaç"
+          ],
           "rows": [
             {
               "th": "Teknik verimlilik, t/h",
-              "td": ["1 - 2", "1,5 - 2"]
+              "td": [
+                "1 - 2",
+                "1,5 - 2"
+              ]
             },
             {
               "th": "Kurulu güç, kW, en fazla",
-              "td": ["1,1", "1,1"]
+              "td": [
+                "1,1",
+                "1,1"
+              ]
             },
             {
               "th": "Makineden tek geçişte tahıl külü içeriğinin azaltılması, % (buğday için)",
-              "td": ["0,01 ÷ 0,02", "0,04 ÷ 0,06"]
+              "td": [
+                "0,01 ÷ 0,02",
+                "0,04 ÷ 0,06"
+              ]
             },
             {
               "th": "Kırık tane içeriği, %, (buğday için) en fazla",
-              "td": ["1,0", "1,0"]
+              "td": [
+                "1,0",
+                "1,0"
+              ]
             },
             {
               "th": "Rotor hızı, rpm, en az",
-              "td": ["940", "940"]
+              "td": [
+                "940",
+                "940"
+              ]
             },
             {
               "th": "Ağırlık, kg, en fazla",
-              "td": ["123,9", "114"]
+              "td": [
+                "123,9",
+                "114"
+              ]
             },
             {
               "th": "Genel boyutlar, mm, en fazla:"
             },
             {
               "th": "Uzunluk",
-              "td": ["1511", "1511"]
+              "td": [
+                "1511",
+                "1511"
+              ]
             },
             {
               "th": "Genişlik",
-              "td": ["466", "466"]
+              "td": [
+                "466",
+                "466"
+              ]
             },
             {
               "th": "Yükseklik",
-              "td": ["618", "618"]
+              "td": [
+                "618",
+                "618"
+              ]
             }
           ]
         }
@@ -903,7 +938,9 @@
           "Bugün, SmartWire-DT teknolojisi kontaktörleri ve motor yol vericileri ile izleme ve sinyalizasyon cihazlarını birbirine bağlamaktadır. Bir sonraki aşama görselleştirme bileşenlerinin, devre kesicilerin ve sürücülerin bağlantısını içermektedir. SmartWire-DT teknolojisi aynı zamanda diğer üreticilerin ek anahtarlama cihazlarını bağlamak için tasarlanmıştır ve bu nedenle tüm uygulamalar ve ortak şirketler için tasarlanmıştır.",
           "Kurulu SmartWire-DT otomasyon sistemi yapısı itibariyle çok basittir, ancak aynı zamanda mümkün olduğunca esnek ve işlevseldir, “geleceğe dönüktür” - tam da her şirketin gelecekteki büyüme için ihtiyaç duyduğu şeydir. Minimum arıza süresi, yüksek güvenilirlik ve güvenlik, net çalışma modu, kolay genişletme - tüm bunlar üretimdeki teknolojik sürecin sürekliliğini sağlamaya ve verimliliğini artırmaya olanak tanır. SmartWire-DT otomasyon sistemi tarafından sağlanan güvenlik, otomasyonun başlıca faydalarından biridir: uygun sensörlerin kurulması, işyeri yaralanmalarının sayısını azaltır. Mesaj"
         ],
-        "span": ["SmartWire-DT sisteminin avantajları:"],
+        "span": [
+          "SmartWire-DT sisteminin avantajları:"
+        ],
         "li": [
           [
             "SmartWire-DT teknolojisi standart ekipmanla çalışır. Bu, kutunun dışında düşünmeye gerek olmadığı anlamına gelir. Düşük maliyetli çözümler. Yüksek kullanılabilirlik. 1600A'e kadar tüm motorlar için tek bir sistem seçeneği.",
@@ -912,7 +949,10 @@
             "Çalışma süreci basit ve zaman kazandırıcıdır. Temel prensip: Kur ve Çalıştır. Çok büyük zaman tasarrufu. Sistem herhangi bir bağlantı hatası yapmadığı için sorun gidermeye gerek yoktur."
           ]
         ],
-        "img": ["SmartWire-Darwin olmadan", "SmartWire-Darwin ile"]
+        "img": [
+          "SmartWire-Darwin olmadan",
+          "SmartWire-Darwin ile"
+        ]
       }
     ]
   },
@@ -923,11 +963,33 @@
     "title": "Bizimle iletişime geçin!"
   },
   "Footer": {
-    "title": ["Ürünlerimiz", "İletişim bilgilerimiz", "Bize yazın"],
-    "form": ["Adınız", "Mesajınız", "Mesaj başarıyla iletildi"],
+    "title": [
+      "Ürünlerimiz",
+      "İletişim bilgilerimiz",
+      "Bize yazın"
+    ],
+    "form": [
+      "Adınız",
+      "Mesajınız",
+      "Mesaj başarıyla iletildi"
+    ],
     "button": "Gönder"
   },
   "Errors": {
     "notFound": "Sayfa bulunamadı"
+  },
+  "Metadata": {
+    "Titles": {
+      "home": "Ana sayfa",
+      "products": "Ürünler",
+      "about": "Hakkımızda",
+      "contacts": "Iletişim"
+    },
+    "Descriptions": {
+      "home": "Mirtan - Ana sayfa",
+      "products": "Mirtan - Ürünler",
+      "about": "Mirtan - Hakkımızda",
+      "contacts": "Mirtan - Iletişim"
+    }
   }
 }

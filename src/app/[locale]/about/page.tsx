@@ -1,7 +1,17 @@
 import React from "react";
 
 import "./about.scss";
-import { useTranslations } from "next-intl";
+import {useTranslations} from "next-intl";
+import {Metadata} from "next";
+import {getTranslations} from "next-intl/server";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Metadata");
+  return {
+    title: "Mirtan | " + t("Titles.about"),
+    description: t("Descriptions.about"),
+  };
+}
 
 const About = () => {
   const t = useTranslations("AboutPage");

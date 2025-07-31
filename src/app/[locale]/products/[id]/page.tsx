@@ -8,10 +8,27 @@ import "@/components/Slider/SliderProducts";
 import "@/app/styles/products/products-item.scss";
 import "@/app/styles/components/table.scss";
 import {notFound} from "next/navigation";
+import {Metadata} from "next";
 
 type ProductPageProps = {
   params: Promise<{ id: string }>;
 };
+
+export async function generateMetadata({params}: ProductPageProps): Promise<Metadata> {
+
+  const {id} = await params;
+
+  const product = await prisma.product.findUnique({
+    where: {link: id},
+    include: {content: true},
+  });
+
+  const locale = await getLocale();
+
+  return {
+    title: "Mirtan | " + product?.content.find(item => item.lang === locale)?.title
+  };
+}
 
 const ProductPage = async ({params}: ProductPageProps) => {
   const {id} = await params;

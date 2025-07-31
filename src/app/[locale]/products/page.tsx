@@ -1,12 +1,21 @@
 import React from "react";
 import Product from "../../../components/Products/Product";
 
-import { getItems } from "@/components/products";
+import {getItems} from "@/components/products";
 
 import "@/components/Products/products.scss";
 import "./products.scss";
 import {getLocale, getTranslations} from "next-intl/server";
 import {Category} from "@/app/lib/utils";
+import {Metadata} from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Metadata");
+  return {
+    title: "Mirtan | " + t("Titles.products"),
+    description: t("Descriptions.products"),
+  };
+}
 
 const Products = async () => {
   const t = await getTranslations("Products");

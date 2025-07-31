@@ -22,7 +22,11 @@
     "list": "Full list"
   },
   "Products": {
-    "title": ["Our products", "Complete mills", "Industrial automation"],
+    "title": [
+      "Our products",
+      "Complete mills",
+      "Industrial automation"
+    ],
     "button": "more details",
     "info": "Additional information",
     "product": [
@@ -326,46 +330,77 @@
           "The horizontal scouring machine is designed for dry cleaning of the surface of grain crops from dust, partial removal of fruit husks, beards, and germ particles at flour milling enterprises."
         ],
         "table": {
-          "headers": ["Name of the indicator", "Whip", "Brush and whip"],
+          "headers": [
+            "Name of the indicator",
+            "Whip",
+            "Brush and whip"
+          ],
           "rows": [
             {
               "th": "Technical productivity, t/h",
-              "td": ["1 - 2", "1,5 - 2"]
+              "td": [
+                "1 - 2",
+                "1,5 - 2"
+              ]
             },
             {
               "th": "Installed capacity, kW, no more than",
-              "td": ["1,1", "1,1"]
+              "td": [
+                "1,1",
+                "1,1"
+              ]
             },
             {
               "th": "Reduction in grain ash content during a single pass through the machine, % (for wheat)",
-              "td": ["0,01 ÷ 0,02", "0,04 ÷ 0,06"]
+              "td": [
+                "0,01 ÷ 0,02",
+                "0,04 ÷ 0,06"
+              ]
             },
             {
               "th": "Broken grain content, %, no more than (for wheat)",
-              "td": ["1,0", "1,0"]
+              "td": [
+                "1,0",
+                "1,0"
+              ]
             },
             {
               "th": "Rotor speed, rpm, no less than",
-              "td": ["940", "940"]
+              "td": [
+                "940",
+                "940"
+              ]
             },
             {
               "th": "Weight, kg, no more than",
-              "td": ["123,9", "114"]
+              "td": [
+                "123,9",
+                "114"
+              ]
             },
             {
               "th": "Overall dimensions, mm, no more than:"
             },
             {
               "th": "Lenght",
-              "td": ["1511", "1511"]
+              "td": [
+                "1511",
+                "1511"
+              ]
             },
             {
               "th": "Width",
-              "td": ["466", "466"]
+              "td": [
+                "466",
+                "466"
+              ]
             },
             {
               "th": "Height",
-              "td": ["618", "618"]
+              "td": [
+                "618",
+                "618"
+              ]
             }
           ]
         }
@@ -912,7 +947,9 @@
           "Today, SmartWire-DT technology connects contactors and motor starters as well as monitoring and signaling devices. The next phase includes the connection of visualization components, circuit breakers and drives. The SmartWire-DT technology is also designed to connect additional switching devices from other manufacturers and is thus designed for all applications and partner companies.",
           "The installed SmartWire-DT automation system is very simple in its structure, but at the same time, as flexible and functional as possible, “future-proofed” - exactly what every company needs for future growth. Minimal downtime, high reliability and safety, clear operation mode, easy expansion - all this allows to ensure the continuity of the technological process in production and increase its efficiency. The safety provided by the SmartWire-DT automation system is one of the main advantages of automation itself: the installation of appropriate sensors can reduce the number of injuries in production."
         ],
-        "span": ["Advantages of SmartWire-DT system:"],
+        "span": [
+          "Advantages of SmartWire-DT system:"
+        ],
         "li": [
           [
             "SmartWire-DT technology works with standard equipment. This means there is no need to think outside the box. Low-cost solutions. High availability. One system option for all motors up to 1600 amps.",
@@ -921,7 +958,10 @@
             "The working process is simple and time-saving. Basic principle: Install and Operate. Very big time saving. No need for troubleshooting as the system does not make any connection errors."
           ]
         ],
-        "img": ["Without SmartWire-Darwin", "With SmartWire-Darwin"]
+        "img": [
+          "Without SmartWire-Darwin",
+          "With SmartWire-Darwin"
+        ]
       }
     ]
   },
@@ -932,11 +972,33 @@
     "title": "Get in touch with us!"
   },
   "Footer": {
-    "title": ["Our products", "Our contact details", "Contacts us"],
-    "form": ["Name", "Message", "The message was delivered successfully"],
+    "title": [
+      "Our products",
+      "Our contact details",
+      "Contacts us"
+    ],
+    "form": [
+      "Name",
+      "Message",
+      "The message was delivered successfully"
+    ],
     "button": "Send"
   },
   "Errors": {
     "notFound": "Page not found"
+  },
+  "Metadata": {
+    "Titles": {
+      "home": "Home",
+      "products": "Products",
+      "about": "About us",
+      "contacts": "Contacts"
+    },
+    "Descriptions": {
+      "home": "Mirtan - Home",
+      "products": "Mirtan - Products",
+      "about": "Mirtan - About us",
+      "contacts": "Mirtan - Contacts"
+    }
   }
 }

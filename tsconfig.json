@@ -27,11 +27,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Products/ProductsMain.jsx",
-    "src/components/Contacts/Contacts.jsx",
-    "src/components/WaterMarkImage.jsx",
-    "src/app/[locale]/[id]/page.jsx",
-    "src/app/[locale]/[id]/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

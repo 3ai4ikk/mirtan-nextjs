@@ -1,16 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import "./header.scss";
-import { getMenuItems } from "./items";
+import {getMenuItems} from "./items";
 import HeaderBurgerMenu from "./HeaderBurgerMenu";
-import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
+import {usePathname} from "next/navigation";
+import {useTranslations} from "next-intl";
 import LangSwitcher from "./LangSwitcher";
-import { Link } from "@/i18n/navigation";
+import {Link} from "@/i18n/navigation";
 
 const Header = () => {
-  const [isClient, setIsClient] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const path = usePathname();
@@ -18,7 +17,6 @@ const Header = () => {
   const t = useTranslations("Header");
 
   useEffect(() => {
-    setIsClient(true);
     const handleScroll = () => setIsScrolled(window.scrollY > 30);
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 767);
@@ -35,9 +33,6 @@ const Header = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
-  if (!isClient) return;
-
   const languagePrefix = path.split("/")[1];
 
   return (
@@ -47,20 +42,26 @@ const Header = () => {
     >
       <div className="header__inner container">
         <div className="header__logo">
-          <Link href="/" className="header__logo-link"></Link>
+          <Link
+            href="/"
+            className="header__logo-link"
+          ></Link>
         </div>
 
         {!isMobile && (
           <nav className="header__menu ">
             <ul className="header__list">
-              {getMenuItems(t).map(({ title, link }, index) => {
+              {getMenuItems(t).map(({title, link}, index) => {
                 const fullLink = `/${languagePrefix}${link}`;
                 const isActive =
                   (link === "/" && path === `/${languagePrefix}`) ||
                   path === fullLink ||
                   path.startsWith(fullLink + "/");
                 return (
-                  <li key={index} className="header__item">
+                  <li
+                    key={index}
+                    className="header__item"
+                  >
                     <Link
                       className={`header__link ${isActive ? "is-active" : ""}`}
                       href={link}

@@ -2,11 +2,17 @@ import * as React from "react";
 
 import "@/app/[locale]/products/products.scss";
 import "@/app/styles/admin.scss";
+import {getTranslations} from "next-intl/server";
 
-const Loading = () => {
+const Loading = async () => {
+
+  const t = await getTranslations("Products");
+
+  const productsTitles = t.raw("title");
+
   return (
-    <section className="products__inner container section">
-      <h1 className="products__title">Комплектные мельницы</h1>
+    <section className="products__inner container section admin__title">
+      <h1 className="products__title">{productsTitles[1]}</h1>
       <div className="products__body">
         <div className="products__list">
           <div className="admin__loading-item"></div>
@@ -18,7 +24,7 @@ const Loading = () => {
         </div>
       </div>
 
-      <h1 className="products__title">Наши товары</h1>
+      <h1 className="products__title">{productsTitles[0]}</h1>
       <div className="products__body">
         <div className="products__list">
           <div className="admin__loading-item"></div>
@@ -30,7 +36,7 @@ const Loading = () => {
         </div>
       </div>
 
-      <h1 className="products__title">Автоматизация</h1>
+      <h1 className="products__title">{productsTitles[2]}</h1>
       <div className="products__body">
         <div className="products__list">
           <div className="admin__loading-item"></div>

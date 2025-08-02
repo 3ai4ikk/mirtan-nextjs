@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
 
+  &__title {
+    color: #453E39FF;
+  }
+
   &__loading {
     &-item {
       width: 100%;

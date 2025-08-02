@@ -44,3 +44,4 @@ README.md
 
 #prisma
 /prisma/migrations/
+/generated/
